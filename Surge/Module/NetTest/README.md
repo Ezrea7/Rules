@@ -5,7 +5,7 @@
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetTest/JS/IMG/NetTest.PNG" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetTest/JS/IMG/NetTest.PNG" width="300" /> </div>
 </p>
 
 
@@ -17,7 +17,7 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetTest/JS/IMG/LinKey-SPing.png" alt="" width="300px" style="margin-right: 6px;" />
-  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetTest/JS/IMG/LinKey-JS.png" alt="" width="300px" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetTest/JS/IMG/LinKey-SPing.png" alt="" width="300px" style="margin-right: 6px;" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetTest/JS/IMG/LinKey-JS.png" alt="" width="300px" />
 </div>
 

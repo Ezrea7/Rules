@@ -7,8 +7,8 @@
 
 [Script]
 # > YouTube 视频总结，字幕翻译
-Sur2b = type=http-response,pattern=https:\/\/www.youtube.com\/api\/timedtext\?,requires-body=1,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Sur2b/JS/Sur2b.js
-Sur2bConf = type=http-request,pattern=https:\/\/www.youtube.com\/api\/timedtextConf,requires-body=1,max-size=0,binary-body-mode=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Sur2b/JS/Sur2b.js
+Sur2b = type=http-response,pattern=https:\/\/www.youtube.com\/api\/timedtext\?,requires-body=1,max-size=0,binary-body-mode=0,timeout=30,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Sur2b/JS/Sur2b.js
+Sur2bConf = type=http-request,pattern=https:\/\/www.youtube.com\/api\/timedtextConf,requires-body=1,max-size=0,binary-body-mode=0,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Sur2b/JS/Sur2b.js
 
 [MITM]
 hostname = %APPEND% www.youtube.com

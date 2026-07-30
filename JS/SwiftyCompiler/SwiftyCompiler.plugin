@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/SwiftyCompiler.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/SwiftyCompiler.png
 #!openUrl=https://apps.apple.com/app/id1544749600
 
 [Script]
 # > SwiftyCompiler解锁Premium Lifetime
-http-response ^https?:\/\/api\.qonversion\.io\/v\d\/user\/(init|purchase) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/SwiftyCompiler/JS/SwiftyCompiler.js, requires-body=true, timeout=60, tag=SwiftyCompiler解锁Premium Lifetime
+http-response ^https?:\/\/api\.qonversion\.io\/v\d\/user\/(init|purchase) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/SwiftyCompiler/JS/SwiftyCompiler.js, requires-body=true, timeout=60, tag=SwiftyCompiler解锁Premium Lifetime
 
 [MITM]
 hostname = api.qonversion.io

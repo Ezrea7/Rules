@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7面板模块
 #!author=xream[https://github.com/xream/scripts]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Surge.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Surge.png
 #!select = 网络信息通知设置,默认: IP 相同时不通知,IP 前三段相同时不通知
 
 [Rule]
@@ -13,4 +13,4 @@ DOMAIN,ip-api.com,PROXY
 DOMAIN,wtfismyip.com,PROXY
 
 [Script]
-network-changed script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/event.beta.js
+network-changed script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Network/JS/event.beta.js

@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=伟人WeiGiegie[https://github.com/WeiGiegie/666]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/ThunderCloudDisk.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/ThunderCloudDisk.png
 #!openUrl=https://apps.apple.com/app/id1503466530
 
 [Rewrite]
@@ -12,7 +12,7 @@
 
 [Script]
 # > 迅雷Unlock 倍速播放、去广告解锁VIP
-http-response ^https?:\/\/.+.xunlei.com\/(drive\/v1\/files|xluser.core.login\/v3\/getuserinfo) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Xunlei/JS/xunlei.js, requires-body=true, timeout=60, tag=迅雷Unlock
+http-response ^https?:\/\/.+.xunlei.com\/(drive\/v1\/files|xluser.core.login\/v3\/getuserinfo) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Xunlei/JS/xunlei.js, requires-body=true, timeout=60, tag=迅雷Unlock
 
 [MITM]
 hostname = *xunlei.com, api-shoulei-ssl.xunlei.com

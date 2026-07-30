@@ -4,7 +4,7 @@
 #!category =  iRingo
 #!author = VirgilClyne[https://github.com/VirgilClyne],WordlessEcho[https://github.com/WordlessEcho],001[https://github.com/001ProMax]
 #!homepage = https://NSRingo.github.io/guide/Weather/weather-kit
-#!icon = https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/IMG/iRingo/WeatherKit.png
+#!icon = https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/IMG/iRingo/WeatherKit.png
 #!openUrl = http://boxjs.com/#/app/iRingo.WeatherKit
 
 [Argument]
@@ -25,8 +25,8 @@ DOMAIN,tether.edge.apple,REJECT-DROP
 AND,((OR,((IP-ASN,714,no-resolve),(IP-ASN,6185,no-resolve))),(PROTOCOL,QUIC)),REJECT-DROP
 
 [Script]
-http-response ^https?:\/\/weatherkit\.apple\.com\/api\/v1\/availability\/ requires-body=1, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/WeatherKit/JS/JS-1/response.bundle.js, tag=🌤 WeatherKit.api.v1.availability.response, argument=[{Weather.Provider},{NextHour.Provider},{AirQuality.Calculate.Algorithm},{API.ColorfulClouds.Token},{API.QWeather.Host},{API.QWeather.Token},{API.WAQI.Token},{Storage},{LogLevel}]
-http-response ^https?:\/\/weatherkit\.apple\.com\/api\/v2\/weather\/ requires-body=1, binary-body-mode=1, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/WeatherKit/JS/JS-1/response.bundle.js, tag=🌤 WeatherKit.api.v2.weather.response, argument=[{Weather.Provider},{NextHour.Provider},{AirQuality.Calculate.Algorithm},{API.ColorfulClouds.Token},{API.QWeather.Host},{API.QWeather.Token},{API.WAQI.Token},{Storage},{LogLevel}]
+http-response ^https?:\/\/weatherkit\.apple\.com\/api\/v1\/availability\/ requires-body=1, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iRingo/WeatherKit/JS/JS-1/response.bundle.js, tag=🌤 WeatherKit.api.v1.availability.response, argument=[{Weather.Provider},{NextHour.Provider},{AirQuality.Calculate.Algorithm},{API.ColorfulClouds.Token},{API.QWeather.Host},{API.QWeather.Token},{API.WAQI.Token},{Storage},{LogLevel}]
+http-response ^https?:\/\/weatherkit\.apple\.com\/api\/v2\/weather\/ requires-body=1, binary-body-mode=1, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iRingo/WeatherKit/JS/JS-1/response.bundle.js, tag=🌤 WeatherKit.api.v2.weather.response, argument=[{Weather.Provider},{NextHour.Provider},{AirQuality.Calculate.Algorithm},{API.ColorfulClouds.Token},{API.QWeather.Host},{API.QWeather.Token},{API.WAQI.Token},{Storage},{LogLevel}]
 
 [MITM]
 hostname = weatherkit.apple.com

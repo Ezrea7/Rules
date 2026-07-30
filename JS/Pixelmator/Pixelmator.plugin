@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=彭于晏89996462[https://github.com/89996462/Quantumult-X]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Pixelmator.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Pixelmator.png
 #!openUrl=https://apps.apple.com/app/id924695435
 
 [Script]
 # > Pixelmator Photo+解锁订阅
-http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Pixelmator/JS/Pixelmator.js, requires-body=true, timeout=60, tag=Pixelmator
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Pixelmator/JS/Pixelmator.js, requires-body=true, timeout=60, tag=Pixelmator
 
 [MITM]
 hostname = api.revenuecat.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Notability.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Notability.png
 #!openUrl=https://apps.apple.com/app/id360593530
 
 [Script]
 # > Notability解锁2099年
-http-response ^https?:\/\/notability\.com\/(global|subscriptions) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Notability/JS/JS-1/Notability.js, requires-body=true, timeout=60, tag=Notability
+http-response ^https?:\/\/notability\.com\/(global|subscriptions) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Notability/JS/JS-1/Notability.js, requires-body=true, timeout=60, tag=Notability
 
 [MITM]
 hostname = notability.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Forest.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Forest.png
 #!openUrl=https://apps.apple.com/app/id866450515
 
 [Script]
 # > Forest-专注森林解锁Plus
-Forest专注森林 = type=http-response, pattern=^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Forest/JS/Forest.js, requires-body=true, max-size=-1, timeout=60
+Forest专注森林 = type=http-response, pattern=^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Forest/JS/Forest.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% forest-api.upwardsware.com

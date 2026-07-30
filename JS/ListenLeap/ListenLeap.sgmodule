@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= 伟人WeiGiegie[https://github.com/WeiGiegie/666],@liul0ng
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/ListenLeap.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/ListenLeap.png
 #!openUrl=https://apps.apple.com/app/id6642688167
 
 [Script]
 # > ListenLeap-通过播客学英语
-ListenLeap通过播客学英语 = type=http-response, pattern=^https:\/\/www\.listenleap\.com\/front-api\/user\/getUserInfoByUserToken, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ListenLeap/JS/ListenLeap.js, requires-body=true, max-size=-1, timeout=60
+ListenLeap通过播客学英语 = type=http-response, pattern=^https:\/\/www\.listenleap\.com\/front-api\/user\/getUserInfoByUserToken, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ListenLeap/JS/ListenLeap.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% www.listenleap.com

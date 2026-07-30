@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=枫叶afengye[https://github.com/afengye/QX]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/SparkMail.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/SparkMail.png
 #!openUrl=https://apps.apple.com/app/id997102246
 
 [Script]
 # > SparkMail邮箱管理
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/SparkMail/JS/SparkMail.js, requires-body=true, timeout=60, tag=SparkMaill
-http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/SparkMail/JS/SparkMail.js, timeout=60, tag=SparkMaill
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/SparkMail/JS/SparkMail.js, requires-body=true, timeout=60, tag=SparkMaill
+http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/SparkMail/JS/SparkMail.js, timeout=60, tag=SparkMaill
 
 [MITM]
 hostname = api.revenuecat.com

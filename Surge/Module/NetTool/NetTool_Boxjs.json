@@ -3,7 +3,7 @@
   "name": "NetTool网络信息",
   "author": "@ByteValley",
   "description": "🐹 Ezrea7面板模块",
-  "icon": "https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/sticker.webp",
+  "icon": "https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/sticker.webp",
   "repo": "https://github.com/ByteValley/NetTool",
   "apps": [
     {
@@ -22,7 +22,7 @@
         "<b>— 图标接管 —</b><br/>• <code>IconPreset</code>：wifi|globe|dots|antenna|point<br/>• <code>Icon</code>：SF Symbols 名称（留空=用预设）<br/>• <code>IconColor</code>：HEX 颜色（如 #1E90FF）",
         "<b>— 版式（子标题与留白）—</b><br/>• <code>SUBTITLE_STYLE</code>：line|cnBracket|cnQuote|square|curly|angle|pipe|bullet|plain<br/>• <code>SUBTITLE_MINIMAL</code>：纯净子标题（1/0）<br/>• <code>GAP_LINES</code>：分组前留白行数（0/1/2）",
         "<b>— 服务与别名 —</b><br/>• <code>SERVICES</code>：支持文本/JSON 数组；分隔符：逗号/分号/竖线/斜杠/空白/换行<br/>• 选择优先级：<b>arguments(SERVICES) 非空</b> → <b>多选</b> → <b>文本</b> → 默认（全部）",
-        "<b>— BoxJS —</b><br/>• 托管订阅（可选）：<code>https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetTool/NetTool_Boxjs.json</code>"
+        "<b>— BoxJS —</b><br/>• 托管订阅（可选）：<code>https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetTool/NetTool_Boxjs.json</code>"
       ],
       "icons": [
         "https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/05icon/quanqiu(1).png",

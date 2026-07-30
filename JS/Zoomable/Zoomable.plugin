@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Zoomable.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Zoomable.png
 #!openUrl=https://apps.apple.com/app/id1568442831
 
 [Script]
 # > Zoomable解锁Pro
-http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Zoomable/JS/Zoomable.js, requires-body=true, timeout=60, tag=Zoomable
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Zoomable/JS/Zoomable.js, requires-body=true, timeout=60, tag=Zoomable
 
 [MITM]
 hostname = api.revenuecat.com

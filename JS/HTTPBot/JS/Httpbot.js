@@ -4,7 +4,7 @@ Httpbot解锁永久订阅,进软件恢复购买
 强大的网络调试工具，类似Anubis
 日期:2023.08.17
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-echo-response https://raw.githubusercontent.com/Ezrea7/Script/main/JS/HTTPBot/JS/Httpbot.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-echo-response https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/HTTPBot/JS/Httpbot.js
 hostname = api.revenuecat.com
 **********************************************/
    

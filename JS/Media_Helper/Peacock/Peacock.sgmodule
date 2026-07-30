@@ -11,14 +11,14 @@
 
 [Script]
 # Peacock去广告
-Peacock去广告 = type=http-response, pattern=^https:\/\/.*?\.mediatailor\..*?\.amazonaws\.com\/v\d+\/manifest\/\w+\/peacock\-cmaf\-hls\-vod.*?\/\d+\.m3u8, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
+Peacock去广告 = type=http-response, pattern=^https:\/\/.*?\.mediatailor\..*?\.amazonaws\.com\/v\d+\/manifest\/\w+\/peacock\-cmaf\-hls\-vod.*?\/\d+\.m3u8, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
 
 # Peacock外挂srt字幕
-Peacock外挂srt字幕 = type=http-response, pattern=^https:\/\/atom\.peacocktv\.com\/adapter\-calypso\/v\d+\/query\/node/.*?\?represent=\(next, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
-Peacock外挂srt字幕 = type=http-response, pattern=^https:\/\/.*?\.cdn\.peacocktv\.com\/.*?\.webvtt$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
+Peacock外挂srt字幕 = type=http-response, pattern=^https:\/\/atom\.peacocktv\.com\/adapter\-calypso\/v\d+\/query\/node/.*?\?represent=\(next, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
+Peacock外挂srt字幕 = type=http-response, pattern=^https:\/\/.*?\.cdn\.peacocktv\.com\/.*?\.webvtt$, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
 
 # Peacock强制1080p
-Peacock强制1080p = type=http-response, pattern=^https:\/\/.*?\.cdn\.peacocktv\.com\/.*?\/master_cmaf\.m3u8, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
+Peacock强制1080p = type=http-response, pattern=^https:\/\/.*?\.cdn\.peacocktv\.com\/.*?\/master_cmaf\.m3u8, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Peacock/JS/Peacock.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% *.peacocktv.com, *.mediatailor.*.amazonaw.com

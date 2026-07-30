@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/CamScanner.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/CamScanner.png
 #!openUrl=https://apps.apple.com/app/id388627783
 
 [Script]
 # > 扫描全能王-手机扫描仪 解锁黄金会员
-http-response ^https:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/CamScanner/JS/JS-1/CamScanner.js, requires-body=true, timeout=60, tag=扫描全能王-解锁黄金会员
+http-response ^https:\/\/.*\.(intsig\.net|camscanner\.com) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/CamScanner/JS/JS-1/CamScanner.js, requires-body=true, timeout=60, tag=扫描全能王-解锁黄金会员
 
 [MITM]
 hostname = *.camscanner.com, *.intsig.net

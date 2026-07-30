@@ -4,7 +4,7 @@
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/MediaCheck/JS/IMG/MediaCheck.PNG" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/MediaCheck/JS/IMG/MediaCheck.PNG" width="300" /> </div>
 </p>
 
 

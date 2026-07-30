@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/iLovePDF.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/iLovePDF.png
 #!openUrl=https://apps.apple.com/app/id1207332399
 
 [Script]
 # > iLovePDF解锁Vip
-http-response ^https?:\/\/service\.ilovepdf\.com\/v\d\/user script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iLovePDF/JS/JS-1/iLovePDF.js, requires-body=true, timeout=60, tag=iLovePDF解锁Vip
+http-response ^https?:\/\/service\.ilovepdf\.com\/v\d\/user script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iLovePDF/JS/JS-1/iLovePDF.js, requires-body=true, timeout=60, tag=iLovePDF解锁Vip
 
 [MITM]
 hostname = service.ilovepdf.com

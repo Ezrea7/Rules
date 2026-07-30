@@ -5,10 +5,10 @@
 
 
 
-远程引用地址：`https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/MiniIcons/MiniIcons.json`
+远程引用地址：`https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/MiniIcons/MiniIcons.json`
 
 
 
 
 ## 预览图效果
-![markdown](https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/MiniIcons/Image/Preview.png)
+![markdown](https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/MiniIcons/Image/Preview.png)

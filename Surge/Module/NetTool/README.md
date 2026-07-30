@@ -3,7 +3,7 @@
 <h4 align="center">直连/入口/落地信息 + 服务检测</h4>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetTool/JS/IMG/NetTool.png" width="400" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetTool/JS/IMG/NetTool.png" width="400" /> </div>
 </p>
 
 ## 功能

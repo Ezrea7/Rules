@@ -15,4 +15,4 @@ noCache = switch,false,tag=禁用缓存,desc=如果自定义UA获取不到节点
 ua = switch,false,tag=自定义 UA,desc=开启后使用自定义 User-Agent 拉取订阅。
 
 [Script]
-generic script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Loon/loon-resource-parser/resource-parser/loon_resource_parser.js,tag=资源解析器,timeout=10,argument=[{pre},{suf},{emoji},{rename},{sort},{ua},{userAgent},{noCache}]
+generic script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Loon/loon-resource-parser/resource-parser/loon_resource_parser.js,tag=资源解析器,timeout=10,argument=[{pre},{suf},{emoji},{rename},{sort},{ua},{userAgent},{noCache}]

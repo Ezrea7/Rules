@@ -6,7 +6,7 @@
 #!openUrl=快捷指令(iOS15+): https://www.icloud.com/shortcuts/4a121aa54cae4619a952baa29e044e30
 
 [Script]
-IPA Installer = type=http-request,pattern=^https:\/\/nobyda.app/(install|download),requires-body=1,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPA_install/JS/IPA-Installer.js
+IPA Installer = type=http-request,pattern=^https:\/\/nobyda.app/(install|download),requires-body=1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/IPA_install/JS/IPA-Installer.js
 
 [MITM]
 hostname = %APPEND% nobyda.app

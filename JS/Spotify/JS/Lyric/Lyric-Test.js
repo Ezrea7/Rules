@@ -18,14 +18,14 @@ Spotify非中文歌词翻译 Surge和Loon需要>=iOS15 (仓库地址: https://gi
 hostname = %APPEND% spclient.wg.spotify.com
 [Script]
 # 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Spotify-lyric/JS/Spotify-lyric-Test.js,argument=appid=111&securityKey=xxx
+spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Spotify-lyric/JS/Spotify-lyric-Test.js,argument=appid=111&securityKey=xxx
 
 2.Loon:
 [Mitm]
 hostname =spclient.wg.spotify.com
 [Script]
 # 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Spotify-lyric/JS/Spotify-lyric-Test.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Spotify-lyric/JS/Spotify-lyric-Test.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
 
 3.qx:
     - 自行配置MITM域名: spclient.wg.spotify.com

@@ -3,7 +3,7 @@
 	"name": "📺 哔哩哔哩皮肤",
 	"author": "@MartinsKing",
 	"description": "📺 哔哩哔哩皮肤",
-	"icon": "https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Face/Image/Bili.png",
+	"icon": "https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Face/Image/Bili.png",
 	"repo": "https://github.com/ClydeTime/BiliBili",
 	"apps":
 	[
@@ -11,11 +11,11 @@
 			"id": "📺 哔哩哔哩皮肤",
 			"name": "📺 哔哩哔哩皮肤 ",
 			"author": "@MartinsKing",
-			"script": "https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Bilibili/JS/JS-3/BiliBili.Modified.response.js",
+			"script": "https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Bilibili/JS/JS-3/BiliBili.Modified.response.js",
 			"icons":
 			[
-				"https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Face/Image/Bili.png",
-				"https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Face/Image/Bili.png"
+				"https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Face/Image/Bili.png",
+				"https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Face/Image/Bili.png"
 			],
 			"descs_html":
 			[

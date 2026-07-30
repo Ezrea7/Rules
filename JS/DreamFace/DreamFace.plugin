@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/DreamFace.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/DreamFace.png
 #!openUrl=https://apps.apple.com/app/id1624172324
 
 [Script]
 # > DreamFace解锁Pro
-http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/DreamFace/JS/DreamFace.js, requires-body=true, timeout=60, tag=DreamFace解锁Pro
+http-response ^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/DreamFace/JS/DreamFace.js, requires-body=true, timeout=60, tag=DreamFace解锁Pro
 
 [MITM]
 hostname = dreamfaceapp.com

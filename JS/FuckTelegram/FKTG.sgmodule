@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=⚙️ ▸ Function
 #!author= Repcz[https://github.com/Repcz/Tool]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Telegram-01.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Telegram-01.png
 
 [General]
 use-local-host-item-for-proxy = true

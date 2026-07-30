@@ -3,12 +3,12 @@
 #!date=2026-01-16
 #!category=🐹 Ezrea7 Premium
 #!author= Yarmukhamedov[https://github.com/Yarmukhamedov/mitm],作者TG[https://t.me/+BVA7-Vq6FA9hZTNi]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Lensa.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Lensa.png
 #!openUrl=https://apps.apple.com/app/id1436732536
 
 [Script]
 # > Lensa-解锁VIP
-Lensa解锁VIP = type=http-response, pattern=https://appapi.neuralprisma.com/subs/v1/apple/(transactions|sync), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Lensa/JS/Lensa.js, requires-body=true, max-size=-1, timeout=60
+Lensa解锁VIP = type=http-response, pattern=https://appapi.neuralprisma.com/subs/v1/apple/(transactions|sync), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Lensa/JS/Lensa.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% appapi.neuralprisma.com

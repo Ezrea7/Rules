@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/AutoCAD.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/AutoCAD.png
 #!openUrl=https://apps.apple.com/app/id921765888
 
 [Script]
 # > AutoCAD解锁Pro
-http-response ^https:\/\/app\.autocad360\.com\/entitlements\/v2\/me\/status script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AutoCAD/JS/AutoCAD.js, requires-body=true, timeout=60, tag=AutoCAD解锁Pro
+http-response ^https:\/\/app\.autocad360\.com\/entitlements\/v2\/me\/status script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/AutoCAD/JS/AutoCAD.js, requires-body=true, timeout=60, tag=AutoCAD解锁Pro
 
 [MITM]
 hostname = app.autocad360.com

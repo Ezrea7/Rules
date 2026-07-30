@@ -6,7 +6,7 @@
 #!openUrl=www.baidu.com
 
 [Map Local]
-^https?:\/\/(?:www|m)\.baidu\.com(?:\/|\/\?(tn=&)?from=\w+)?$ data="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/BaiduPureSearch/JS/Surge.html" header="Content-Type: text/html; charset=utf-8"
+^https?:\/\/(?:www|m)\.baidu\.com(?:\/|\/\?(tn=&)?from=\w+)?$ data="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/BaiduPureSearch/JS/Surge.html" header="Content-Type: text/html; charset=utf-8"
 
 [MITM]
 hostname = %APPEND% m.baidu.com, www.baidu.com

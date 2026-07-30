@@ -28,12 +28,12 @@ modifiedHeaders['User-Agent'] = 'Mozilla/6.0 (iPhone 15; CPU iPhone OS 16_6 like
 
 var regex = /<\/title>/gi;
 var replace_str = '</title>\
-<link rel="stylesheet" href="https://github.com/Ezrea7/Script/blob/main/JS/MissAV/JS/Adblock.user.css" type="text/css" />\
+<link rel="stylesheet" href="https://github.com/Ezrea7/Rules/blob/main/JS/MissAV/JS/Adblock.user.css" type="text/css" />\
 <script type="text/javascript" async="async" src="https://limbopro.com/Adguard/Adblock4limbo.user.js"></script>\
 '
 
 var body_regex = /<\/body>/gi;
-var body_replace_str = '<link rel="stylesheet" href="https://github.com/Ezrea7/Script/blob/main/JS/MissAV/JS/Adblock.user.css" type="text/css" />\
+var body_replace_str = '<link rel="stylesheet" href="https://github.com/Ezrea7/Rules/blob/main/JS/MissAV/JS/Adblock.user.css" type="text/css" />\
 <script type="text/javascript" async="async" src="https://limbopro.com/Adguard/Adblock4limbo.user.js"></script></body>\
 '
 

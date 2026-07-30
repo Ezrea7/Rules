@@ -7,15 +7,15 @@
 
 [Script]
 # Paramount+外挂srt字幕
-http-response ^https:\/\/link\.theplatform\.com\/s\/\w+\/\w+\?format=SMIL script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+外挂srt字幕
-http-response ^https:\/\/pubads\.g\.doubleclick\.net\/ondemand\/hls\/content\/.*?\/\d+\-\d+\.vtt$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+外挂srt字幕
-http-response ^https:\/\/vod\-.*?\.cbsaavideo\.com\/intl_vms\/.*?\/seg_\d+\.vtt$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+外挂srt字幕
+http-response ^https:\/\/link\.theplatform\.com\/s\/\w+\/\w+\?format=SMIL script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+外挂srt字幕
+http-response ^https:\/\/pubads\.g\.doubleclick\.net\/ondemand\/hls\/content\/.*?\/\d+\-\d+\.vtt$ script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+外挂srt字幕
+http-response ^https:\/\/vod\-.*?\.cbsaavideo\.com\/intl_vms\/.*?\/seg_\d+\.vtt$ script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+外挂srt字幕
 
 # Paramount+强制1080p
-http-response ^https:\/\/vod.*?\.cbsaavideo\.com\/intl_vms\/.*?\/master\.m3u8 script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+强制1080p
+http-response ^https:\/\/vod.*?\.cbsaavideo\.com\/intl_vms\/.*?\/master\.m3u8 script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+强制1080p
 
 # Paramount+禁用强制更新
-http-response ^https:\/\/www\.paramountplus\.com\/apps\-api\/v\d+\.\d+\/\w+\/app\/status\.json\? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+禁用强制更新
+http-response ^https:\/\/www\.paramountplus\.com\/apps\-api\/v\d+\.\d+\/\w+\/app\/status\.json\? script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Media_Helper/Paramount/JS/Paramount.js, requires-body=true, timeout=60, tag=Paramount+禁用强制更新
 
 [MITM]
 hostname = pubads.g.doubleclick.net, link.theplatform.com, vod*.cbsaavideo.com, www.paramountplus.com

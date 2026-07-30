@@ -2002,9 +2002,9 @@
         {
           "name": "新的重写订阅",
           "descs": [
-            "Surge: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/boxjs.rewrite.surge.sgmodule",
-            "QuanX: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/boxjs.rewrite.quanx.conf",
-            "Loon: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/boxjs.rewrite.loon.plugin"
+            "Surge: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/boxjs.rewrite.surge.sgmodule",
+            "QuanX: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/boxjs.rewrite.quanx.conf",
+            "Loon: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/boxjs.rewrite.loon.plugin"
           ]
         },
         {

@@ -10,4 +10,4 @@
 ruleMatchingTime = script-name=ruleMatchingTime,update-interval={{{updateInterval}}}
 
 [Script]
-ruleMatchingTime = type=cron,cronexp="{{{cronExp}}}",script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/ruleMatchingTime/JS/ruleMatchingTime.js
+ruleMatchingTime = type=cron,cronexp="{{{cronExp}}}",script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/ruleMatchingTime/JS/ruleMatchingTime.js

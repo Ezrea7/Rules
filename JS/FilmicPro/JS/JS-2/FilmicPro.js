@@ -8,7 +8,7 @@
 >「 注意事项 」         使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
 
 [rewrite_local]
-^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/FilmicPro/JS/Filmicpro.js
+^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/FilmicPro/JS/Filmicpro.js
 
 [mitm]
 hostname = filmicpro.oracle.bendingspoonsapps.com

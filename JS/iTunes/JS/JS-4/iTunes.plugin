@@ -3,7 +3,7 @@
 #!date=2026-05-04
 #!category=🐹 Ezrea7 Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/iTunes.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/iTunes.png
 
 [Argument]
 Enabled = input, "true", tag=启用解锁, desc=是否启用解锁(true拦截并注入凭证/false直接放行)
@@ -12,7 +12,7 @@ Country = input, "HK", tag=App Store 国家/地区, desc=用于查询内购产�
 
 [Script]
 # > iTunes系列解锁
-http-request ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-4/JS/iTunes-Loon.js, requires-body=true, tag=iTunes系列解锁转发, argument=[{Enabled},{Expires},{Country}]
+http-request ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iTunes/JS/JS-4/JS/iTunes-Loon.js, requires-body=true, tag=iTunes系列解锁转发, argument=[{Enabled},{Expires},{Country}]
 
 [MITM]
 hostname = buy.itunes.apple.com

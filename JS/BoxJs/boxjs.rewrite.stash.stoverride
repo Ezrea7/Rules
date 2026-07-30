@@ -4,7 +4,7 @@ openUrl: "http://boxjs.com"
 author: "ChavyLeung"
 homepage: "https://docs.boxjs.app/"
 manual: "https://docs.boxjs.app/"
-icon: "https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BoxJs.png"
+icon: "https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BoxJs.png"
 category: "BoxJs"
 
 http:
@@ -27,5 +27,5 @@ http:
 
 script-providers:
   BoxJs:
-    url: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/BoxJs.js
+    url: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/BoxJs.js
     interval: 86400

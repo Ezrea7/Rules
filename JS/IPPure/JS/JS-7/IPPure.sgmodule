@@ -11,7 +11,7 @@ ip-security-panel = script-name=ip-security-panel,update-interval=600
 
 [Script]
 # 面板手动触发
-ip-security-panel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-7/IPPure.js,argument=ipqs_key={{{ipqs_key}}}
+ip-security-panel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/IPPure/JS/JS-7/IPPure.js,argument=ipqs_key={{{ipqs_key}}}
 
 # 网络变化自动触发
-ip-security-event = type=event,event-name=network-changed,timeout=10,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-7/IPPure.js,argument=TYPE=EVENT&ipqs_key={{{ipqs_key}}}&event_delay={{{event_delay}}}
+ip-security-event = type=event,event-name=network-changed,timeout=10,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/IPPure/JS/JS-7/IPPure.js,argument=TYPE=EVENT&ipqs_key={{{ipqs_key}}}&event_delay={{{event_delay}}}

@@ -3,7 +3,7 @@
 #!date=2025-12-23
 #!category=🐹 Ezrea7 Task
 #!author= MCdasheng[https://github.com/MCdasheng]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/miniColor/Image/Color/Skicat.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/miniColor/Image/Color/Skicat.png
 #!openUrl=https://www.macat.vip
 
 [Argument]
@@ -15,5 +15,5 @@ Task-macat = switch, true, false, tag = 签到任务开关, desc = 定时运行[
 
 [Script]
 # 定时签到脚本
-cron {cron-macat-signin} script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Macat/JS/Macat.js, timeout=60, tag=Macat签到, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/miniColor/Image/Color/Skicat.png, enabled={Task-macat}
+cron {cron-macat-signin} script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/Macat/JS/Macat.js, timeout=60, tag=Macat签到, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/miniColor/Image/Color/Skicat.png, enabled={Task-macat}
 

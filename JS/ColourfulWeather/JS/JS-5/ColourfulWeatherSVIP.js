@@ -14,11 +14,11 @@ host, gather.colorfulclouds.net ,reject
 
 [rewrite_local]
 # 广告净化/弹窗AD/去除亲友卡/去除悬浮模块
-^https?:\/\/(ad|biz|wrapper|starplucker)\.cyapi\.cn\/.+\/((activity\?app_name|operation|config|req\?app_name=weather)|v\d\/(trial_card\/info|entries|friend_cards|token\/device)) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/CaiYunTianQi-SVIP/JS/caiyuntianqi.js
+^https?:\/\/(ad|biz|wrapper|starplucker)\.cyapi\.cn\/.+\/((activity\?app_name|operation|config|req\?app_name=weather)|v\d\/(trial_card\/info|entries|friend_cards|token\/device)) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/CaiYunTianQi-SVIP/JS/caiyuntianqi.js
 # VIP信息
-^https?:\/\/(biz|wrapper|starplucker)\.cyapi\.cn\/(v\d\/user\?app_name|.+\/v\d\/(vip_info|user_detail)) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/CaiYunTianQi-SVIP/JS/caiyuntianqi.js
+^https?:\/\/(biz|wrapper|starplucker)\.cyapi\.cn\/(v\d\/user\?app_name|.+\/v\d\/(vip_info|user_detail)) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/CaiYunTianQi-SVIP/JS/caiyuntianqi.js
 # SVIP地图-48小时预报
-^https?:\/\/(api|wrapper)\.cyapi\.cn\/v\d\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/CaiYunTianQi-SVIP/JS/caiyuntianqi.js
+^https?:\/\/(api|wrapper)\.cyapi\.cn\/v\d\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/CaiYunTianQi-SVIP/JS/caiyuntianqi.js
 
 [mitm]
 hostname = *.cyapi.cn

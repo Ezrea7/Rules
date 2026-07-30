@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=osinx[https://github.com/osinx/Script]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/StreamMusic.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/StreamMusic.png
 #!openUrl=https://apps.apple.com/app/id6449966496
 
 [Script]
 # > 音流解锁VIP
-streamMusic = type=http-response,pattern=^https:\/\/pay\.aqzscn\.cn\/api\/v1\/payments\/,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/StreamMusic/JS/StreamMusic.js
+streamMusic = type=http-response,pattern=^https:\/\/pay\.aqzscn\.cn\/api\/v1\/payments\/,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/StreamMusic/JS/StreamMusic.js
 
 [MITM]
 hostname = %APPEND% pay.aqzscn.cn

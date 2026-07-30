@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= Yarmukhamedov[https://github.com/Yarmukhamedov/mitm]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/VKMusic.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/VKMusic.png
 #!openUrl=https://apps.apple.com/app/id1054372220
 
 [Script]
 # > VK音乐-解锁VIP
-http-response https://api.moosic.io/(user/info|subscription/presentation/current_subscriptions_data) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/VKMusic/JS/VKMusic.js, requires-body=true, timeout=60, tag=VK音乐
+http-response https://api.moosic.io/(user/info|subscription/presentation/current_subscriptions_data) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/VKMusic/JS/VKMusic.js, requires-body=true, timeout=60, tag=VK音乐
 
 [MITM]
 hostname = api.moosic.io

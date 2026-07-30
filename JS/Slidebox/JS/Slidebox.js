@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >Slidebox解锁Pro
-^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Slidebox/JS/Slidebox.js
+^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Slidebox/JS/Slidebox.js
 
 [mitm]
 hostname = *-slidebox-ios-prod.cloudfunctions.net

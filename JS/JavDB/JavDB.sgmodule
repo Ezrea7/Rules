@@ -11,10 +11,10 @@ DOMAIN-SUFFIX,static.cloudflareinsights.com,REJECT
 
 [Script]
 # > JavDB去广告
-JavDB = type=http-response,pattern=^https?:\/\/javdb\.com\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))),requires-body=1,max-size=-1,engine=webview,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/JavDB/JS/JavDB.ad.js
+JavDB = type=http-response,pattern=^https?:\/\/javdb\.com\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))),requires-body=1,max-size=-1,engine=webview,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JavDB/JS/JavDB.ad.js
 
 # > MissAV去广告
-MissAv = type=http-response,pattern=^https?:\/\/missav\.(ws|live|com|ai)\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))),requires-body=1,max-size=-1,engine=webview,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/JavDB/JS/MissAV.ad.js
+MissAv = type=http-response,pattern=^https?:\/\/missav\.(ws|live|com|ai)\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))),requires-body=1,max-size=-1,engine=webview,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JavDB/JS/MissAV.ad.js
 
 [MITM]
 hostname = %APPEND% javdb.com, missav.live, missav.ws, missav.ai, missav.com

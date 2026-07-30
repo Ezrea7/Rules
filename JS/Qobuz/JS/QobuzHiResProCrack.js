@@ -8,7 +8,7 @@
 *******************************
 [rewrite_local]
 # > Qobuz解锁Hi-Res订阅
-^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Qobuz/JS/QobuzHiResProCrack.js
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Qobuz/JS/QobuzHiResProCrack.js
 
 [mitm] 
 hostname = www.qobuz.com

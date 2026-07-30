@@ -2,7 +2,7 @@
 #!desc=分流设置为代理，设置完之后关闭VPN并开飞行，等一分钟重开代理APP，收到推送了
 #!date=2026-05-01
 #!category=🐹 Ezrea7 Enhance
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Apple_Update.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/Apple_Update.png
 
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,akadns.net

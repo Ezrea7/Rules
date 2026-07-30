@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= app2smile[https://github.com/app2smile/rules]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BaiDuTieBa.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BaiDuTieBa.png
 #!openUrl=https://apps.apple.com/app/id477927812
 #!arguments=per_filter_video:0
 #!arguments-desc=per_filter_video:设置为1则推荐页不展示视频贴
@@ -19,8 +19,8 @@ IP-CIDR,180.76.76.200/32,REJECT,no-resolve
 
 [Script]
 # > 贴吧去广告
-贴吧json = type=http-response,pattern=^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Json.js,script-update-interval=0
-贴吧proto = type=http-response,pattern=^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/c\/(b\/ad\/adBid|f\/(frs\/(page|threadlist|generalTabList)|ad\/getFeedAd|pb\/page|excellent\/personalized))\?cmd,requires-body=1,binary-body-mode=1,max-size=-1,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Proto.js,argument=per_filter_video_thread={{{per_filter_video}}}
+贴吧json = type=http-response,pattern=^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Json.js,script-update-interval=0
+贴吧proto = type=http-response,pattern=^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/c\/(b\/ad\/adBid|f\/(frs\/(page|threadlist|generalTabList)|ad\/getFeedAd|pb\/page|excellent\/personalized))\?cmd,requires-body=1,binary-body-mode=1,max-size=-1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Proto.js,argument=per_filter_video_thread={{{per_filter_video}}}
 
 [MITM]
 hostname = %APPEND% tiebac.baidu.com

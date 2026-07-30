@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https:\/\/api-drive\.mypikpak\.com\/(vip\/v\d\/(vip\/info|allSubscriptionStatus)|drive\/v\d\/about\?space) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PikPak/JS/PikPak.js
+^https:\/\/api-drive\.mypikpak\.com\/(vip\/v\d\/(vip\/info|allSubscriptionStatus)|drive\/v\d\/about\?space) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/PikPak/JS/PikPak.js
 
 [mitm] 
 

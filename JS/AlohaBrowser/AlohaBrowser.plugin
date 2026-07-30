@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/AlohaBrowser.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/AlohaBrowser.png
 #!openUrl=https://apps.apple.com/app/id1105317682
 
 [Script]
 # > Aloha Browser解锁Premium
-http-response ^https?:\/\/api\.alohaprofile\.com\/v1\/profile_info script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AlohaBrowser/JS/AlohaBrowser.js, requires-body=true, timeout=60, tag=AlohaBrowser解锁Premium
+http-response ^https?:\/\/api\.alohaprofile\.com\/v1\/profile_info script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/AlohaBrowser/JS/AlohaBrowser.js, requires-body=true, timeout=60, tag=AlohaBrowser解锁Premium
 
 [MITM]
 hostname = api.alohaprofile.com

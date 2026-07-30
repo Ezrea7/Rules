@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=枫叶afengye[https://github.com/afengye/QX]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Loopsie.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Loopsie.png
 #!openUrl=https://apps.apple.com/app/id1259909228
 
 [Script]
 # > Loopsie AI绘画-解锁订阅
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Loopsie/JS/Loopsie.js, requires-body=true, timeout=60, tag=Loopsie
-http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Loopsie/JS/Loopsie.js, timeout=60, tag=Loopsie
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Loopsie/JS/Loopsie.js, requires-body=true, timeout=60, tag=Loopsie
+http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Loopsie/JS/Loopsie.js, timeout=60, tag=Loopsie
 
 [MITM]
 hostname = api.revenuecat.com

@@ -3,11 +3,11 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= Peng-YM[https://github.com/Peng-YM/QuanX]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GitHub.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/GitHub.png
 
 [Script]
 # > Github私有仓库
-http-request ^https?:\/\/(raw|gist)\.githubusercontent.com script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Github_Private/JS/JS-1/github-private-repo.js, timeout=20, tag=Github Private
+http-request ^https?:\/\/(raw|gist)\.githubusercontent.com script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Github_Private/JS/JS-1/github-private-repo.js, timeout=20, tag=Github Private
 
 [MITM]
 hostname = raw.githubusercontent.com, gist.githubusercontent.com

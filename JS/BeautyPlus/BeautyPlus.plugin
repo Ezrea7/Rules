@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BeautyPlus.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BeautyPlus.png
 #!openUrl=https://apps.apple.com/app/id921765888
 
 [Script]
 # > BeautyPlus解锁Pro
-http-response https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BeautyPlus/JS/BeautyPlus.js, requires-body=true, timeout=60, tag=BeautyPlus解锁Pro
+http-response https:\/\/(api\.mr\.pixocial\.com\/v1\/manual_unlock|newbeee-api\.beautyplus\.com\/api\/v1\/asset\/balance) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BeautyPlus/JS/BeautyPlus.js, requires-body=true, timeout=60, tag=BeautyPlus解锁Pro
 
 [MITM]
 hostname = api.mr.pixocial.com, newbeee-api.beautyplus.com

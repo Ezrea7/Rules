@@ -2,7 +2,7 @@
 #!desc=彩云天气Pro.过滤彩云天气广告，解锁SVIP功能。（解锁功能需版本低于7.20.2）
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/ColorfulCloudsWeatherPro.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/ColorfulCloudsWeatherPro.png
 #!openUrl=https://apps.apple.com/app/id1067198688
 
 [Rule]
@@ -16,10 +16,10 @@ DOMAIN, gather.colorfulclouds.net, REJECT
 
 [Script]
 # 共享会员
-http-request ^https:\/\/wrapper\.cyapi\.cn\/v1\/(nafp\/origin_images|satellite)\? script-path = https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-6/ColorfulCloudsWeatherPro.js, tag = 彩云天气共享会员
-http-response ^https:\/\/biz\.cyapi\.cn\/(api\/v1\/user_detail|p\/v1\/vip_info|v2\/user) script-path = https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-6/ColorfulCloudsWeatherPro.js, requires-body = true, tag = 彩云天气共享会员
+http-request ^https:\/\/wrapper\.cyapi\.cn\/v1\/(nafp\/origin_images|satellite)\? script-path = https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-6/ColorfulCloudsWeatherPro.js, tag = 彩云天气共享会员
+http-response ^https:\/\/biz\.cyapi\.cn\/(api\/v1\/user_detail|p\/v1\/vip_info|v2\/user) script-path = https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-6/ColorfulCloudsWeatherPro.js, requires-body = true, tag = 彩云天气共享会员
 # 底部菜单栏,活动推广
-http-response ^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com|cdn-w\.caiyunapp\.com)\/v1\/activity\? script-path = https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-6/ColorfulCloudsWeatherPro.js, requires-body = true, tag = 彩云天气去广告
+http-response ^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com|cdn-w\.caiyunapp\.com)\/v1\/activity\? script-path = https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-6/ColorfulCloudsWeatherPro.js, requires-body = true, tag = 彩云天气去广告
 
 [MITM]
 hostname = biz.cyapi.cn, starplucker.cyapi.cn, api.caiyunapp.com, cdn-w.caiyunapp.com, *.cyapi.cn

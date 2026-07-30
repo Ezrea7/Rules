@@ -373,34 +373,34 @@ function getSystemApps() {
       scripts: [
         {
           name: '抹掉：所有缓存',
-          script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/boxjs.revert.caches.js',
+          script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/boxjs.revert.caches.js',
         },
         {
           name: '抹掉：收藏应用',
-          script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/boxjs.revert.usercfgs.favapps.js',
+          script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/boxjs.revert.usercfgs.favapps.js',
         },
         {
           name: '抹掉：用户偏好',
-          script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/boxjs.revert.usercfgs.js',
+          script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/boxjs.revert.usercfgs.js',
         },
         {
           name: '抹掉：所有会话',
-          script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/boxjs.revert.usercfgs.sessions.js',
+          script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/boxjs.revert.usercfgs.sessions.js',
         },
         {
           name: '抹掉：所有备份',
-          script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/boxjs.revert.baks.js',
+          script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/boxjs.revert.baks.js',
         },
         {
           name: '抹掉：BoxJs (注意备份)',
-          script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/boxjs.revert.boxjs.js',
+          script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/boxjs.revert.boxjs.js',
         },
       ],
       author: '@chavyleung',
-      repo: 'https://github.com/Ezrea7/Script/blob/main/JS/BoxJs/JS/Scripts/box.switcher.js',
+      repo: 'https://github.com/Ezrea7/Rules/blob/main/JS/BoxJs/JS/Scripts/box.switcher.js',
       icons: [
-        'https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BoxSetting.mini.png',
-        'https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BoxSetting.png',
+        'https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BoxSetting.mini.png',
+        'https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BoxSetting.png',
       ],
     },
     {
@@ -418,12 +418,12 @@ function getSystemApps() {
         },
       ],
       author: '@chavyleung',
-      repo: 'https://github.com/Ezrea7/Script/blob/main/JS/BoxJs/JS/Scripts/box.switcher.js',
+      repo: 'https://github.com/Ezrea7/Rules/blob/main/JS/BoxJs/JS/Scripts/box.switcher.js',
       icons: [
-        'https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BoxSwitcher.mini.png',
-        'https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BoxSwitcher.png',
+        'https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BoxSwitcher.mini.png',
+        'https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BoxSwitcher.png',
       ],
-      script: 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BoxJs/JS/Scripts/box.switcher.js',
+      script: 'https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BoxJs/JS/Scripts/box.switcher.js',
     },
   ];
   return sysapps;

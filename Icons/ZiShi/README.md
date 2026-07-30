@@ -5,10 +5,10 @@
 
 
 
-远程引用地址：`https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/ZiShi/ZiShi.json`
+远程引用地址：`https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/ZiShi/ZiShi.json`
 
 
 
 
 ## 预览图效果
-![markdown](https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/ZiShi/Image/Preview.png)
+![markdown](https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/ZiShi/Image/Preview.png)

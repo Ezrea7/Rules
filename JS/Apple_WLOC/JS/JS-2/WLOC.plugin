@@ -3,14 +3,14 @@
 #!date=2026-07-11
 #!category=🐹 Ezrea7 Enhance
 #!author=Mr.Eric[https://t.me/Mr_Alex]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-1/IMG/wloc.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Apple_WLOC/JS/JS-1/IMG/wloc.png
 #!openUrl=https://shadowloc.ericvip.workers.dev/
 
 [Script]
-http-request ^https:\/\/shadowloc\.ericvip\.workers\.dev\/api\/save-location script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocSaveLocation.js, timeout=10, tag=ShadowLocSaveLocation
-http-request ^https:\/\/shadowloc\.ericvip\.workers\.dev\/api\/location-status script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocStatus.js, timeout=10, tag=ShadowLocStatus
-http-request ^https:\/\/shadowloc\.ericvip\.workers\.dev\/api\/clear-location script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocClear.js, timeout=10, tag=ShadowLocClear
-http-response ^https:\/\/gs-loc(-cn)?\.apple\.com\/clls\/wloc script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocPro.js, requires-body=true, binary-body-mode=true, timeout=30, tag=ShadowLocPro
+http-request ^https:\/\/shadowloc\.ericvip\.workers\.dev\/api\/save-location script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocSaveLocation.js, timeout=10, tag=ShadowLocSaveLocation
+http-request ^https:\/\/shadowloc\.ericvip\.workers\.dev\/api\/location-status script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocStatus.js, timeout=10, tag=ShadowLocStatus
+http-request ^https:\/\/shadowloc\.ericvip\.workers\.dev\/api\/clear-location script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocClear.js, timeout=10, tag=ShadowLocClear
+http-response ^https:\/\/gs-loc(-cn)?\.apple\.com\/clls\/wloc script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Apple_WLOC/JS/JS-2/JS/Surge/ShadowLocPro.js, requires-body=true, binary-body-mode=true, timeout=30, tag=ShadowLocPro
 
 [MITM]
 hostname = shadowloc.ericvip.workers.dev, gs-loc.apple.com, gs-loc-cn.apple.com

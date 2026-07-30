@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Loon/IPQuality/JS/IMG/IPQuality-1.jpg" alt="" width="300px" style="margin-right: 6px;" />
-  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Loon/IPQuality/JS/IMG/IPQuality-2.jpg" alt="" width="300px" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Loon/IPQuality/JS/IMG/IPQuality-1.jpg" alt="" width="300px" style="margin-right: 6px;" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Loon/IPQuality/JS/IMG/IPQuality-2.jpg" alt="" width="300px" />
 </div>
 
 

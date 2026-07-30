@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TGQuickSend/JS/IMG/TG.jpg" width="400" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/TGQuickSend/JS/IMG/TG.jpg" width="400" /> </div>
 </p>
 
 

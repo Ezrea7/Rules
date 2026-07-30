@@ -3,8 +3,8 @@
 <h4 align="center"> 一个基于 Surge 5 客户端展示网络信息面板工具 </h4>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetworkInfo/JS/IMG/Cell.PNG" width="400" /> </div>
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetworkInfo/JS/IMG/Wi-Fi.PNG" width="400" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetworkInfo/JS/IMG/Cell.PNG" width="400" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetworkInfo/JS/IMG/Wi-Fi.PNG" width="400" /> </div>
 </p>
 
 ## 功能
@@ -16,12 +16,12 @@
 ### 模块安装链接
 
 
-> **简体中文正式版 :** https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetworkInfo/Network-Info-Simplified.sgmodule<br>
+> **简体中文正式版 :** https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetworkInfo/Network-Info-Simplified.sgmodule<br>
 
 
 
 
-> **繁体中文正式版 :** https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/NetworkInfo/Network-Info-Traditional.sgmodule<br>
+> **繁体中文正式版 :** https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/NetworkInfo/Network-Info-Traditional.sgmodule<br>
 
 
 其他问题可以参考 [这篇教程](https://www.jkg.tw/p3604/) <br>

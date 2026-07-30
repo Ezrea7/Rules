@@ -8,8 +8,8 @@
 ********************************
 [rewrite_local]
 # >Loopsie AI绘画-解锁订阅
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Loopsie/JS/Loopsie.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Loopsie/JS/Loopsie.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Loopsie/JS/Loopsie.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Loopsie/JS/Loopsie.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/

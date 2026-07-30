@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Flow.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Flow.png
 #!openUrl=https://apps.apple.com/app/id1721279833
 
 [Script]
 # > Flow & VN套装-解锁Premium
-http-response ^https?:\/\/.*\.vlognow\.me\/.*-pay\/api\/v\d\/(user\/subscriptions|public\/iap\/receipt\/status) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Flow/JS/Flow.js, requires-body=true, timeout=60, tag=Flow & VN套装-解锁Premium
+http-response ^https?:\/\/.*\.vlognow\.me\/.*-pay\/api\/v\d\/(user\/subscriptions|public\/iap\/receipt\/status) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Flow/JS/Flow.js, requires-body=true, timeout=60, tag=Flow & VN套装-解锁Premium
 
 [MITM]
 hostname = *.vlognow.me

@@ -1,7 +1,7 @@
 name: "Script Hub: 重写 & 规则集转换"
 desc: "https://script.hub"
 author: "@小白脸 @xream @keywos @ckyb"
-icon: "https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/icon/icon-dark.png"
+icon: "https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Script-Hub/JS/icon/icon-dark.png"
 
 http:
   force-http-engine:
@@ -35,14 +35,14 @@ http:
 
 script-providers:
   "Script Hub: 前端":
-    url: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/script-hub.js
+    url: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Script-Hub/JS/script-hub.js
     interval: 86400
   "Script Hub: 重写转换":
-    url: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/Rewrite-Parser.js
+    url: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Script-Hub/JS/Rewrite-Parser.js
     interval: 86400
   "Script Hub: 规则集转换":
-    url: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/rule-parser.js
+    url: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Script-Hub/JS/rule-parser.js
     interval: 86400
   "Script Hub: 脚本转换":
-    url: https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/script-converter.js
+    url: https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Script-Hub/JS/script-converter.js
     interval: 86400

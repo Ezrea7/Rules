@@ -8,4 +8,4 @@
 Speed = script-name=Speed,update-interval=-1
 
 [Script]
-Speed = type=generic,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Speed/JS/Speed.js,argument=title=网速测试&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=3
+Speed = type=generic,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/Speed/JS/Speed.js,argument=title=网速测试&iconfast=bolt&iconmid=hare&iconslow=tortoise&colorlow=#06D6A0&colormid=#FFD166&colorhigh=#EF476F&mb=3

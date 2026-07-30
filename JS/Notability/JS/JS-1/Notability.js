@@ -9,7 +9,7 @@
 
 [rewrite_local]
 # > Notability解锁2099年
-^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Notability/JS/Notability.js
+^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Notability/JS/Notability.js
 
 [mitm]
 hostname = notability.com

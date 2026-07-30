@@ -5,7 +5,7 @@
 #!author=ybb963416867[https://github.com/ybb963416867/surge_pannel]
 
 [Script]
-IP-Quality = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-8/IP-Quality.js
+IP-Quality = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/IPPure/JS/JS-8/IP-Quality.js
 
 [Panel]
 IP-Quality = script-name=IP-Quality,title="IP 纯净度",content="点击刷新",style=info,update-interval=0

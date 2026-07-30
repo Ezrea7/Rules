@@ -9,7 +9,7 @@ async function loadUtils() {
     console.log(`🚀 ${$.name}: 开始下载Utils代码`)
     return new Promise(async (resolve) => {
         $.getScript(
-            'https://cdn.jsdelivr.net/gh/Ezrea7/Script/Task/KuGou_CV/JS/JS-1/Utils.js'
+            'https://cdn.jsdelivr.net/gh/Ezrea7/Rules/Task/KuGou_CV/JS/JS-1/Utils.js'
         ).then((fn) => {
             $.setdata(fn, "Utils_Code")
             eval(fn)

@@ -12,10 +12,10 @@
 
 [Script]
 # Web
-troubleshoot = type=http-request, pattern=^https?:\/\/(trouble\.shoot|surge\.tool), timeout=300,script-update-interval={{{script-update}}}, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-Tool/JS/index.js
+troubleshoot = type=http-request, pattern=^https?:\/\/(trouble\.shoot|surge\.tool), timeout=300,script-update-interval={{{script-update}}}, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/Surge-Tool/JS/index.js
 
 # Panel
-{{{ST Panel}}} = type=generic,timeout=30,argument=list={{{List}}}&type={{{Type}}}&LogTF={{{Log}}}&icolor={{{color}}}&title={{{title}}}&icon={{{icon}}}&push={{{Push}}},script-update-interval={{{script-update}}},script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-Tool/JS/index.js
+{{{ST Panel}}} = type=generic,timeout=30,argument=list={{{List}}}&type={{{Type}}}&LogTF={{{Log}}}&icolor={{{color}}}&title={{{title}}}&icon={{{icon}}}&push={{{Push}}},script-update-interval={{{script-update}}},script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/Surge-Tool/JS/index.js
 
 [MITM]
 hostname = %APPEND% trouble.shoot, *.trouble.shoot, surge.tool

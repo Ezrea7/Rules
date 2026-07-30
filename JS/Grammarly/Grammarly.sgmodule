@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= 浥轻尘yqc007[https://github.com/yqc007/QuantumultX]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Grammarly.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Grammarly.png
 #!openUrl=https://apps.apple.com/app/id1158877342
 
 [Script]
 # > 解锁Grammarly高级订阅
-Grammarly高级订阅 = type=http-response, pattern=^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Grammarly/JS/JS-1/Grammarly.js, requires-body=true, max-size=-1, timeout=60
+Grammarly高级订阅 = type=http-response, pattern=^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Grammarly/JS/JS-1/Grammarly.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% subscription.grammarly.com

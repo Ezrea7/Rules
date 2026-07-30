@@ -5,7 +5,7 @@
  *****************************************
  
 [task_local]
-30 20 * * * https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/meitu.js, tag=美图鉴赏, enabled=true, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/meitu.png
+30 20 * * * https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/Tasks/meitu.js, tag=美图鉴赏, enabled=true, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/Tasks/icon/meitu.png
 
  ******************************************/
 const $ = new Env("美图写真");
@@ -31,7 +31,7 @@ const main = async () => {
   try {
     await showNotice();
     await loadRemoteScriptByCache(
-      "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/cheerio.js",
+      "https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/Tasks/icon/cheerio.js",
       "createCheerio",
       "cheerio"
     );

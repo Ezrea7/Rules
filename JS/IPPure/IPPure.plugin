@@ -9,4 +9,4 @@
 DOMAIN-SUFFIX, ippure.com, PROXY
 
 [Script]
-generic script-path = https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-2/IPPure.js, timeout = 10, tag = IPPure, img-url = leaf
+generic script-path = https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/IPPure/JS/JS-2/IPPure.js, timeout = 10, tag = IPPure, img-url = leaf

@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >Wallcraft解锁Pro
-^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/WallCraft/JS/Wallcraft.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/WallCraft/JS/Wallcraft.js
 
 [mitm]
 hostname = billing-ios.wallpaperscraft.com

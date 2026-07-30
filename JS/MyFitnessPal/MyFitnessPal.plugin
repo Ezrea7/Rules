@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/MyFitnessPal.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/MyFitnessPal.png
 #!openUrl=https://apps.apple.com/app/id341232718
 
 [Script]
 # > MyFitnessPal解锁Premium
-http-response ^https?:\/\/premium-api\.myfitnesspal\.com\/v\d\/subscriptions\/MFP\/* script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/MyFitnessPal/JS/MyFitnessPal.js, requires-body=true, timeout=60, tag=MyFitnessPal解锁Premium
+http-response ^https?:\/\/premium-api\.myfitnesspal\.com\/v\d\/subscriptions\/MFP\/* script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/MyFitnessPal/JS/MyFitnessPal.js, requires-body=true, timeout=60, tag=MyFitnessPal解锁Premium
 
 [MITM]
 hostname = premium-api.myfitnesspal.com

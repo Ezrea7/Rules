@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 AD
 #!author= 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/SodaMusic.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/SodaMusic.png
 #!openUrl=https://apps.apple.com/app/id1605585211
 
 [Rewrite]
@@ -57,7 +57,7 @@
 
 [Script]
 # > 播放页面 - 视频流[响应体太大]
-http-response ^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/me\/recently-played-media\? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/SodaMusic/JS/SodaMusic.js, requires-body=true, timeout=20, tag=移除播放页面视频流
+http-response ^https:\/\/(beta-luna\.douyin|api5-lq\.qishui)\.com\/luna\/me\/recently-played-media\? script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/SodaMusic/JS/SodaMusic.js, requires-body=true, timeout=20, tag=移除播放页面视频流
 
 [MITM]
 hostname = webcast-open.douyin.com, beta-luna.douyin.com, api.qishui.com, api5-lq.qishui.com, tnc*-*.zijieapi.com

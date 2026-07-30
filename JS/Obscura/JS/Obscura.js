@@ -8,8 +8,8 @@
 ********************************
 [rewrite_local]
 # >Obscura专业相机-解锁订阅
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Obscura/JS/Obscura.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Obscura/JS/Obscura.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Obscura/JS/Obscura.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Obscura/JS/Obscura.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Reddit.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Reddit.png
 #!openUrl=https://apps.apple.com/app/id1064216828
 
 [Script]
 # > Reddit过滤应用内推广,阻止NSFW提示,解锁会员功能
-RedditPro = type=http-response, pattern=^https?:\/\/gql(-fed)?\.reddit\.com,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Reddit/JS/Reddit.js
+RedditPro = type=http-response, pattern=^https?:\/\/gql(-fed)?\.reddit\.com,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Reddit/JS/Reddit.js
 
 [MITM]
 hostname = %APPEND% gql.reddit.com, gql-fed.reddit.com

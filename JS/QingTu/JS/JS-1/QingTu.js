@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >轻图解锁Pro
-^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info) url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/QingTu/JS/QingTu.js
+^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info) url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/QingTu/JS/QingTu.js
 
 [mitm]
 hostname = purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com

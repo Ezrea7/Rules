@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=墨鱼ddgksf2013[https://github.com/ddgksf2013/MoYu]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Focos.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Focos.png
 #!openUrl=https://apps.apple.com/app/id1274938524
 
 [Script]
 # > Focos+Focos live☆解锁会员权限
-http-response ^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Focos/JS/FocosProCrack.js, requires-body=true, timeout=60, tag=Focos+Focos live☆解锁会员权限
+http-response ^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Focos/JS/FocosProCrack.js, requires-body=true, timeout=60, tag=Focos+Focos live☆解锁会员权限
 
 [MITM]
 hostname = *.oracle.bendingspoonsapps.com

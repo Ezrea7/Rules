@@ -3,12 +3,12 @@
 #!date=2026-01-31
 #!category=🐹 Ezrea7 Premium
 #!author= 伟人WeiGiegie[https://github.com/WeiGiegie/666]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/GPSGongJuXiang/JS/IMG/GPS.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/GPSGongJuXiang/JS/IMG/GPS.png
 #!openUrl=https://apps.apple.com/app/id1102011956
 
 [Script]
 # > GPS工具箱解锁VIP
-http-response ^https:\/\/service\.gpstool\.com\/app\/index\/getUserInfo script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/GPSGongJuXiang/JS/GPS.js, requires-body=true, timeout=60, tag=GPS工具箱解锁VIP
+http-response ^https:\/\/service\.gpstool\.com\/app\/index\/getUserInfo script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/GPSGongJuXiang/JS/GPS.js, requires-body=true, timeout=60, tag=GPS工具箱解锁VIP
 
 [MITM]
 hostname = service.gpstool.com

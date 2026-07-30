@@ -3,7 +3,7 @@
 # 作者：510004015
 
 [rewrite_local]
-^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BaiDuYun/JS/JS-2/BaiduCloud.js
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BaiDuYun/JS/JS-2/BaiduCloud.js
 
 
 [mitm]

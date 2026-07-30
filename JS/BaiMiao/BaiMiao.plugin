@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=浥轻尘yqc007[https://github.com/yqc007/QuantumultX]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/ScanScan(BaiMiao).png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/ScanScan(BaiMiao).png
 #!openUrl=https://apps.apple.com/app/id1249901692
 
 [Rewrite]
@@ -11,7 +11,7 @@
 
 [Script]
 # > 白描解锁黄金会员
-http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/appLaunchWithUser script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BaiMiao/JS/BaiMiaoGoldVipCrack.js, requires-body=true, timeout=60, tag=BaiMiaoGoldVipCrack
+http-response ^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/appLaunchWithUser script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BaiMiao/JS/BaiMiaoGoldVipCrack.js, requires-body=true, timeout=60, tag=BaiMiaoGoldVipCrack
 
 [MITM]
 hostname = baimiao.uzero.cn

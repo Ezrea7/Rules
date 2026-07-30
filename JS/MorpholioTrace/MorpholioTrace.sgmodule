@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/MorpholioTrace.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/MorpholioTrace.png
 #!openUrl=https://apps.apple.com/app/id547274918
 
 [Script]
 # > Morpholio Trace - Sketch CAD草图CAD建筑师设计师专用工具 解锁Pro
-Morpholio Trace CAD草图CAD建筑师设计师专用工具 解锁Pro = type=http-response, pattern=^https:\/\/www\.mymorpholio\.com\/api\/index\.php\/rest_iap\/receipt, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/MorpholioTrace/JS/MorpholioTrace.js, requires-body=true, max-size=-1, timeout=60
+Morpholio Trace CAD草图CAD建筑师设计师专用工具 解锁Pro = type=http-response, pattern=^https:\/\/www\.mymorpholio\.com\/api\/index\.php\/rest_iap\/receipt, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/MorpholioTrace/JS/MorpholioTrace.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% www.mymorpholio.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/DiZhenYuJing.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/DiZhenYuJing.png
 #!openUrl=https://apps.apple.com/app/id713947342
 
 [Script]
 # > 地震预警-解锁会员
-地震预警-解锁会员 = type=http-response, pattern=^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/DiZhenYuJing/JS/DZYJ.js, requires-body=true, max-size=-1, timeout=60
+地震预警-解锁会员 = type=http-response, pattern=^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/DiZhenYuJing/JS/DZYJ.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% mobile-new.chinaeew.cn

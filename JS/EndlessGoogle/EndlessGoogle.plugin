@@ -2,12 +2,12 @@
 #!desc=Google自动翻页
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Google.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Google.png
 #!openUrl=www.google.com
 
 [Script]
 # > Google自动翻页
-http-response ^https?:\/\/www\.google\..*\/search script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/EndlessGoogle/JS/EndlessGoogle.js, requires-body=true, timeout=60, tag=EndlessGoogle
+http-response ^https?:\/\/www\.google\..*\/search script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/EndlessGoogle/JS/EndlessGoogle.js, requires-body=true, timeout=60, tag=EndlessGoogle
 
 [Mitm]
 hostname = www.google.*

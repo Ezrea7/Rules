@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= Sliverkiss[https://github.com/Sliverkiss/GoodNight], cmliu[https://github.com/cmliu/CF-Workers-Raw]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GitHub.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/GitHub.png
 #!arguments=USERNAME:GITHUB_USERNAME,TOKEN:GITHUB_TOKEN
 #!arguments-desc=[参数设置]\nUSERNAME: 填入GitHub的用户名\nTOKEN: 填入GitHub生成的Token\n\n[Token获取方式]\n登陆Github > 点击头像下拉菜单 > 选择Settings > 左边菜单栏选择最后一个Developer settings > 选择Personal access tokens> 选择Tokens(classic) > Generate new token(classic) > Note里面填写token名字 > ☑️下面的勾选框选择第一项repo打钩（所有子项目自动勾选）> 点击Generate token按钮保存并返回。
 

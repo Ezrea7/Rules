@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >小旋风收音机解锁VIP
-^https?:\/\/49.232.234.212:80\/user\/fixUserPayData url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/XiaoXuanFengFM/JS/XXFSYJ.js
+^https?:\/\/49.232.234.212:80\/user\/fixUserPayData url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/XiaoXuanFengFM/JS/XXFSYJ.js
 
 [mitm]
 hostname = 49.232.234.212

@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=枫叶afengye[https://github.com/afengye/QX]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Unfold.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Unfold.png
 #!openUrl=https://apps.apple.com/app/id1247275033
 
 [Script]
 # > Unfold视频照片编辑器-解锁订阅
-Unfold = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Unfold/JS/Unfold.js, requires-body=true, max-size=-1, timeout=60
-Unfold = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Unfold/JS/Unfold.js, timeout=60
+Unfold = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Unfold/JS/Unfold.js, requires-body=true, max-size=-1, timeout=60
+Unfold = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Unfold/JS/Unfold.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com

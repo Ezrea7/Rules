@@ -33,12 +33,12 @@ https:\/\/biz\.cyapi\.cn\/p\/v1\/entries url reject-dict
 https:\/\/cdn-w\.caiyunapp\.com\/p\/app\/activity url reject
 https:\/\/starplucker\.cyapi\.cn\/v3\/notification\/message_center url reject
 https:\/\/starplucker\.cyapi\.cn\/v3\/config\/cypage\/home\/conditions\/local url reject
-https:\/\/(wrapper|api)\.(cyapi|caiyunapp)\.(cn|com)\/v1\/activity url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
-https?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
-https:\/\/starplucker\.cyapi\.cn\/v3 url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
-https:\/\/biz\.cyapi\.cn\/api\/v1\/user_detail url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
-https:\/\/biz\.cyapi\.cn\/p\/v1\/vip_info url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
-https:\/\/wrapper\.cyapi\.cn\/v1 url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ColourfulWeather/JS/JS-2/CaiYun-H.js
+https:\/\/(wrapper|api)\.(cyapi|caiyunapp)\.(cn|com)\/v1\/activity url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
+https?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
+https:\/\/starplucker\.cyapi\.cn\/v3 url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
+https:\/\/biz\.cyapi\.cn\/api\/v1\/user_detail url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
+https:\/\/biz\.cyapi\.cn\/p\/v1\/vip_info url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-2/CaiYun-B.js
+https:\/\/wrapper\.cyapi\.cn\/v1 url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/ColourfulWeather/JS/JS-2/CaiYun-H.js
 
 [mitm]
 hostname = biz.caiyunapp.com,biz.cyapi.cn,cdn-w.caiyunapp.com,ad.cyapi.cn,wrapper.cyapi.cn,starplucker.cyapi.cn,api.caiyunapp.com

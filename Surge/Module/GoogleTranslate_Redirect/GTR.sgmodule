@@ -10,7 +10,7 @@
 force-http-engine-hosts = %APPEND% translate.google.com
 
 [Script]
-GoogleTranslateRedirect = type=http-request, pattern=https?:\/\/translate\.google\.com\/\?, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/GoogleTranslate_Redirect/JS/GTR.js, requires-body=true, timeout=120, argument="GTR_API={{{API}}}&GTR_KEY={{{KEY}}}&GTR_MODEL={{{MODEL}}}&GTR_PROMPT={{{PROMPT}}}&GTR_MAX_TOKENS={{{MAX_TOKENS}}}&GTR_TEMPERATURE={{{TEMPERATURE}}}&GTR_TIMEOUT={{{TIMEOUT}}}&GTR_TYPE={{{TYPE}}}"
+GoogleTranslateRedirect = type=http-request, pattern=https?:\/\/translate\.google\.com\/\?, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/GoogleTranslate_Redirect/JS/GTR.js, requires-body=true, timeout=120, argument="GTR_API={{{API}}}&GTR_KEY={{{KEY}}}&GTR_MODEL={{{MODEL}}}&GTR_PROMPT={{{PROMPT}}}&GTR_MAX_TOKENS={{{MAX_TOKENS}}}&GTR_TEMPERATURE={{{TEMPERATURE}}}&GTR_TIMEOUT={{{TIMEOUT}}}&GTR_TYPE={{{TYPE}}}"
 
 [MITM]
 hostname = %APPEND% translate.google.com

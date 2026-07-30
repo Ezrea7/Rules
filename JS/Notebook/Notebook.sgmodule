@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= Mikephie[https://github.com/Mikephie/Script]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Notebook.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Notebook.png
 #!openUrl=https://apps.apple.com/app/id973801089
 
 [Script]
 # > Notebook笔记本-解锁Pro
-Notebook笔记本 = type=http-response, pattern=^https:\/\/notebook\.zoho\.com\/api\/v1\/userprofile\/accounts\/payment\?action=(get_current_plan_detail|get_feature_template)(&include_expired_plans=true|&include_purchase_platform=false|&platform=ios)?, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Notebook/JS/JS-1/Notebook.js, requires-body=true, max-size=-1, timeout=60
+Notebook笔记本 = type=http-response, pattern=^https:\/\/notebook\.zoho\.com\/api\/v1\/userprofile\/accounts\/payment\?action=(get_current_plan_detail|get_feature_template)(&include_expired_plans=true|&include_purchase_platform=false|&platform=ios)?, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Notebook/JS/JS-1/Notebook.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% notebook.zoho.com

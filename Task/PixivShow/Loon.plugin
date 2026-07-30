@@ -3,8 +3,8 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Task
 #!author=I-am-R-E[https://github.com/I-am-R-E/Functional-Store-Hub]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/PixivShow/Script/icon.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/PixivShow/Script/icon.png
 #!openUrl=https://www.pixiv.net/
 
 [Script]
-cron "0 0 8-22 * * ?" script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/PixivShow/Script/PixivShow.js, tag=PixivShow, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/PixivShow/Script/PixivShowICON.png
+cron "0 0 8-22 * * ?" script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/PixivShow/Script/PixivShow.js, tag=PixivShow, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/PixivShow/Script/PixivShowICON.png

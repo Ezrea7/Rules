@@ -10,4 +10,4 @@
 ProPing = script-name=ProPing,update-interval={{{update-interval}}}
 
 [Script]
-ProPing = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Ping/JS/Ping.js, script-update-interval={{{script-update}}},argument=Size={{{Size}}}&cnUrl={{{cnUrl}}}&usUrl={{{usUrl}}}&icons={{{icons}}}&icolor={{{icolor}}}
+ProPing = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/Ping/JS/Ping.js, script-update-interval={{{script-update}}},argument=Size={{{Size}}}&cnUrl={{{cnUrl}}}&usUrl={{{usUrl}}}&icons={{{icons}}}&icolor={{{icolor}}}

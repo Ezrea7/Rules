@@ -3,7 +3,7 @@
 #!date=2025-12-15
 #!category=🐹 Ezrea7 Enhance
 #!author=fishdown[https://github.com/fishdown/Ggsddu]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GitHub.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/GitHub.png
 
 [Argument]
 text = input,"",tag=插件文本,desc=输入要上传的完整文本，支持换行
@@ -16,4 +16,4 @@ ghToken = input,"",tag=gitoken,desc=GitHub Token
 
 [Script]
 # > 文本/手动上传GitHub
-cron "35 * * * *" script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Loon/Data_Github_Upload/JS/Data_Github_Upload.js, timeout=60, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GitHub.png,enable=false,tag=Github上传文件, argument=[{text},{owner},{repo},{branch},{upload},{path},{ghToken}]
+cron "35 * * * *" script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Loon/Data_Github_Upload/JS/Data_Github_Upload.js, timeout=60, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/GitHub.png,enable=false,tag=Github上传文件, argument=[{text},{owner},{repo},{branch},{upload},{path},{ghToken}]

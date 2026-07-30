@@ -11,16 +11,16 @@ hostname = %APPEND% kill-active-requests.com
 
 [Script]
 # Cron
-{{{CRON_SCRIPT_NAME}}}=type=cron,cronexp="{{{CRON_EXP}}}",wake-system={{{CRON_WAKE_SYSTEM}}},timeout=120,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&CRON_NOTIFY={{{CRON_NOTIFY}}}&CRON_RULE={{{CRON_RULE}}}&TYPE=CRON",engine={{{ENGINE}}}
+{{{CRON_SCRIPT_NAME}}}=type=cron,cronexp="{{{CRON_EXP}}}",wake-system={{{CRON_WAKE_SYSTEM}}},timeout=120,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&CRON_NOTIFY={{{CRON_NOTIFY}}}&CRON_RULE={{{CRON_RULE}}}&TYPE=CRON",engine={{{ENGINE}}}
 
 # Request
-{{{REQ_SCRIPT_NAME}}} = type=http-request,pattern=^https?:\/\/kill-active-requests\.com,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&REQ_NOTIFY={{{REQ_NOTIFY}}}",engine={{{ENGINE}}}
+{{{REQ_SCRIPT_NAME}}} = type=http-request,pattern=^https?:\/\/kill-active-requests\.com,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&REQ_NOTIFY={{{REQ_NOTIFY}}}",engine={{{ENGINE}}}
 
 # Event
-{{{EVENT_SCRIPT_NAME}}} = type=event,event-name=network-changed,timeout=30,script-update-interval=3600,debug=false,enable=true,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&EVENT_NOTIFY={{{EVENT_NOTIFY}}}",engine={{{ENGINE}}}
+{{{EVENT_SCRIPT_NAME}}} = type=event,event-name=network-changed,timeout=30,script-update-interval=3600,debug=false,enable=true,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&EVENT_NOTIFY={{{EVENT_NOTIFY}}}",engine={{{ENGINE}}}
 
 # Panel
-{{{PANEL_NAME}}} = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&icon={{{ICON}}}&icon-color={{{ICON-COLOR}}}",engine={{{ENGINE}}}
+{{{PANEL_NAME}}} = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Network/JS/kill-active-requests-index.js,timeout={{{TIMEOUT}}},argument="DISMISS={{{DISMISS}}}&TIMEOUT={{{TIMEOUT}}}&icon={{{ICON}}}&icon-color={{{ICON-COLOR}}}",engine={{{ENGINE}}}
 
 [Panel]
 {{{PANEL_NAME}}} = script-name={{{PANEL_NAME}}},update-interval=1

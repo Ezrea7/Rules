@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author= app2smile[https://github.com/app2smile/rules], 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BaiDuTieBa.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/BaiDuTieBa.png
 #!openUrl=https://apps.apple.com/app/id477927812
 
 [Argument]
@@ -33,8 +33,8 @@ IP-CIDR,180.76.76.200/32,REJECT,no-resolve
 
 [Script]
 # > 贴吧去广告
-http-response ^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Json.js, requires-body=true, timeout=10, tag=贴吧json
-http-response ^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/c\/(b\/ad\/adBid|f\/(frs\/(page|threadlist|generalTabList)|ad\/getFeedAd|pb\/page|excellent\/personalized))\?cmd script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=贴吧proto, argument=[{per_filter_video_thread}]
+http-response ^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Json.js, requires-body=true, timeout=10, tag=贴吧json
+http-response ^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/c\/(b\/ad\/adBid|f\/(frs\/(page|threadlist|generalTabList)|ad\/getFeedAd|pb\/page|excellent\/personalized))\?cmd script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/BaiDuTieBa/JS/BaiDuTieBa-Proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=贴吧proto, argument=[{per_filter_video_thread}]
 
 [MITM]
 hostname = tiebac.baidu.com

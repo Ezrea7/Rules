@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Task
 #!author= baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/KuWoSVIP.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/KuWoSVIP.png
 #!openUrl=https://360.com/kuwo
 
 [Argument]
@@ -13,9 +13,9 @@ notify = switch,true,tag=每次通知,desc=关闭后仅在23点发送汇总通�
 
 [Script]
 # > 酷我音乐签到助手
-cron "15 7-23/1 * * *" script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/KuWoTask/JS/JS-1/KuWoTask.js, timeout=120, tag=酷我音乐签到, argument=[{phone},{ocr},{notify}]
+cron "15 7-23/1 * * *" script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/KuWoTask/JS/JS-1/KuWoTask.js, timeout=120, tag=酷我音乐签到, argument=[{phone},{ocr},{notify}]
 
-http-request ^https?:\/\/360\.com\/kuwo script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Task/KuWoTask/JS/JS-1/KuWoTask.js, requires-body=true, timeout=60, tag=酷我助手面板, argument=[{phone},{ocr},{notify}]
+http-request ^https?:\/\/360\.com\/kuwo script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Task/KuWoTask/JS/JS-1/KuWoTask.js, requires-body=true, timeout=60, tag=酷我助手面板, argument=[{phone},{ocr},{notify}]
 
 [MITM]
 hostname = 360.com

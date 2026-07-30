@@ -11,5 +11,5 @@ CNPing = script-name=CNPing,update-interval={{{update-interval}}}
 USPing = script-name=USPing,update-interval={{{update-interval}}}
 
 [Script]
-CNPing = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Ping/JS/CN.js, script-update-interval={{{script-update}}},argument=Size={{{Size}}}&cnUrl={{{cnUrl}}}
-USPing = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Ping/JS/US.js, script-update-interval={{{script-update}}},argument=Size={{{Size}}}&usUrl={{{usUrl}}}
+CNPing = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/Ping/JS/CN.js, script-update-interval={{{script-update}}},argument=Size={{{Size}}}&cnUrl={{{cnUrl}}}
+USPing = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/Ping/JS/US.js, script-update-interval={{{script-update}}},argument=Size={{{Size}}}&usUrl={{{usUrl}}}

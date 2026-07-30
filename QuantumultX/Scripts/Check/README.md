@@ -8,107 +8,107 @@
 
 <h3 align="center">Disney-UI-Check</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Disney-UI-Check.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Disney-UI-Check.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Disney-UI-Check.js, tag=Disney⁺ 查询, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Disney.png, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Disney-UI-Check.js, tag=Disney⁺ 查询, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/Disney.png, enabled=true
 ```
 
 
 <h3 align="center">Geo-Location</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Geo-Location.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Geo-Location.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Geo-Location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Geo-Location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system
 ```
 
 
 <h3 align="center">Netflix&YouTube-UI-Check</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Netflix%26YouTube-UI-Check.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Netflix%26YouTube-UI-Check.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Netflix%26YouTube-UI-Check.js, tag=YouTube/Netflix 解锁查询, img-url=checkmark.seal.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Netflix%26YouTube-UI-Check.js, tag=YouTube/Netflix 解锁查询, img-url=checkmark.seal.system, enabled=true
 ```
 
 
 <h3 align="center">Streaming-UI-Check</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Streaming-UI-Check.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Streaming-UI-Check.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Streaming-UI-Check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Streaming-UI-Check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true
 ```
 
 
 <h3 align="center">Switch-Check-DisneyPlus</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Switch-Check-DisneyPlus.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Switch-Check-DisneyPlus.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Switch-Check-DisneyPlus.js, tag=Disneyᐩ 检测&切换, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Disney.png, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Switch-Check-DisneyPlus.js, tag=Disneyᐩ 检测&切换, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/Disney.png, enabled=true
 ```
 
 
 <h3 align="center">Switch-Check-Google</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Switch-Check-Google.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Switch-Check-Google.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Switch-Check-Google.js, tag=Google送中检测, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Google.png, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Switch-Check-Google.js, tag=Google送中检测, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/Google.png, enabled=true
 ```
 
 
 <h3 align="center">Switch-Check-Netflix</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Switch-Check-Netflix.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Switch-Check-Netflix.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Switch-Check-Netflix.js, tag=Netflix检测, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Netflix.png, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Switch-Check-Netflix.js, tag=Netflix检测, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/Netflix.png, enabled=true
 ```
 
 
 <h3 align="center">Switch-Check-YouTube</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Switch-Check-YouTube.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Switch-Check-YouTube.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Switch-Check-YouTube.js, tag=YouTube Premium检测, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/YouTube.png, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Switch-Check-YouTube.js, tag=YouTube Premium检测, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/YouTube.png, enabled=true
 ```
 
 
 <h3 align="center">Traffic-Check</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Traffic-Check.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Traffic-Check.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Traffic-Check.js, tag=策略流量查询, img-url=checkmark.seal.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Traffic-Check.js, tag=策略流量查询, img-url=checkmark.seal.system, enabled=true
 ```
 
 
 <h3 align="center">YouTubeCheck</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/YouTubeCheck.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/YouTubeCheck.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/YouTubeCheck.js, tag=YouTube 查询, img-url=text.magnifyingglass.system, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/YouTubeCheck.js, tag=YouTube 查询, img-url=text.magnifyingglass.system, enabled=true
 ```
 
 
 <h3 align="center">NeteaseMusicUnlockCheck</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/NeteaseMusicUnlockCheck.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/NeteaseMusicUnlockCheck.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/NeteaseMusicUnlockCheck.js, tag=查询节点能否解锁网易云灰色音乐, img-url=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Netease_Music.png, enabled=true
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/NeteaseMusicUnlockCheck.js, tag=查询节点能否解锁网易云灰色音乐, img-url=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/Qure/Image/Color/Netease_Music.png, enabled=true
 ```
 
 
 <h3 align="center">Server-Info-Pure</h3>
 
-<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/IMG/Server-Info-Pure.jpg" width="400"></div>
+<div align="center"><img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/IMG/Server-Info-Pure.jpg" width="400"></div>
 
 ```
-event-interaction https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/Check/Server-Info-Pure.js, tag=tag=节点详情(Pure), img-url=checkmark.shield.fill.system
+event-interaction https://raw.githubusercontent.com/Ezrea7/Rules/main/QuantumultX/Scripts/Check/Server-Info-Pure.js, tag=tag=节点详情(Pure), img-url=checkmark.shield.fill.system
 ```

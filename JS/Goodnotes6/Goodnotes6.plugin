@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Goodnotes6.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/Goodnotes6.png
 #!openUrl=https://apps.apple.com/app/id1444383602
 
 [Script]
 # > GoodNotes6☆解锁会员权限
-http-response ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, requires-body=true, timeout=60, tag=GoodNotes6☆解锁会员
-http-request ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, timeout=60, tag=GoodNotes6☆解锁会员
+http-response ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, requires-body=true, timeout=60, tag=GoodNotes6☆解锁会员
+http-request ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, timeout=60, tag=GoodNotes6☆解锁会员
 
 [MITM]
 hostname = isi.csan.goodnotes.com

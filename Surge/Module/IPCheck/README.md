@@ -3,7 +3,7 @@
 <h4 align="center">一个可以显示你当前节点信息的面板 </h4>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/IPCheck/JS/IMG/IP-Check.PNG" width="400" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Rules/main/Surge/Module/IPCheck/JS/IMG/IP-Check.PNG" width="400" /> </div>
 </p>
 
 ## 功能

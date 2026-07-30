@@ -3,7 +3,7 @@
 #!date=2026-05-01
 #!category=🐹 Ezrea7 Premium
 #!author= baby[https://github.com/Yu9191/NeteasemusicAd]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/NeteaseMusic.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/NeteaseMusic.png
 #!openUrl = https://apps.apple.com/app/id590338362
 
 [Argument]
@@ -52,25 +52,25 @@ DOMAIN, iadmusicmat.music.126.net, REJECT
 DOMAIN, iadmusicmatvideo.music.126.net, REJECT
 
 [Script]
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=通用 (评论区/广告/红点), argument=LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=通用 (评论区/广告/红点), argument=LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(music-vip-membership\/(client|front)\/vip\/info|vipnewcenter\/app\/resource\/newaccountpage|vip-center-bff\/(card\/entry\/list|float\/data|quality\/auth\/info)|v1\/user\/info) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=伪 VIP, argument=VipEnabled={VipEnabled}&VipLevel={VipLevel}&GrowthValue={GrowthValue}&VipExpire={VipExpire}&LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(music-vip-membership\/(client|front)\/vip\/info|vipnewcenter\/app\/resource\/newaccountpage|vip-center-bff\/(card\/entry\/list|float\/data|quality\/auth\/info)|v1\/user\/info) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=伪 VIP, argument=VipEnabled={VipEnabled}&VipLevel={VipLevel}&GrowthValue={GrowthValue}&VipExpire={VipExpire}&LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/sp\/flow\/(status\/v2|popup\/query) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=免流量包伪造+弹窗清空, argument=VipEnabled={VipEnabled}&VipExpire={VipExpire}&LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/sp\/flow\/(status\/v2|popup\/query) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=免流量包伪造+弹窗清空, argument=VipEnabled={VipEnabled}&VipExpire={VipExpire}&LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=底部 Tab, argument=FX={FX}&MY={MY}&DT={DT}&GZ={GZ}&SOU={SOU}&SY_NAME={SY_NAME}&WD_NAME={WD_NAME}&MY_NAME={MY_NAME}&DT_NAME={DT_NAME}&FX_NAME={FX_NAME}&LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=底部 Tab, argument=FX={FX}&MY={MY}&DT={DT}&GZ={GZ}&SOU={SOU}&SY_NAME={SY_NAME}&WD_NAME={WD_NAME}&MY_NAME={MY_NAME}&DT_NAME={DT_NAME}&FX_NAME={FX_NAME}&LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/top\/tab script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=顶部 Tab, argument=AIXG={AIXG}&HDTAB={HDTAB}&LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/top\/tab script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=顶部 Tab, argument=AIXG={AIXG}&HDTAB={HDTAB}&LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/vipactivity\/app\/cashier\/setting\/get script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=收银台广告, argument=LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/vipactivity\/app\/cashier\/setting\/get script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=收银台广告, argument=LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=首页推荐, argument=PRGG={PRGG}&PRDRD={PRDRD}&PRSCVPT={PRSCVPT}&PRST={PRST}&HMPR={HMPR}&PRRR={PRRR}&PRRK={PRRK}&PRMST={PRMST}&PRCN={PRCN}&PRPRS={PRPRS}&PRRSS={PRRSS}&LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)) script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=首页推荐, argument=PRGG={PRGG}&PRDRD={PRDRD}&PRSCVPT={PRSCVPT}&PRST={PRST}&HMPR={HMPR}&PRRR={PRRR}&PRRK={PRRK}&PRMST={PRMST}&PRCN={PRCN}&PRPRS={PRPRS}&PRRSS={PRRSS}&LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=发现页, argument=LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=发现页, argument=LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=我的页面广告, argument=LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=我的页面广告, argument=LogLevel={LogLevel}
 
-http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=显示未关注你的人, argument=LogLevel={LogLevel}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/NeteaseCloudMusic/JS/JS-7/JS/NeteaseCloudMusic.js, requires-body=true, binary-body-mode=true, timeout=20, tag=显示未关注你的人, argument=LogLevel={LogLevel}
 
 [MitM]
 hostname = ipv4.music.163.com, interface.music.163.com, interface*.music.163.com

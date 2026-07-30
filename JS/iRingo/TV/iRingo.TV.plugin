@@ -4,7 +4,7 @@
 #!date = 2026-07-30
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://NSRingo.github.io/guide/apple-tv
-#!icon = https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/IMG/iRingo/TV.png
+#!icon = https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/IMG/iRingo/TV.png
 #!openUrl = http://boxjs.com/#/app/iRingo.TV
 
 [Argument]
@@ -20,9 +20,9 @@ DOMAIN,known-issues.apple.com,REJECT-DROP
 ^https?:\/\/play-edge-cdn\.itunes\.apple\.com header https://play-edge.itunes.apple.com
 
 [Script]
-http-request ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/TV/JS/request.bundle.js, requires-body=1, tag=📺 TV.uts.request, argument=[{ThirdParty},{isWorkaroundSSLPinning},{LogLevel}]
-http-response ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/TV/JS/response.bundle.js, requires-body=1, tag=📺 TV.uts.response, argument=[{ThirdParty},{isWorkaroundSSLPinning},{LogLevel}]
-http-request ^https?:\/\/umc-tempo-api\.apple\.com\/(v1|v2|v3)\/ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/TV/JS/request.bundle.js, requires-body=1, tag=📺 TV.umc.request
+http-request ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/ script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iRingo/TV/JS/request.bundle.js, requires-body=1, tag=📺 TV.uts.request, argument=[{ThirdParty},{isWorkaroundSSLPinning},{LogLevel}]
+http-response ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/ script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iRingo/TV/JS/response.bundle.js, requires-body=1, tag=📺 TV.uts.response, argument=[{ThirdParty},{isWorkaroundSSLPinning},{LogLevel}]
+http-request ^https?:\/\/umc-tempo-api\.apple\.com\/(v1|v2|v3)\/ script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/iRingo/TV/JS/request.bundle.js, requires-body=1, tag=📺 TV.umc.request
 
 [MITM]
 hostname = uts-api.itunes.apple.com, umc-tempo-api.apple.com, play-cdn.itunes.apple.com, play-edge-cdn.itunes.apple.com

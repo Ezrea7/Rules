@@ -3,18 +3,18 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite], 墨鱼ddgksf2013[https://github.com/ddgksf2013/MoYu], baby[https://github.com/Yu9191], 枫叶afengye[https://github.com/afengye/QX], 骨钉Guding88[https://github.com/Guding88/Script/blob/main/Readme.md]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/RevenueCat-icon.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/RevenueCat-icon.png
 
 [Script]
 # > Revenuecat 系列解锁合集-1
-Reheji = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Revenuecat/JS/JS-1/Reheji.js, requires-body=true, max-size=-1, timeout=60
-Reheji = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Revenuecat/JS/JS-1/Reheji.js, timeout=60
+Reheji = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Revenuecat/JS/JS-1/Reheji.js, requires-body=true, max-size=-1, timeout=60
+Reheji = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Revenuecat/JS/JS-1/Reheji.js, timeout=60
 # > Revenuecat 系列解锁合集-2
-crack = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Revenuecat/JS/JS-4/crack.js, requires-body=true, max-size=-1, timeout=60
-crack = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Revenuecat/JS/JS-4/crack.js, timeout=60
+crack = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Revenuecat/JS/JS-4/crack.js, requires-body=true, max-size=-1, timeout=60
+crack = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/.+$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Revenuecat/JS/JS-4/crack.js, timeout=60
 # > Revenuecat 系列解锁合集-3
-revenuecat = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Revenuecat/JS/JS-3/Revenuecat.js, requires-body=true, max-size=-1, timeout=60
-revenuecat = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Revenuecat/JS/JS-3/Revenuecat.js, timeout=60
+revenuecat = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Revenuecat/JS/JS-3/Revenuecat.js, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$), script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Revenuecat/JS/JS-3/Revenuecat.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com, api.rc-backup.com

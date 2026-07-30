@@ -8,8 +8,8 @@
 ********************************
 [rewrite_local]
 # >Lake涂色书-解锁订阅
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Lake/JS/Lake.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Lake/JS/Lake.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-response-body https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Lake/JS/Lake.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) url script-request-header https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/Lake/JS/Lake.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/

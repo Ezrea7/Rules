@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 Ezrea7 Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/DeJianXS.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/DeJianXS.png
 #!openUrl=https://apps.apple.com/app/id1454487240
 
 [Script]
 # > 得间小说-解锁会员
-得间小说-解锁会员 = type=http-response, pattern=^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/DeJianXS/JS/DeJianXS.js, requires-body=true, max-size=-1, timeout=60
+得间小说-解锁会员 = type=http-response, pattern=^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/DeJianXS/JS/DeJianXS.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% dj.palmestore.com
