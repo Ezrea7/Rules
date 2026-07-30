@@ -26,4 +26,4 @@
 策略面板 = script-name=奈飞查询,update-interval=3600
 
 [Script]
-奈飞查询 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Netflix/JS/NF-Check.js, argument=title=𝗡𝗘𝗧𝗙𝗟𝗜𝗫
+奈飞查询 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Netflix/JS/NF-Check.js, argument=title=𝗡𝗘𝗧𝗙𝗟𝗜𝗫

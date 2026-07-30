@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >Perfect365 解锁VIP
-^https?:\/\/service\.perfect365\.com\/svr\/perfect365\/services url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Perfect365/JS/Perfect365.js
+^https?:\/\/service\.perfect365\.com\/svr\/perfect365\/services url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Perfect365/JS/Perfect365.js
 
 [mitm]
 hostname = service.perfect365.com

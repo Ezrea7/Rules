@@ -10,6 +10,6 @@
 TGQuick = title="TG QuickSend",content="下拉刷新生成链接 / 刷新切换预设",style=info,script-name=tg_panel,update-interval=1
 
 [Script]
-tg_panel = type=generic,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TGQuickSend/JS/TG.js?v={{{VER}}},timeout=5,argument=mode=panel&list={{{LIST}}}
+tg_panel = type=generic,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TGQuickSend/JS/TG.js?v={{{VER}}},timeout=5,argument=mode=panel&list={{{LIST}}}
 
-tg_notify_daily = type=cron,cronexp="{{{CRONEXP}}}",script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TGQuickSend/JS/TG.js?v={{{VER}}},timeout=10,argument=mode=notify&bot={{{BOT}}}&text={{{TEXT}}}&title={{{TITLE}}}&subtitle={{{SUBTITLE}}}&open={{{OPEN}}}
+tg_notify_daily = type=cron,cronexp="{{{CRONEXP}}}",script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TGQuickSend/JS/TG.js?v={{{VER}}},timeout=10,argument=mode=notify&bot={{{BOT}}}&text={{{TEXT}}}&title={{{TITLE}}}&subtitle={{{SUBTITLE}}}&open={{{OPEN}}}

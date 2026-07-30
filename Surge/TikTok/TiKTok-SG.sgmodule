@@ -1,7 +1,7 @@
 #!name=TikTok SG
 #!desc=解锁 TikTok 新加坡 地区
 #!category=🐹 BOBO TikTok
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/TikTok.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/TikTok.png
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) SG 307

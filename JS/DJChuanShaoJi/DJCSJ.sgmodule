@@ -3,12 +3,12 @@
 #!date=2025-12-31
 #!category=🐹 BOBO Premium
 #!author= 伟人WeiGiegie[https://github.com/WeiGiegie/666]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/DJChuanShaoJi.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/DJChuanShaoJi.png
 #!openUrl=https://apps.apple.com/app/id6469281582
 
 [Script]
 # > DJ串烧集-解锁VIP
-DJ串烧集 = type=http-response, pattern=^http:\/\/csj\.yy-5\.com\/api\/User\/Info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/DJChuanShaoJi/JS/JS-1/DJCSJ.js, requires-body=true, max-size=-1, timeout=60
+DJ串烧集 = type=http-response, pattern=^http:\/\/csj\.yy-5\.com\/api\/User\/Info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/DJChuanShaoJi/JS/JS-1/DJCSJ.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% csj.yy-5.com

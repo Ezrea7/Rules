@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >泼辣修图解锁Pro
-^https?:\/\/api\.polaxiong\.com\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/PolarrXT/JS/PolarrXT.js
+^https?:\/\/api\.polaxiong\.com\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PolarrXT/JS/PolarrXT.js
 
 [mitm]
 hostname = api.polaxiong.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author= 叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Quark.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Quark.png
 #!openUrl=https://apps.apple.com/app/id1160172628
 
 [Script]
 # > 夸克网盘 解锁SVIP
-http-response ^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Quark/JS/Quark.js, requires-body=true, timeout=60, tag=夸克网盘解锁SVIP
+http-response ^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Quark/JS/Quark.js, requires-body=true, timeout=60, tag=夸克网盘解锁SVIP
 
 [MITM]
 hostname = drive*.quark.cn

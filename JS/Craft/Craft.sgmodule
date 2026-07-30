@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Craft.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Craft.png
 #!openUrl=https://apps.apple.com/app/id1487937127
 
 [Script]
 # > Craft解锁Premium
-Craft解锁Premium = type=http-response, pattern=^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Craft/JS/Craft.js, requires-body=true, max-size=-1, timeout=60
+Craft解锁Premium = type=http-response, pattern=^https?:\/\/(api|docs)\.craft\.do\/(api\/)?(auth\/v\d\/profile|subscription\/(receipt|teams\/get-subscriptions)), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Craft/JS/Craft.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.craft.do

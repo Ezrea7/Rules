@@ -11,16 +11,16 @@ hostname = %APPEND% kill-active-requests.com
 
 [Script]
 # Cron
-{{{CRON_SCRIPT_NAME}}}=type=cron,cronexp="{{{CRON_EXP}}}",wake-system={{{CRON_WAKE_SYSTEM}}},timeout=120,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Network/JS/kill-active-requests-beta.js,argument="CRON_NOTIFY={{{CRON_NOTIFY}}}&CRON_RULE={{{CRON_RULE}}}&TYPE=CRON"
+{{{CRON_SCRIPT_NAME}}}=type=cron,cronexp="{{{CRON_EXP}}}",wake-system={{{CRON_WAKE_SYSTEM}}},timeout=120,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-beta.js,argument="CRON_NOTIFY={{{CRON_NOTIFY}}}&CRON_RULE={{{CRON_RULE}}}&TYPE=CRON"
 
 # Request
-通过请求手动打断连接 = type=http-request,pattern=^https?:\/\/kill-active-requests\.com,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Network/JS/kill-active-requests-beta.js
+通过请求手动打断连接 = type=http-request,pattern=^https?:\/\/kill-active-requests\.com,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-beta.js
 
 # Event
-{{{EVENT_SCRIPT_NAME}}} = type=event,event-name=network-changed,timeout=30,script-update-interval=3600,debug=false,enable=true,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Network/JS/kill-active-requests-beta.js,argument="EVENT_NOTIFY={{{EVENT_NOTIFY}}}"
+{{{EVENT_SCRIPT_NAME}}} = type=event,event-name=network-changed,timeout=30,script-update-interval=3600,debug=false,enable=true,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-beta.js,argument="EVENT_NOTIFY={{{EVENT_NOTIFY}}}"
 
 # Panel
-面板手动打断连接 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Network/JS/kill-active-requests-beta.js,argument="icon={{{ICON}}}&icon-color={{{ICON-COLOR}}}"
+面板手动打断连接 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Network/JS/kill-active-requests-beta.js,argument="icon={{{ICON}}}&icon-color={{{ICON-COLOR}}}"
 
 [Panel]
 面板手动打断连接 = script-name=面板手动打断连接,update-interval=1

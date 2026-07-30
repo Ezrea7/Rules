@@ -4,7 +4,7 @@
 # 作者:510004015
 *******************************
 [rewrite_local]
-^https:\/\/vas\.wps\.cn\/query\/api\/v1\/list_purchase_info url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/WPS/JS/WPSOffice.js
+^https:\/\/vas\.wps\.cn\/query\/api\/v1\/list_purchase_info url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/WPS/JS/WPSOffice.js
 
 [mitm]
 hostname = vas.wps.cn

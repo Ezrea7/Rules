@@ -2,8 +2,8 @@
 #!desc=自动将 GitHub 网页版文件链接重定向为 Raw 原始文件链接
 #!date=2026-05-30
 #!category=🐹 BOBO Enhance
-#!author=波波老师[https://github.com/BOBOLAOSHIV587/Rules]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Git-To-CDN.png
+#!author=波波老师[https://github.com/Ezrea7/Script]
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Git-To-CDN.png
 
 [URL Rewrite]
 # > GitHub源文件重定向为Raw

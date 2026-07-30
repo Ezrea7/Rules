@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # > VN视频剪辑解锁订阅
-^https?:\/\/api2\.vlognow\.me\/vn-pay\/api\/v1\/public\/iap\/receipt\/status url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/VN/JS/VlogNowProCrack.js
+^https?:\/\/api2\.vlognow\.me\/vn-pay\/api\/v1\/public\/iap\/receipt\/status url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/VN/JS/VlogNowProCrack.js
 
 [mitm] 
 hostname = api2.vlognow.me

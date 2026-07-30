@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Penbook.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Penbook.png
 #!openUrl=https://apps.apple.com/app/id1473064295
 
 [Script]
 # > Penbook解锁pro
-http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Penbook/JS/Penbook.js, requires-body=true, timeout=60, tag=Penbook解锁pro
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Penbook/JS/Penbook.js, requires-body=true, timeout=60, tag=Penbook解锁pro
 
 [MITM]
 hostname = api.revenuecat.com

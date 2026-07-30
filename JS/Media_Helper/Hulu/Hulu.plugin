@@ -7,15 +7,15 @@
 
 [Script]
 # > Hulu去广告
-http-response ^https:\/\/vodmanifest\.hulustream\.com\/hulu\/v\d+\/hls\/(video|audio)\/\d+\/ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去广告
-http-response ^https:\/\/vodmanifest\.hulustream\.com\/hulu\/v\d+\/hls\/vtt\/\d+\/playlist\.m3u8 script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去广告
+http-response ^https:\/\/vodmanifest\.hulustream\.com\/hulu\/v\d+\/hls\/(video|audio)\/\d+\/ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去广告
+http-response ^https:\/\/vodmanifest\.hulustream\.com\/hulu\/v\d+\/hls\/vtt\/\d+\/playlist\.m3u8 script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去广告
 
 # > Hulu强制1080p
-http-response ^https:\/\/vodmanifest\.hulustream\.com\/hulu\/v\d+\/hls\/multivariant\/\d+\/playlist\.m3u8 script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu强制1080p
+http-response ^https:\/\/vodmanifest\.hulustream\.com\/hulu\/v\d+\/hls\/multivariant\/\d+\/playlist\.m3u8 script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu强制1080p
 
 # > Hulu去播放器台标水印
-http-response ^https:\/\/discover\.hulu\.com\/content\/v\d+\/hubs\/series\/ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去播放器台标水印
-http-response ^https:\/\/discover\.hulu\.com\/content\/v\d+\/browse\/upnext\? script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去播放器台标水印
+http-response ^https:\/\/discover\.hulu\.com\/content\/v\d+\/hubs\/series\/ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去播放器台标水印
+http-response ^https:\/\/discover\.hulu\.com\/content\/v\d+\/browse\/upnext\? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Hulu/JS/Hulu.js, requires-body=true, timeout=60, tag=Hulu去播放器台标水印
 
 [MITM]
 hostname = discover.hulu.com, vodmanifest.hulustream.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/ImageX.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/ImageX.png
 #!openUrl=https://apps.apple.com/app/id1668530080
 
 [Script]
 # > Imagex-AI图片放大改善图片画质解锁Pro
-Imagex-AI图片放大改善图片画质解锁Pro = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ImageX/JS/ImageX.js, requires-body=true, max-size=-1, timeout=60
+Imagex-AI图片放大改善图片画质解锁Pro = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ImageX/JS/ImageX.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com

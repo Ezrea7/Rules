@@ -12,7 +12,7 @@
 ^https?:\/\/surgetool\.com\/?$ - reject
 
 [Script]
-FindRule = type=http-request, pattern=^https?:\/\/surgetool\.com\/findrule, requires-body=1, timeout=100, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/Surge-FindRule.js, argument="{"CN":"{{{KEY_DIRECT}}}","FINAL":"{{{KEY_PROXY}}}","COUNT":"{{{COUNT}}}","CNIP":"{{{ON_DIRECT_IP}}}","CNHOST":"{{{ON_DIRECT_HOST}}}","FINALIP":"{{{ON_PROXY_IP}}}","FINALHOST":"{{{ON_PROXY_HOST}}}"}"
+FindRule = type=http-request, pattern=^https?:\/\/surgetool\.com\/findrule, requires-body=1, timeout=100, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/Surge-FindRule.js, argument="{"CN":"{{{KEY_DIRECT}}}","FINAL":"{{{KEY_PROXY}}}","COUNT":"{{{COUNT}}}","CNIP":"{{{ON_DIRECT_IP}}}","CNHOST":"{{{ON_DIRECT_HOST}}}","FINALIP":"{{{ON_PROXY_IP}}}","FINALHOST":"{{{ON_PROXY_HOST}}}"}"
 
 [MITM]
 hostname = %APPEND% surgetool.com

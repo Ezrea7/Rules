@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 BOBO AD
 #!author= 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md], ZenmoFeiShi[https://github.com/ZenmoFeiShi]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Keep.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Keep.png
 #!openUrl=https://apps.apple.com/app/id952694580
 
 [Rule]
@@ -51,10 +51,10 @@ DOMAIN, httpdns.calorietech.com, REJECT
 
 [Script]
 # 移除我的页面广告
-http-response ^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my script-path = https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Keep/JS/Keep.js, requires-body = true, tag = [Keep]移除我的页面广告
+http-response ^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my script-path = https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Keep/JS/Keep.js, requires-body = true, tag = [Keep]移除我的页面广告
 
 # 移除首页活动标签
-http-response ^https:\/\/api\.gotokeep\.com\/config\/v\d\/basic script-path = https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Keep/JS/Keep.js, requires-body = true, tag = [Keep]移除首页活动标签
+http-response ^https:\/\/api\.gotokeep\.com\/config\/v\d\/basic script-path = https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Keep/JS/Keep.js, requires-body = true, tag = [Keep]移除首页活动标签
 
 [MITM]
 hostname = api.gotokeep.com

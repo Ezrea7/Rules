@@ -7,7 +7,7 @@
 >「 注意事项 」         使用此脚本，会导致AppleStore无法切换账户，解决方法[关闭QX切换账户，或关闭MITM，或删除脚本，或去设置媒体与购买项目处切换ID]
 
 [rewrite_local]
-^https?:\/\/api\.alohaprofile\.com\/v1\/profile_info url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AlohaBrowser/JS/AlohaBrowser.js
+^https?:\/\/api\.alohaprofile\.com\/v1\/profile_info url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AlohaBrowser/JS/AlohaBrowser.js
 
 [mitm]
 hostname = api.alohaprofile.com

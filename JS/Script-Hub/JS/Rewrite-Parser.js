@@ -622,7 +622,7 @@ if (binaryInfo != null && binaryInfo.length > 0) {
           }
         }
       }
-      const jsurl = 'https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Script-Hub/JS/scripts/body-rewrite.js'
+      const jsurl = 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/scripts/body-rewrite.js'
       let jstype = `http-${httpType}`
       const jsptn = regex
       let args = [[action, newSuffixArray]]
@@ -2112,8 +2112,8 @@ function getQxReInfo(x, y, mark) {
   let jsptn = x.split(/\s+url\s+re/)[0].replace(/^#/, '')
   let jsname = /body/.test(hdorbd) ? 'replaceBody' : 'replaceHeader'
   let jsurl = /header/.test(hdorbd)
-    ? 'https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Script-Hub/JS/scripts/replace-header.js'
-    : 'https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Script-Hub/JS/scripts/replace-body.js'
+    ? 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/scripts/replace-header.js'
+    : 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/scripts/replace-body.js'
   let rearg1 = x.split(breakpoint)[1].trim()
   let rearg2 = x.split(breakpoint)[2].trim()
   let jsarg = encodeURIComponent(rearg1 + '->' + rearg2)
@@ -2324,7 +2324,7 @@ function getMockInfo(x, mark, y) {
           num: y,
         })
       } else if (m2rType == null && mocktype != 'file') {
-        jsurl = 'https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Script-Hub/JS/scripts/echo-response.js'
+        jsurl = 'https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Script-Hub/JS/scripts/echo-response.js'
         mockstatus = mockstatus ? '&status-code=' + mockstatus : ''
         jsarg = `${mocktype}=` + encodeURIComponent(mockurl) + mockstatus
         jsBox.push({

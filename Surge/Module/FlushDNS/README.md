@@ -3,7 +3,7 @@
 <h4 align="center">一个可以快速清除Surge DNS缓存的面板 </h4>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/FlushDNS/JS/IMG/FlushDNS.PNG" width="400" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/FlushDNS/JS/IMG/FlushDNS.PNG" width="400" /> </div>
 </p>
 
 ## 功能

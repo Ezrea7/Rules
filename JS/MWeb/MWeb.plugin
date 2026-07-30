@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/MWeb.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/MWeb.png
 #!openUrl=https://apps.apple.com/app/id1183407767
 
 [Script]
 # > MWeb-编辑器/笔记/发布解锁永久会员
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/MWeb/JS/MWeb.js, requires-body=true, timeout=60, tag=MWeb
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/MWeb/JS/MWeb.js, requires-body=true, timeout=60, tag=MWeb
 
 [MITM]
 hostname = buy.itunes.apple.com

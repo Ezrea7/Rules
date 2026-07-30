@@ -3,7 +3,7 @@
 #!date=2026-06-22
 #!category=🐹 BOBO Premium
 #!author=chmg2025[https://github.com/chmg2025]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/KuGou.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/KuGou.png
 #!openUrl=https://apps.apple.com/app/id472208016
 
 [Rule]
@@ -28,8 +28,8 @@ IP-CIDR,157.255.11.247/32,REJECT,no-resolve
 IP-CIDR,111.206.99.202/32,REJECT,no-resolve
 
 [Script]
-http-response ^https?:\/\/.*\.kugou\.com\/(v1|v2|v3|v5|mobile|media.store\/v1|adp\/ad\/v1|ads.gateway/v2|fxsing\/vip\/user|sing7\/homepage\/json\/v3\/vip)\/(login_by_token|get_my_info|get_login_extend_info|vipinfoV2|get_res_privilege\/lite|mine_top_banner|task_center_entrance|info|tip).* script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/KuGouMusic/JS/JS-4/KuGou.js, requires-body=true, timeout=60, tag=酷狗
-http-response ^https?:\/\/.*\.kugou\.com\/(v5|tracker\/v5)\/url script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/KuGouMusic/JS/JS-4/KuGou.js, requires-body=true, timeout=60, tag=酷狗V5
+http-response ^https?:\/\/.*\.kugou\.com\/(v1|v2|v3|v5|mobile|media.store\/v1|adp\/ad\/v1|ads.gateway/v2|fxsing\/vip\/user|sing7\/homepage\/json\/v3\/vip)\/(login_by_token|get_my_info|get_login_extend_info|vipinfoV2|get_res_privilege\/lite|mine_top_banner|task_center_entrance|info|tip).* script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/KuGouMusic/JS/JS-4/KuGou.js, requires-body=true, timeout=60, tag=酷狗
+http-response ^https?:\/\/.*\.kugou\.com\/(v5|tracker\/v5)\/url script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/KuGouMusic/JS/JS-4/KuGou.js, requires-body=true, timeout=60, tag=酷狗V5
 
 [MITM]
 hostname = *.kugou.com

@@ -3,14 +3,14 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=浥轻尘yqc007[https://github.com/yqc007/QuantumultX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/TIDAL.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/TIDAL.png
 #!openUrl=https://apps.apple.com/app/id913943275
 
 [Script]
 # > TIDAL解锁HiFi Plus
-TidalPlus = type=http-request,pattern=^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)),requires-body=0,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TIDAL/JS/TIDALHiFiPlusCrack.js
-TIDALHiFiPlusCrack = type=http-request, pattern=^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TIDAL/JS/TIDALHiFiPlusCrack.js, requires-body=true, max-size=-1, timeout=60
-TIDALHiFiPlusCrack = type=http-response, pattern=^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TIDAL/JS/TIDALHiFiPlusCrack.js, requires-body=true, max-size=-1, timeout=60
+TidalPlus = type=http-request,pattern=^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)),requires-body=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TIDAL/JS/TIDALHiFiPlusCrack.js
+TIDALHiFiPlusCrack = type=http-request, pattern=^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TIDAL/JS/TIDALHiFiPlusCrack.js, requires-body=true, max-size=-1, timeout=60
+TIDALHiFiPlusCrack = type=http-response, pattern=^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TIDAL/JS/TIDALHiFiPlusCrack.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.tidal.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/PixImagine.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/PixImagine.png
 #!openUrl=https://apps.apple.com/app/id6469340036
 
 [Script]
 # > PixImagine lifetime解锁
-http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/PixImagine/JS/PixImagine.js, requires-body=true, timeout=60, tag=PixImagine
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PixImagine/JS/PixImagine.js, requires-body=true, timeout=60, tag=PixImagine
 
 [MITM]
 hostname = api.revenuecat.com

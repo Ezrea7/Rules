@@ -1,6 +1,6 @@
 <div align="center">
     
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/ruleMatchingTime/JS/IMG/ruleMatchingTime.png" width="280">
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/ruleMatchingTime/JS/IMG/ruleMatchingTime.png" width="280">
 
 </div>
 
@@ -9,7 +9,7 @@
 **一、获取模块**
 
 ```
-https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/ruleMatchingTime/ruleMatchingTime.sgmodule
+https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/ruleMatchingTime/ruleMatchingTime.sgmodule
 ```
 
 

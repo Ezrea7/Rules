@@ -5,10 +5,10 @@
 
 
 
-远程引用地址：`https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/Kitty/Kitty.json`
+远程引用地址：`https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Kitty/Kitty.json`
 
 
 
 
 ## 预览图效果
-![markdown](https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/Kitty/Image/Preview.png)
+![markdown](https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Kitty/Image/Preview.png)

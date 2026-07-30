@@ -13,7 +13,7 @@
 <div align="center"><img src="IMG/IP-API-A.png" width="400"></div>
 
 ```
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-API-A.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-API-A.js
 ```
 
 
@@ -22,7 +22,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 <div align="center"><img src="IMG/IP-API-B.png" width="400"></div>
 
 ```
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-API-B.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-API-B.js
 ```
 
 
@@ -31,7 +31,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 <div align="center"><img src="IMG/IP-API-C.png" width="400"></div>
 
 ```
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-API-C.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-API-C.js
 ```
 
 
@@ -40,7 +40,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 <div align="center"><img src="IMG/IP-API-D.png" width="400"></div>
 
 ```
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-API-D.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-API-D.js
 ```
 
 
@@ -49,7 +49,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 <div align="center"><img src="IMG/IP-Check.png" width="400"></div>
 
 ```
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-Check.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-Check.js
 ```
 
 
@@ -58,6 +58,6 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 <div align="center"><img src="IMG/IP-Custom.png" width="400"></div>
 
 ```
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-Custom.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-Custom.js
 ```
 

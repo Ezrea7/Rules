@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/FilmicPro/JS/FilmicPro.js
+^https:\/\/filmicpro\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/FilmicPro/JS/FilmicPro.js
 
 [mitm]
 hostname = filmicpro.oracle.bendingspoonsapps.com

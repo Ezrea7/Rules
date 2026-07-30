@@ -5,7 +5,7 @@
 # 修改 @BOBOLAOSHIV587
 ====================================
 [rewrite_local]
-^https?:\/\/api\.x-storm\.com\/app\/.+$ url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/StormSniffer/QX-StormSniffer.js
+^https?:\/\/api\.x-storm\.com\/app\/.+$ url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/StormSniffer/QX-StormSniffer.js
 
 [mitm]
 hostname = *.x-storm.com

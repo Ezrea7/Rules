@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >蜗牛睡眠解锁Vip
-^https?:\/\/snailsleep\.net\/snail\/v\d\/profile\/get. url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Snailsleep/JS/Snailsleep.js
+^https?:\/\/snailsleep\.net\/snail\/v\d\/profile\/get. url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Snailsleep/JS/Snailsleep.js
 
 [mitm]
 hostname = snailsleep.net

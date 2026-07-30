@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100" src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/sticker.webp">
+<img width="100" src="https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/sticker.webp">
 <h2 align="center">Rules<h2>
 </div>
 
@@ -7,7 +7,7 @@
 
 | 统计项   | 数量                                                                 |
 | -------- | -------------------------------------------------------------------- |
-| 🧚‍♀️ 访问量 | [![总访问量](https://komarev.com/ghpvc/?username=BOBOLAOSHIV587&color=green)](https://github.com/BOBOLAOSHIV587/Rules) |
+| 🧚‍♀️ 访问量 | [![总访问量](https://komarev.com/ghpvc/?username=BOBOLAOSHIV587&color=green)](https://github.com/Ezrea7/Script) |
 | 🧚‍♀️ 关注者   | [![GitHub 关注者](https://img.shields.io/github/followers/BOBOLAOSHIV587?style=social)](https://github.com/BOBOLAOSHIV587) |
 
 

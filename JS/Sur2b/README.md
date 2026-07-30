@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img width="200" src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/IMG/DualSubs/YouTube.png">
+<img width="200" src="https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/IMG/DualSubs/YouTube.png">
 <br>
 <br>
 <h1 align="center">Sur2b双语及增强字幕生成工具<h1>

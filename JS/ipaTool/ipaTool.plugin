@@ -5,9 +5,9 @@
 #!author= 小白脸(xiao bai lian)[https://github.com/githubdulong/Script]
 
 [Script]
-http-request https://apple-api.com script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ipaTool/JS/JS-1/AppleStoreAPI.js, requires-body=true, timeout=30, tag=应用接口
+http-request https://apple-api.com script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ipaTool/JS/JS-1/AppleStoreAPI.js, requires-body=true, timeout=30, tag=应用接口
 
-http-request https:\/\/xiaobai\.app script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ipaTool/JS/JS-1/installapp.js, timeout=20, tag=应用安装
+http-request https:\/\/xiaobai\.app script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ipaTool/JS/JS-1/installapp.js, timeout=20, tag=应用安装
 
 [MITM]
 hostname = apple-api.com, xiaobai.app

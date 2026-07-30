@@ -7,7 +7,7 @@
 *******************************
 [rewrite_local]
 # >TouchRetouch-消除笔及p图修图软件-神奇橡皮擦（恢复购买）
-^https?:\/\/api.revenuecat.com\/v1\/receipts url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TouchRetouch/JS/TouchRetouch.js
+^https?:\/\/api.revenuecat.com\/v1\/receipts url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TouchRetouch/JS/TouchRetouch.js
 
 [mitm] 
 hostname = api.revenuecat.com

@@ -1,7 +1,7 @@
 #!name=Tiktok JP
 #!desc=解锁 JP 地区
 #!category=🐹 BOBO TikTok
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/TikTok.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/TikTok.png
 
 [Rule]
 DOMAIN-SUFFIX,byteoversea.com,TikTok
@@ -23,7 +23,7 @@ USER-AGENT,tiktok*,TikTok
 (?<=eme\/v)2(?=\/f\w{2}d\/\?.*) 1 302
 
 [Script]
-http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/TikTok/Others/TikTok.js, requires-body=true, timeout=10, tag=TK去水印
+http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/TikTok/Others/TikTok.js, requires-body=true, timeout=10, tag=TK去水印
 
 [MITM]
 hostname = %APPEND% *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com

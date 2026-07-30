@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite], 墨鱼ddgksf2013[https://github.com/ddgksf2013/MoYu], 骨钉Guding88[https://github.com/Guding88/Script]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/iTunes.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/iTunes.png
 
 [Script]
 # > iTunes-系列解锁合集
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iTunes/JS/JS-1/iTunes.js, requires-body=true, timeout=60, tag=iTunes-系列解锁合集
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iTunes/JS/JS-2/BuyiTunes.js, requires-body=true, timeout=60, tag=iTunes-系列解锁合集
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iTunes/JS/JS-3/iTunes.js, requires-body=true, timeout=60, tag=iTunes-系列解锁合集
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-1/iTunes.js, requires-body=true, timeout=60, tag=iTunes-系列解锁合集
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-2/BuyiTunes.js, requires-body=true, timeout=60, tag=iTunes-系列解锁合集
+http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-3/iTunes.js, requires-body=true, timeout=60, tag=iTunes-系列解锁合集
 
 [MITM]
 hostname = buy.itunes.apple.com

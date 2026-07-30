@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/AppRaven.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/AppRaven.png
 #!openUrl=https://apps.apple.com/app/id1490607195
 
 [Script]
 # > AppRaven解锁会员
-AppRaven = type=http-response, pattern=https://appraven.net/appraven/graphql, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AppRaven/JS/JS-1/AppRavenPro.js, requires-body=true, max-size=-1, timeout=60
+AppRaven = type=http-response, pattern=https://appraven.net/appraven/graphql, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AppRaven/JS/JS-1/AppRavenPro.js, requires-body=true, max-size=-1, timeout=60
 
 [MitM]
 hostname = %APPEND% appraven.net

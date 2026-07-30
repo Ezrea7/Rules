@@ -300,8 +300,8 @@ function handleMain() {
     <link rel="apple-touch-icon" href="https://img.picgo.net/2025/04/24/IMG_2250359d907d7ba34f51.jpeg">
     <meta name="apple-mobile-web-app-title" content="VidSheep">
     <title>VidSheep</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/BOBOLAOSHIV587/Rules/JS/Video-Play/JS/CSS/Iconfont.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/BOBOLAOSHIV587/Rules/JS/Video-Play/JS/CSS/VideoPlay.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ezrea7/Script/JS/Video-Play/JS/CSS/Iconfont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ezrea7/Script/JS/Video-Play/JS/CSS/VideoPlay.css">
 </head>
 <style>
     #background {
@@ -617,7 +617,7 @@ function handleMain() {
     let searchResult = {data: {array: {vidlist: []}}};
     let searchHistoryArray = [];
     </script>
-    <script src="https://cdn.jsdelivr.net/gh/BOBOLAOSHIV587/Rules/JS/Video-Play/JS/JS/VideoPlay.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Ezrea7/Script/JS/Video-Play/JS/JS/VideoPlay.js"></script>
 
 </body>
 </html>`;

@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Youdao.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Youdao.png
 #!openUrl=https://apps.apple.com/app/id353115739
 
 [Rewrite]
@@ -26,7 +26,7 @@
 
 [Script]
 # > 网易有道词典解锁会员
-http-response ^https:\/\/dict\.youdao\.com\/vip\/user\/status script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Youdao/JS/Youdao.js, requires-body=true, timeout=60, tag=Youdao网易有道词典解锁会员
+http-response ^https:\/\/dict\.youdao\.com\/vip\/user\/status script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Youdao/JS/Youdao.js, requires-body=true, timeout=60, tag=Youdao网易有道词典解锁会员
 
 [MITM]
 hostname = dict.youdao.com, business.youdao.com, api-overmind.youdao.com, cdke.youdao.com

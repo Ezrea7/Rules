@@ -3,11 +3,11 @@
 #!date=2026-05-30
 #!category=🐹 BOBO Enhance
 #!author=桂林仔Yuheng0101[https://github.com/Yuheng0101/X]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Git-To-CDN.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Git-To-CDN.png
 
 [Script]
 # > GitHub源文件自动CDN
-GitHub源文件自动CDN = type=http-request, pattern=^https?://raw\.githubusercontent\.com/.+, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/GitRawAutoCDN/JS/GitRawAutoCDN.js, timeout=5
+GitHub源文件自动CDN = type=http-request, pattern=^https?://raw\.githubusercontent\.com/.+, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/GitRawAutoCDN/JS/GitRawAutoCDN.js, timeout=5
 
 [MITM]
 hostname = %APPEND% raw.githubusercontent.com

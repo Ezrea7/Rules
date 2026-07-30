@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=彭于晏89996462[https://github.com/89996462/Quantumult-X]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/ServerBee.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/ServerBee.png
 #!openUrl=https://apps.apple.com/app/id6443553714
 
 [Script]
 # > ServerBee——解锁订阅
-ServerBee = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ServerBee/JS/ServerBee.js, requires-body=true, max-size=-1, timeout=60
-ServerBee = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/ServerBee/JS/ServerBee.js, timeout=60
+ServerBee = type=http-response, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ServerBee/JS/ServerBee.js, requires-body=true, max-size=-1, timeout=60
+ServerBee = type=http-request, pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/ServerBee/JS/ServerBee.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com

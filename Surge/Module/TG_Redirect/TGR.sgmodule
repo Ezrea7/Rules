@@ -7,7 +7,7 @@
 #!arguments-desc = Client: Telegram/Swiftgram/Turrit/iMe/Nicegram/Lingogram 或 tg/sg/turrit/ime/ng/lingo
 
 [Script]
-Tg跳转 = type=http-request, pattern=^https?:\/\/t\.me\/.+, requires-body=0, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/TG_Redirect/JS/TGR.js, argument=client={{{Client}}}
+Tg跳转 = type=http-request, pattern=^https?:\/\/t\.me\/.+, requires-body=0, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/TG_Redirect/JS/TGR.js, argument=client={{{Client}}}
 
 [MITM]
 hostname = %APPEND% t.me

@@ -3,8 +3,8 @@
 <h4 align="center">纯净百度首页</h4>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/BaiduPureSearch/JS/IMG/w.png" alt="浅色" width="300px" style="margin-right: 6px;" />
-  <img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/BaiduPureSearch/JS/IMG/b.png" alt="深色" width="300px" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/BaiduPureSearch/JS/IMG/w.png" alt="浅色" width="300px" style="margin-right: 6px;" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/BaiduPureSearch/JS/IMG/b.png" alt="深色" width="300px" />
 </div>
 
 
@@ -15,8 +15,8 @@
 
 
 ### 模块安装链接
-> **Loon模块 :** https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/BaiduPureSearch/Baidu.plugin<br>
+> **Loon模块 :** https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/BaiduPureSearch/Baidu.plugin<br>
 
 
-> **Surge模块 :** https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/BaiduPureSearch/Baidu.sgmodule<br>
+> **Surge模块 :** https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/BaiduPureSearch/Baidu.sgmodule<br>
 

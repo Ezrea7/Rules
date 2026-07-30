@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/PixCake.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/PixCake.png
 #!openUrl=https://apps.apple.com/app/id6447539504
 
 [Script]
 # > 像素蛋糕-解锁Premium
-http-response ^https?:\/\/api\.pixcakeai\.com\/v1\/api\/app\/user\/info script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/PixCake/JS/PixCake.js, requires-body=true, timeout=60, tag=PixCake
+http-response ^https?:\/\/api\.pixcakeai\.com\/v1\/api\/app\/user\/info script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PixCake/JS/PixCake.js, requires-body=true, timeout=60, tag=PixCake
 
 [MITM]
 hostname = api.pixcakeai.com

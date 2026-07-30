@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/AGC.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/AGC.png
 #!openUrl=https://apps.apple.com/app/id6670426427
 
 [Script]
 # > AGC Video Player解锁会员
-AGC解锁会员 = type=http-response, pattern=https://api.agcplayer.com/, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AGC/JS/AGC.js, requires-body=true, max-size=-1, timeout=60
+AGC解锁会员 = type=http-response, pattern=https://api.agcplayer.com/, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AGC/JS/AGC.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.agcplayer.com

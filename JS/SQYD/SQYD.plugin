@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/SQYD.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/SQYD.png
 #!openUrl=https://apps.apple.com/app/id1307517930
 
 [Script]
 # > 山丘阅读解锁Vip
-http-response ^https?:\/\/(((m|i)\.815616\.xyz)|175\.178\.52\.149:88)\/api\/v\d\/myinfo script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/SQYD/JS/SQYD.js, requires-body=true, timeout=60, tag=山丘阅读解锁Vip
+http-response ^https?:\/\/(((m|i)\.815616\.xyz)|175\.178\.52\.149:88)\/api\/v\d\/myinfo script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/SQYD/JS/SQYD.js, requires-body=true, timeout=60, tag=山丘阅读解锁Vip
 
 [MITM]
 hostname = m.815616.xyz, i.815616.xyz, 175.178.52.149

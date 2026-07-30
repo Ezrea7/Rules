@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=浥轻尘yqc007[https://github.com/yqc007/QuantumultX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/VivaCut.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/VivaCut.png
 #!openUrl=https://apps.apple.com/app/id1489090374
 
 [Script]
 # > VivaCut解锁永久订阅
-http-response ^https?:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/VivaCut/JS/VivaCutProCrack.js, requires-body=true, timeout=60, tag=VivaCutProCrack
+http-response ^https?:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/VivaCut/JS/VivaCutProCrack.js, requires-body=true, timeout=60, tag=VivaCutProCrack
 
 [MITM]
 hostname = medi.dxzzy321.top

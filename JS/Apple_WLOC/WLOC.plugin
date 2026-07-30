@@ -3,7 +3,7 @@
 #!date=2026-07-11
 #!category=🐹 BOBO Enhance
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Apple_WLOC/JS/JS-1/IMG/wloc.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-1/IMG/wloc.png
 #!openUrl=https://wloc-pages.pages.dev/
 
 [Argument]
@@ -13,8 +13,8 @@ accuracy = input, "25", tag=精度(米)
 logLevel = select, "info", "off", "error", "warn", "debug", "all", tag=日志级别
 
 [Script]
-http-response ^https?:\/\/gs-loc(-cn)?\.apple\.com\/clls\/wloc script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Apple_WLOC/JS/JS-1/wloc.js, requires-body=true, binary-body-mode=true, timeout=30, tag=Apple WLOC, argument=[{longitude},{latitude},{accuracy},{logLevel}]
-http-request ^https?:\/\/gs-loc(-cn)?\.apple\.com\/wloc-settings\/save script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Apple_WLOC/JS/JS-1/wloc-settings.js, timeout=10, tag=WLOC Settings
+http-response ^https?:\/\/gs-loc(-cn)?\.apple\.com\/clls\/wloc script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-1/wloc.js, requires-body=true, binary-body-mode=true, timeout=30, tag=Apple WLOC, argument=[{longitude},{latitude},{accuracy},{logLevel}]
+http-request ^https?:\/\/gs-loc(-cn)?\.apple\.com\/wloc-settings\/save script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-1/wloc-settings.js, timeout=10, tag=WLOC Settings
 
 [MITM]
 hostname = gs-loc.apple.com, gs-loc-cn.apple.com

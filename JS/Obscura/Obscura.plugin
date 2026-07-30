@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=枫叶afengye[https://github.com/afengye/QX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Obscura.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Obscura.png
 #!openUrl=https://apps.apple.com/app/id1579306989
 
 [Script]
 # > Obscura专业相机-解锁订阅
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Obscura/JS/Obscura.js, requires-body=true, timeout=60, tag=Obscura
-http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Obscura/JS/Obscura.js, timeout=60, tag=Obscura
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Obscura/JS/Obscura.js, requires-body=true, timeout=60, tag=Obscura
+http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Obscura/JS/Obscura.js, timeout=60, tag=Obscura
 
 [MITM]
 hostname = api.revenuecat.com

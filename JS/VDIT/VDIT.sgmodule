@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/VDIT.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/VDIT.png
 #!openUrl=https://apps.apple.com/app/id1483410865
 
 [Script]
 # > VDIT 年度会员订阅
-VDIT = type=http-response, pattern=https:\/\/buy\.itunes\.apple\.com\/verifyReceipt, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/VDIT/JS/VDIT.js, requires-body=true, max-size=-1, timeout=60
+VDIT = type=http-response, pattern=https:\/\/buy\.itunes\.apple\.com\/verifyReceipt, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/VDIT/JS/VDIT.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% buy.itunes.apple.com

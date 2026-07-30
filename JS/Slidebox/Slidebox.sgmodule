@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Slidebox.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Slidebox.png
 #!openUrl=https://apps.apple.com/app/id984305203
 
 [Script]
 # > Slidebox解锁Pro
-Slidebox = type=http-response, pattern=^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Slidebox/JS/Slidebox.js, requires-body=true, max-size=-1, timeout=60
+Slidebox = type=http-response, pattern=^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Slidebox/JS/Slidebox.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% *-slidebox-ios-prod.cloudfunctions.net

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Rnik666[https://github.com/Rnik666/YJTJS]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/YiSouXS.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/YiSouXS.png
 #!openUrl=https://apps.apple.com/app/id768592885
 
 [Script]
 # > 宜搜小说-全场免费读超级会员
-http-response ^https?:\/\/api\.ieasou\.com\/api\/bookapp\/balance\.m? script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/YiSouXS/JS/YiSouXS.js, requires-body=true, timeout=60, tag=宜搜小说-全场免费读超级会员
+http-response ^https?:\/\/api\.ieasou\.com\/api\/bookapp\/balance\.m? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/YiSouXS/JS/YiSouXS.js, requires-body=true, timeout=60, tag=宜搜小说-全场免费读超级会员
 
 [MITM]
 hostname = api.ieasou.com

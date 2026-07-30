@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img width="200" src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Dualsub/JS/DualSubs.png">
+<img width="200" src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Dualsub/JS/DualSubs.png">
 <br>
 <br>
 <h1 align="center">QX-DualSub双语及增强字幕生成工具<h1>
@@ -13,7 +13,7 @@
 
 - Quantumult X 版
     1. 下载并安装[捷径](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2)
-    2. 下载并安装对应版本的 Quantumult X [Dualsub](https://github.com/BOBOLAOSHIV587/Rules/tree/main/QuantumultX/Dualsub)
+    2. 下载并安装对应版本的 Quantumult X [Dualsub](https://github.com/Ezrea7/Script/tree/main/QuantumultX/Dualsub)
     3. 运行捷径选择对应流媒体 App 并设置语言（参考捷径部分）
     4. 打开流媒体 App 播放并开启字幕（非更改语言，无需重复操作捷径）
     

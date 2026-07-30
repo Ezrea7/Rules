@@ -4,7 +4,7 @@
 #!category =  iRingo
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!manual = https://nsringo.github.io/guide/Siri/spotlight
-#!icon = https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/IMG/iRingo/Spotlight.png
+#!icon = https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/IMG/iRingo/Spotlight.png
 #!openUrl = http://boxjs.com/#/app/iRingo.Spotlight
 
 [Argument]
@@ -23,14 +23,14 @@ DOMAIN,e16991.b.akamaiedge.net
 
 [Script]
 # Bag (iOS/macOS)
-http-request ^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Bag.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
-http-response ^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/Siri/JS/response.bundle.js, requires-body=1, tag=🔍 Spotlight.Bag.response, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
+http-request ^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Bag.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
+http-response ^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/Siri/JS/response.bundle.js, requires-body=1, tag=🔍 Spotlight.Bag.response, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
 # Siri Suggestions & Look Up Search (iOS/macOS)
-http-request ^https?:\/\/api(2|-.+)\.smoot\.apple\.(com|cn)\/search script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Search.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
+http-request ^https?:\/\/api(2|-.+)\.smoot\.apple\.(com|cn)\/search script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Search.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
 # Siri Infomation Card (macOS)
-http-request ^https?:\/\/api(2|-.+)\.smoot\.apple\.(com|cn)\/card script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Card.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
+http-request ^https?:\/\/api(2|-.+)\.smoot\.apple\.(com|cn)\/card script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Card.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
 # Flight Search (iOS/macOS)
-http-request ^https?:\/\/api(2|-.+)\.smoot\.apple\.(com|cn)\/flight script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Flight.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
+http-request ^https?:\/\/api(2|-.+)\.smoot\.apple\.(com|cn)\/flight script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/Siri/JS/request.bundle.js, tag=🔍 Spotlight.Flight.request, argument=[{CountryCode},{Domains},{Functions},{SafariSmartHistory},{LogLevel}]
 
 [MITM]
 hostname = api*.smoot.apple.com, api.smoot.apple.cn

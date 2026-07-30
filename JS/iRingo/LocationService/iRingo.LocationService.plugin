@@ -4,7 +4,7 @@
 #!category =  iRingo
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://NSRingo.github.io/guide/GeoServices/location-service
-#!icon = https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/IMG/iRingo/Location.jpg
+#!icon = https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/IMG/iRingo/Location.jpg
 #!openUrl = http://boxjs.com/#/app/iRingo.LocationService
 
 [Argument]
@@ -20,10 +20,10 @@ DOMAIN,dispatcher.is.autonavi.com,DIRECT
 
 [Script]
 # 📍 Country Code
-http-response ^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/LocationService/JS/response.bundle.js, requires-body=1, tag=📍 LocationService.pep.gcc.response, argument=[{GeoCountryCode},{Dispatcher.Hybrid},{LogLevel}]
+http-response ^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/LocationService/JS/response.bundle.js, requires-body=1, tag=📍 LocationService.pep.gcc.response, argument=[{GeoCountryCode},{Dispatcher.Hybrid},{LogLevel}]
 # 📍 Dispatcher
-http-request ^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/LocationService/JS/request.bundle.js, requires-body=1, binary-body-mode=1, tag=📍 LocationService.Dispatcher.request, argument=[{GeoCountryCode},{Dispatcher.Hybrid},{LogLevel}]
-http-response ^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iRingo/LocationService/JS/response.bundle.js, requires-body=1, binary-body-mode=1, tag=📍 LocationService.Dispatcher.response, argument=[{GeoCountryCode},{Dispatcher.Hybrid},{LogLevel}]
+http-request ^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/LocationService/JS/request.bundle.js, requires-body=1, binary-body-mode=1, tag=📍 LocationService.Dispatcher.request, argument=[{GeoCountryCode},{Dispatcher.Hybrid},{LogLevel}]
+http-response ^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iRingo/LocationService/JS/response.bundle.js, requires-body=1, binary-body-mode=1, tag=📍 LocationService.Dispatcher.response, argument=[{GeoCountryCode},{Dispatcher.Hybrid},{LogLevel}]
 
 [MITM]
 hostname = gspe1-ssl.ls.apple.com, dispatcher.is.autonavi.com

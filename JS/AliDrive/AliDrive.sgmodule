@@ -3,7 +3,7 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/AliyunDrive.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/AliyunDrive.png
 #!openUrl=https://apps.apple.com/app/id1494661473
 
 [URL Rewrite]
@@ -17,25 +17,25 @@ https:\/\/member\.alipan\.com\/v1\/users\/onboard_list data-type=text data=" " s
 
 [Script]
 # > 阿里云盘解锁SVIP
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v1\/users\/apps\/welcome, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/databox\/get_personal_info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/vip\/info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/tools, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\/users\/me\/vip\/info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.1\/users\/me\/vip\/info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v1\/users\/home\/widgets, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v1\/app\/logos, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/user\/get, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/feature\/list, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/feature\/trial, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/file\/get_video_preview_play_info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/batch, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.aliyundrive\.com\/v2\/activity\/sign_in_list, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.alipan\.com\/v1\/users\/me, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.alipan\.com\/adrive\/v1\/timeline\/user\/get, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.alipan\.com\/apps\/v1\/users\/home\/recent, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
-阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.alipan\.com\/adrive\/v1\/user\/getUserCapacityInfo, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v1\/users\/apps\/welcome, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/databox\/get_personal_info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/vip\/info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.(aliyundrive|alipan)\.com\/v1\/users\/tools, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\/users\/me\/vip\/info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.1\/users\/me\/vip\/info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/apps\/v1\/users\/home\/widgets, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v1\/app\/logos, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/user\/get, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/feature\/list, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.0\/users\/feature\/trial, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/file\/get_video_preview_play_info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.(aliyundrive|alipan)\.com\/adrive\/v2\/batch, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.aliyundrive\.com\/v2\/activity\/sign_in_list, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/member\.alipan\.com\/v1\/users\/me, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.alipan\.com\/adrive\/v1\/timeline\/user\/get, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.alipan\.com\/apps\/v1\/users\/home\/recent, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
+阿里云盘解锁SVIP = type=http-response, pattern=https:\/\/api\.alipan\.com\/adrive\/v1\/user\/getUserCapacityInfo, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/AliDrive/JS/JS-1/ALiCloud.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.aliyundrive.com, member.aliyundrive.com, api.alipan.com, member.alipan.com, auth.alipan.com

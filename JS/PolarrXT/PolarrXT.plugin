@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Polarr.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Polarr.png
 #!openUrl=https://apps.apple.com/app/id988173374
 
 [Script]
 # > Polarr 泼辣修图解锁Pro
-http-response ^https?:\/\/api\.polaxiong\.com\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/PolarrXT/JS/PolarrXT.js, requires-body=true, timeout=60, tag=PolarrXT
+http-response ^https?:\/\/api\.polaxiong\.com\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PolarrXT/JS/PolarrXT.js, requires-body=true, timeout=60, tag=PolarrXT
 
 [MITM]
 hostname = api.polaxiong.com

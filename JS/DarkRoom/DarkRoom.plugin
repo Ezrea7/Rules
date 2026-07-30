@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=浥轻尘yqc007[https://github.com/yqc007/QuantumultX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Darkroom.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Darkroom.png
 #!openUrl=https://apps.apple.com/app/id953286746
 
 [Script]
 # > DarkRoom 解锁永久高级版
-http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32}) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/DarkRoom/JS/DarkRoomPremiumCrack.js, requires-body=true, timeout=60, tag=DarkRoom解锁高级版
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32}) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/DarkRoom/JS/DarkRoomPremiumCrack.js, requires-body=true, timeout=60, tag=DarkRoom解锁高级版
 
 [MITM]
 hostname = api.revenuecat.com

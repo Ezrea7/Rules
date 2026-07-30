@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Pixelmator/JS/Pixelmator.js
+https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Pixelmator/JS/Pixelmator.js
 
 [mitm] 
 hostname= api.revenuecat.com

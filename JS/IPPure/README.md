@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/IPPure/JS/IMG/IPPure-1.jpg" alt="" width="300px" style="margin-right: 6px;" />
-  <img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/IPPure/JS/IMG/IPPure-2.jpg" alt="" width="300px" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/IMG/IPPure-1.jpg" alt="" width="300px" style="margin-right: 6px;" />
+  <img src="https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/IMG/IPPure-2.jpg" alt="" width="300px" />
 </div>
 
 

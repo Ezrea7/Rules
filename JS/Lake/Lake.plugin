@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=枫叶afengye[https://github.com/afengye/QX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Lake.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Lake.png
 #!openUrl=https://apps.apple.com/app/id1183717726
 
 [Script]
 # > Lake涂色书-解锁订阅
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Lake/JS/Lake.js, requires-body=true, timeout=60, tag=Lake
-http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Lake/JS/Lake.js, timeout=60, tag=Lake
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Lake/JS/Lake.js, requires-body=true, timeout=60, tag=Lake
+http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Lake/JS/Lake.js, timeout=60, tag=Lake
 
 [MITM]
 hostname = api.revenuecat.com

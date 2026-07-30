@@ -3,12 +3,12 @@
 #!date=2026-01-16
 #!category=🐹 BOBO Premium
 #!author= Yarmukhamedov[https://github.com/Yarmukhamedov/mitm],作者TG[https://t.me/+BVA7-Vq6FA9hZTNi]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/PSExpress.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/PSExpress.png
 #!openUrl=https://apps.apple.com/app/id331975235
 
 [Script]
 # > PSExpress解锁Premium
-PSExpress解锁Premium = type=http-response, pattern=https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/PSExpress/JS/PSExpress.js, requires-body=true, max-size=-1, timeout=60
+PSExpress解锁Premium = type=http-response, pattern=https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PSExpress/JS/PSExpress.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% lcs-mobile-cops.adobe.io

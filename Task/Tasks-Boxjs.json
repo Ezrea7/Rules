@@ -8,7 +8,7 @@
     {
       "id": "BOBO.1024",
       "name": "某榴最新技術推送",
-      "descs_html": ["<a target='_blank' href='https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/1024.js'>跳转脚本</a>"],
+      "descs_html": ["<a target='_blank' href='https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/1024.js'>跳转脚本</a>"],
       "keys": ["1024_israndom"],
       "settings": [
         {
@@ -21,13 +21,13 @@
       ],
       "author": "@BOBOLAOSHIV587",
       "repo": "https://github.com/BOBOLAOSHIV587",
-      "icons": ["https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/1024.png", "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/1024.png"],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/1024.js"
+      "icons": ["https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/1024.png", "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/1024.png"],
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/1024.js"
     },
     {
       "id": "BOBO.hlbdy",
       "name": "最新黑料",
-      "descs_html": ["<a target='_blank' href='https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/hlbdy.js'>跳转脚本</a>"],
+      "descs_html": ["<a target='_blank' href='https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/hlbdy.js'>跳转脚本</a>"],
       "keys": ["hlbdy_notify_with_media", "hlbdy_debug", "hlbdy_type", "hlbdy_notify_type"],
       "settings": [
         {
@@ -102,17 +102,17 @@
       "author": "@BOBOLAOSHIV587",
       "repo": "https://github.com/BOBOLAOSHIV587",
       "icons": [
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/heiliao.png",
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/heiliao.png"
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/heiliao.png",
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/heiliao.png"
       ],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/hlbdy.js"
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/hlbdy.js"
     },
     {
       "id": "BOBO.javday",
       "name": "𝐉𝐀𝐕𝐃𝐚𝐲每日推荐",
       "descs_html": [
         "<p style='color:#3498db;text-align:center;'>说明请查看脚本注释👇</p>",
-        "<a style='color:#686de0;display:block;text-align:center;' target='_blank' href='https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/javday.js'>脚本链接</a>"
+        "<a style='color:#686de0;display:block;text-align:center;' target='_blank' href='https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/javday.js'>脚本链接</a>"
       ],
       "keys": ["javday_wrold_debug", "javday_type", "javday_item_type"],
       "settings": [
@@ -177,10 +177,10 @@
       "author": "@BOBOLAOSHIV587",
       "repo": "https://github.com/BOBOLAOSHIV587",
       "icons": [
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/javday.png",
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/javday.png"
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/javday.png",
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/javday.png"
       ],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/javday.js"
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/javday.js"
     },
     {
       "id": "BOBO.meitu",
@@ -272,14 +272,14 @@
       ],
       "author": "@BOBOLAOSHIV587",
       "repo": "https://github.com/BOBOLAOSHIV587",
-      "icons": ["https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/meitu.png", "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/meitu.png"],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/meitu.js"
+      "icons": ["https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/meitu.png", "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/meitu.png"],
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/meitu.js"
     },
     {
       "id": "BOBO.wuai",
       "name": "吾爱破解",
       "descs_html": [
-        "<a style='color:#686de0;display:block;text-align:center;' target='_blank' href='https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/52PoJie/JS/52pojie.js'>脚本链接</a>"
+        "<a style='color:#686de0;display:block;text-align:center;' target='_blank' href='https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/52PoJie/JS/52pojie.js'>脚本链接</a>"
       ],
       "keys": ["wuai_debug", "wuai_cookie"],
       "settings": [
@@ -302,16 +302,16 @@
       "author": "@BOBOLAOSHIV587",
       "repo": "https://github.com/BOBOLAOSHIV587",
       "icons": [
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/52pojie.png",
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/52pojie.png"
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/52pojie.png",
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/52pojie.png"
       ],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/52PoJie/JS/52pojie.js"
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/52PoJie/JS/52pojie.js"
     },
     {
       "id": "BOBO.idaily",
       "name": "iDaily每日环球视野",
       "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/idaily.js\">脚本地址</a>】"
+        "点此直达【<a href=\"https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/idaily.js\">脚本地址</a>】"
       ],
       "keys": [
         "@iDaily.random"
@@ -328,10 +328,10 @@
       "author": "@BOBOLAOSHIV587",
       "repo": "https://github.com/BOBOLAOSHIV587",
       "icons": [
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/idaily.png",
-        "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/icon/idaily.png"
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/idaily.png",
+        "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/icon/idaily.png"
       ],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/Tasks/idaily.js"
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/Tasks/idaily.js"
     },
     {
       "id": "XiaoMaoPicView",
@@ -340,7 +340,7 @@
         "picType"
       ],
       "descs_html": [
-        "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/PicView/JS/PicView.js\">脚本注释</a></h4>"
+        "<h4 align=\"center\">脚本配置请查看<a href=\"https://raw.githubusercontent.com/Ezrea7/Script/main/Task/PicView/JS/PicView.js\">脚本注释</a></h4>"
       ],
       "settings": [
         {
@@ -359,7 +359,7 @@
         "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/icon/pic.png",
         "https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/icon/pic.png"
       ],
-      "script": "https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Task/PicView/JS/PicView.js"
+      "script": "https://raw.githubusercontent.com/Ezrea7/Script/main/Task/PicView/JS/PicView.js"
     }
   ]
 }

@@ -9,7 +9,7 @@
 >「 额外说明 」         请勿传播或售卖此脚本
 
 [rewrite_local]
-^https:\/\/peakvisor\.com\/peakvisor\/v1\/purchase\/verifyReceipt url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/PeakVisor/JS/PeakVisor.js
+^https:\/\/peakvisor\.com\/peakvisor\/v1\/purchase\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/PeakVisor/JS/PeakVisor.js
 
 [mitm]
 hostname = peakvisor.com

@@ -3,15 +3,15 @@
 #!date=2026-01-10
 #!category=🐹 BOBO Premium
 #!author=General℡[https://github.com/General74110/Scripts]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/KuGou.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/KuGou.png
 
 [Script]
 #酷狗for Mac
-kugou_vip = type=http-response,pattern=^https?:\/\/(u\.mobile\.kugou\.com\/v\/ck\?.*|vip\.kugou\.com\/mobile\/vipinfoV2.*|loginservice\.kugou\.com\/v5\/login_by_token\?.*|userinfoservice\.kugou\.com\/v1\/get_login_extend_info.*|usercenter\.kugou\.com\/v3\/get_my_info\?.*|userinfo\.user\.kugou\.com\/v2\/get_grade_info.*|userinfo\.user\.kugou\.com\/get_bind.*|tools\.mobile\.kugou\.com\/v1\/privacy\/info\?.*|acshow\.kugou\.com\/show7\/json\/v2\/user\/switchState.*|gateway\.kugou\.com\/media\.store\/v1\/get_res_privilege\/lite\?.*)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/KuGouMusic/JS/JS-3/KuGou_For_MAC.js
+kugou_vip = type=http-response,pattern=^https?:\/\/(u\.mobile\.kugou\.com\/v\/ck\?.*|vip\.kugou\.com\/mobile\/vipinfoV2.*|loginservice\.kugou\.com\/v5\/login_by_token\?.*|userinfoservice\.kugou\.com\/v1\/get_login_extend_info.*|usercenter\.kugou\.com\/v3\/get_my_info\?.*|userinfo\.user\.kugou\.com\/v2\/get_grade_info.*|userinfo\.user\.kugou\.com\/get_bind.*|tools\.mobile\.kugou\.com\/v1\/privacy\/info\?.*|acshow\.kugou\.com\/show7\/json\/v2\/user\/switchState.*|gateway\.kugou\.com\/media\.store\/v1\/get_res_privilege\/lite\?.*)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/KuGouMusic/JS/JS-3/KuGou_For_MAC.js
 
-酷狗音乐用户信息SVIP = type=http-response,pattern=^https?:\/\/.*\.kugou\.com\/(v1|v2|v3|v5|mobile|media.store\/v1|adp\/ad\/v1|ads.gateway/v2|fxsing\/vip\/user|sing7\/homepage\/json\/v3\/vip)\/(login_by_token|get_my_info|get_login_extend_info|vipinfoV2|get_res_privilege\/lite|mine_top_banner|task_center_entrance|info|tip),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/KuGouMusic/JS/JS-4/KuGou.js
+酷狗音乐用户信息SVIP = type=http-response,pattern=^https?:\/\/.*\.kugou\.com\/(v1|v2|v3|v5|mobile|media.store\/v1|adp\/ad\/v1|ads.gateway/v2|fxsing\/vip\/user|sing7\/homepage\/json\/v3\/vip)\/(login_by_token|get_my_info|get_login_extend_info|vipinfoV2|get_res_privilege\/lite|mine_top_banner|task_center_entrance|info|tip),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/KuGouMusic/JS/JS-4/KuGou.js
 
-酷狗播放信息SVIP = type=http-response,pattern=^https?:\/\/.*\.kugou\.com\/(v5|tracker\/v5)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/KuGouMusic/JS/JS-1/KuGouV5.js
+酷狗播放信息SVIP = type=http-response,pattern=^https?:\/\/.*\.kugou\.com\/(v5|tracker\/v5)\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/KuGouMusic/JS/JS-1/KuGouV5.js
 
 [MITM]
 hostname = %APPEND% *.kugou.com

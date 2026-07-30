@@ -3,7 +3,7 @@
 # 原脚本作者：paynexss
 
 [rewrite_local]
-^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$ url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/StormSniffer/JS/StormSnifferCrack.js
+^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$ url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/StormSniffer/JS/StormSnifferCrack.js
 
 [mitm]
 hostname = *.x-storm.com

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Sk-itsu,  LufsX[https://github.com/LufsX/Profiles]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Pixiv.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Pixiv.png
 #!openUrl=https://apps.apple.com/app/id337248563
 
 [Script]
 # > 解锁 Pixiv Premium
-pixiv = type=http-response, pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Pixiv/JS/pixiv_premium.min.js
+pixiv = type=http-response, pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Pixiv/JS/pixiv_premium.min.js
 
 [MITM]
 hostname = %APPEND% oauth.secure.pixiv.net

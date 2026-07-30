@@ -10,4 +10,4 @@
 IPPure = script-name=ippure-auto, title="IPPure", content="正在检测...", icon=shield.checkerboard, update-interval=600
 
 [Script]
-ippure-auto = type=generic, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/IPPure/JS/JS-4/IPPure.js, argument=group={{{group}}}
+ippure-auto = type=generic, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-4/IPPure.js, argument=group={{{group}}}

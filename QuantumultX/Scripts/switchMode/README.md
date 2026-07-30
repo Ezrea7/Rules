@@ -16,9 +16,9 @@
 
 **使用方法二**
 ```
-event-network https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/Scripts/switchMode/JS/switchMode.js, tag=打断网络请求, img-url=network.system, enabled=true
+event-network https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/switchMode/JS/switchMode.js, tag=打断网络请求, img-url=network.system, enabled=true
 ```
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/Scripts/switchMode/JS/IMG/switchMode.png" width="200" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Scripts/switchMode/JS/IMG/switchMode.png" width="200" /> </div>
 </p>

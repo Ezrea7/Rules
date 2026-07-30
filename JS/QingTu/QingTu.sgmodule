@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/QingTu.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/QingTu.png
 #!openUrl=https://apps.apple.com/app/id1527559409
 
 [Script]
 # > 轻图解锁Pro
-QingTu = type=http-request, pattern=^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/QingTu/JS/JS-1/QingTu.js, timeout=60
+QingTu = type=http-request, pattern=^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/QingTu/JS/JS-1/QingTu.js, timeout=60
 
 [MITM]
 hostname = %APPEND% purchase-qingtu-api.b612kaji.com, api-qingtu.kajicam.com

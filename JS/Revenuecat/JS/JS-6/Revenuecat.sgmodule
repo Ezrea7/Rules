@@ -3,7 +3,7 @@
 #!date=2026-05-04
 #!category=🐹 BOBO Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/RevenueCat-icon.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/RevenueCat-icon.png
 #!arguments=Mock:"https://reven.jsforbaby.workers.dev/reven",Bypass:"-"
 #!arguments-desc=Mock:\nReven 网关地址，一般无需修改。\nBypass:\n跳过指定App(绕过解锁)。遇到修改响应会报错的 App (如 Filebar) 可在此填入其 UA 关键词(不区分大小写)，多个用逗号分隔，填 - 表示全部解锁。
 

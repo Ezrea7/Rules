@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Goodnotes6.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Goodnotes6.png
 #!openUrl=https://apps.apple.com/app/id1444383602
 
 [Script]
 # > GoodNotes6☆解锁会员权限
-GoodNotes6☆解锁会员 = type=http-response, pattern=^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, requires-body=true, max-size=-1, timeout=60
-GoodNotes6☆解锁会员 = type=http-request, pattern=^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, timeout=60
+GoodNotes6☆解锁会员 = type=http-response, pattern=^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, requires-body=true, max-size=-1, timeout=60
+GoodNotes6☆解锁会员 = type=http-request, pattern=^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$), script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Goodnotes6/JS/JS-1/GoodNotes6.js, timeout=60
 
 [MITM]
 hostname = %APPEND% isi.csan.goodnotes.com

@@ -14,7 +14,7 @@
 [rewrite_local]
 
 # > WallCraft解锁永久专业版
-^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/WallCraft/JS/WallCraftFProCrack.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/WallCraft/JS/WallCraftFProCrack.js
 
 [mitm] 
 

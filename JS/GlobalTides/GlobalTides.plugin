@@ -3,12 +3,12 @@
 #!date=2026-01-10
 #!category=🐹 BOBO Premium
 #!author= 伟人[https://github.com/WeiGiegie/666]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/GlobalTides.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GlobalTides.png
 #!openUrl=https://apps.apple.com/app/id876345983
 
 [Script]
 # > 全球潮汐VIP解锁
-http-response ^https:\/\/g\.catches\.com\/v1\/user\?method\=userInfo script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/GlobalTides/JS/GlobalTides.js, requires-body=true, timeout=60, tag=全球潮汐
+http-response ^https:\/\/g\.catches\.com\/v1\/user\?method\=userInfo script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/GlobalTides/JS/GlobalTides.js, requires-body=true, timeout=60, tag=全球潮汐
 
 [MITM]
 hostname = g.catches.com

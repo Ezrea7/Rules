@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=XiaoMao[https://github.com/xiaomaoJT/QxScript]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/MemoKit.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/MemoKit.png
 #!openUrl=https://apps.apple.com/app/id6480924989
 
 [Script]
 # > MemoKit 解锁Pro
-http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/MemoKit/JS/MemoKit.js, requires-body=true, timeout=60, tag=MemoKit
+http-response https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/MemoKit/JS/MemoKit.js, requires-body=true, timeout=60, tag=MemoKit
 
 [MITM]
 hostname = api.revenuecat.com

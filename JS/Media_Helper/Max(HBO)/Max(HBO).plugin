@@ -6,13 +6,13 @@
 
 [Script]
 # Max(HBO)外挂srt字幕
-http-response ^https:\/\/default\.prd\.api\.discomax\.com\/cms\/routes\/video\/watch\/.*? script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
-http-response ^https:\/\/cf\.prod\.media\.h264\.io\/r\/hlsMedia\.m3u8\?r\.host=.*?_(a|v|t)\d+\.m3u8& script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
-http-response ^https:\/\/cf\.prod\.media\.h264\.io\/subtitles\/.*? script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
-http-response ^https:\/\/default\.prd\.api\.discomax\.com\/playback-orchestrator\/any\/playback-orchestrator\/v\d+\/playbackInfo$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
+http-response ^https:\/\/default\.prd\.api\.discomax\.com\/cms\/routes\/video\/watch\/.*? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
+http-response ^https:\/\/cf\.prod\.media\.h264\.io\/r\/hlsMedia\.m3u8\?r\.host=.*?_(a|v|t)\d+\.m3u8& script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
+http-response ^https:\/\/cf\.prod\.media\.h264\.io\/subtitles\/.*? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
+http-response ^https:\/\/default\.prd\.api\.discomax\.com\/playback-orchestrator\/any\/playback-orchestrator\/v\d+\/playbackInfo$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)外挂srt字幕
 
 # Max(HBO)强制1080p
-http-response ^https:\/\/cf\.(prod|prd)\.media\.h264\.io\/r\/hls\.m3u8\? script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)强制1080p
+http-response ^https:\/\/cf\.(prod|prd)\.media\.h264\.io\/r\/hls\.m3u8\? script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Media_Helper/Max(HBO)/JS/Max(HBO).js, requires-body=true, timeout=60, tag=Max(HBO)强制1080p
 
 [MITM]
 hostname = default.prd.api.discomax.com, cf.prod.media.h264.io, cf.prd.media.h264.io

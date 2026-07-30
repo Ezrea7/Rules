@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Drafts.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Drafts.png
 #!openUrl=https://apps.apple.com/app/id1236254471
 
 [Script]
 # > Drafts解锁Pro
-http-response ^https?:\/\/backend\.getdrafts\.com\/api\/v\d\/verification\/(account_status|verify_receipt) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Drafts/JS/Drafts.js, requires-body=true, timeout=60, tag=Drafts解锁Pro
+http-response ^https?:\/\/backend\.getdrafts\.com\/api\/v\d\/verification\/(account_status|verify_receipt) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Drafts/JS/Drafts.js, requires-body=true, timeout=60, tag=Drafts解锁Pro
 
 [MITM]
 hostname = backend.getdrafts.com

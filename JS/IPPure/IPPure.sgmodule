@@ -13,4 +13,4 @@ DOMAIN-SUFFIX,ippure.com,{{{Proxy}}}
 IP-Pure = script-name=IP-Pure, title=IP 纯净度, content=刷新中…, style=info, update-interval=300
 
 [Script]
-IP-Pure = type=generic, timeout=10, argument={{{MarkIP}}}, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/IPPure/JS/JS-1/IPPure.js
+IP-Pure = type=generic, timeout=10, argument={{{MarkIP}}}, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-1/IPPure.js

@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=baby[https://github.com/Yu9191]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Forest.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Forest.png
 #!openUrl=https://apps.apple.com/app/id866450515
 
 [Script]
 # > Forest-专注森林解锁Plus
-http-response ^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Forest/JS/Forest.js, requires-body=true, timeout=60, tag=Forest专注森林
+http-response ^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Forest/JS/Forest.js, requires-body=true, timeout=60, tag=Forest专注森林
 
 [MITM]
 hostname = forest-api.upwardsware.com

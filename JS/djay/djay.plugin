@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=枫叶afengye[https://github.com/afengye/QX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/djay.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/djay.png
 #!openUrl=https://apps.apple.com/app/id450527929
 
 [Script]
 # > djay解锁订阅
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/djay/JS/djay.js, requires-body=true, timeout=60, tag=djay解锁订阅
-http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/djay/JS/djay.js, timeout=60, tag=djay解锁订阅
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/djay/JS/djay.js, requires-body=true, timeout=60, tag=djay解锁订阅
+http-request ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/.+$) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/djay/JS/djay.js, timeout=60, tag=djay解锁订阅
 
 [MITM]
 hostname = api.revenuecat.com

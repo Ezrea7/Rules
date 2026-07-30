@@ -10,7 +10,7 @@
 [rewrite_local]
 
 # > 百度不跳转
-^https?:\/\/.*\.baidu\.com\/.+ url script-request-header https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/DisableBaiduJump/JS/DisableBaiduJumpAction.js
+^https?:\/\/.*\.baidu\.com\/.+ url script-request-header https://raw.githubusercontent.com/Ezrea7/Script/main/JS/DisableBaiduJump/JS/DisableBaiduJumpAction.js
 
 [mitm] 
 

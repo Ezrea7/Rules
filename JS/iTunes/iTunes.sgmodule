@@ -3,15 +3,15 @@
 #!date=2026-01-25
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite], 墨鱼ddgksf2013[https://github.com/ddgksf2013/MoYu], 骨钉Guding88[https://github.com/Guding88/Script]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/iTunes.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/iTunes.png
 #!arguments=禁用MITM:hostname
 #!arguments-desc=禁用MITM：禁用MITM主机名，默认 hostname 表示启用，输入 # 表示禁用。\n\n此脚本可能会导致App Store无法登录ID，关MITM即可。
 
 [Script]
 # > iTunes-系列解锁合集
-iTunes-系列解锁合集 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iTunes/JS/JS-1/iTunes.js, requires-body=true, max-size=-1, timeout=60
-iTunes-系列解锁合集 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iTunes/JS/JS-2/BuyiTunes.js, requires-body=true, max-size=-1, timeout=60
-iTunes-系列解锁合集 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/iTunes/JS/JS-3/iTunes.js, requires-body=true, max-size=-1, timeout=60
+iTunes-系列解锁合集 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-1/iTunes.js, requires-body=true, max-size=-1, timeout=60
+iTunes-系列解锁合集 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-2/BuyiTunes.js, requires-body=true, max-size=-1, timeout=60
+iTunes-系列解锁合集 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/iTunes/JS/JS-3/iTunes.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 {{{禁用MITM}}} = %APPEND% buy.itunes.apple.com

@@ -10,7 +10,7 @@
 
 [rewrite_local]
 # >山丘阅读解锁Vip
-^https?:\/\/(((m|i)\.815616\.xyz)|175\.178\.52\.149:88)\/api\/v\d\/myinfo url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/SQYD/JS/SQYD.js
+^https?:\/\/(((m|i)\.815616\.xyz)|175\.178\.52\.149:88)\/api\/v\d\/myinfo url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/SQYD/JS/SQYD.js
 
 [mitm]
 hostname = m.815616.xyz, i.815616.xyz, 175.178.52.149

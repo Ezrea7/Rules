@@ -8,4 +8,4 @@
 #!select = MapNotification,false,true
 
 [Script]
-generic script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Loon/IPQuality/JS/IPQuality.js, tag=节点 IP 质量检测, timeout=50, img-url=shield.lefthalf.filled.system, enable=true
+generic script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/Loon/IPQuality/JS/IPQuality.js, tag=节点 IP 质量检测, timeout=50, img-url=shield.lefthalf.filled.system, enable=true

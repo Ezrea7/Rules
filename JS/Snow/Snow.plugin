@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/SNOW.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/SNOW.png
 #!openUrl=https://apps.apple.com/app/id1022267439
 
 [Script]
 # > Snow解锁Pro
-http-response ^https?:\/\/.*\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Snow/JS/Snow.js, requires-body=true, timeout=60, tag=Snow解锁Pro
+http-response ^https?:\/\/.*\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Snow/JS/Snow.js, requires-body=true, timeout=60, tag=Snow解锁Pro
 
 [MITM]
 hostname = *.snow.me

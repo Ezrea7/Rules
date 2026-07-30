@@ -3,12 +3,12 @@
 #!date=2026-01-16
 #!category=🐹 BOBO Premium
 #!author= Yarmukhamedov[https://github.com/Yarmukhamedov/mitm],作者TG[https://t.me/+BVA7-Vq6FA9hZTNi]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/TVOE.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/TVOE.png
 #!openUrl=https://apps.apple.com/app/id6469774405
 
 [Script]
 # > TVOE-解锁VIP
-TVOE解锁VIP = type=http-response, pattern=https:\/\/api\.tvoe\.live\/profile$, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/TVOE/JS/TVOE.js, requires-body=true, max-size=-1, timeout=60
+TVOE解锁VIP = type=http-response, pattern=https:\/\/api\.tvoe\.live\/profile$, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/TVOE/JS/TVOE.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.tvoe.live

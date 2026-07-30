@@ -1,8 +1,8 @@
 //中文
-//geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-API(1).js
+//geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-API(1).js
 
 //英文
-//geo_location_checker=http://ip-api.com/json/, https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/GeoLocationChecker/IP-API(1).js
+//geo_location_checker=http://ip-api.com/json/, https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/GeoLocationChecker/IP-API(1).js
 
 //Only QX
 //Version 1.3

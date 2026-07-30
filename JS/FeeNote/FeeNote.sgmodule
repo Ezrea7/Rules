@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=叮当猫chxm1023[https://github.com/chxm1023/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/FeeNote.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/FeeNote.png
 #!openUrl=https://apps.apple.com/app/id822218131
 
 [Script]
 # > 随手写FeeNote-解锁Premium
-随手写FeeNote-解锁Premium = type=http-response, pattern=http:\/\/www\.kkmop\.com\/vipMsg1, script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/FeeNote/JS/FeeNote.js, requires-body=true, max-size=-1, timeout=60
+随手写FeeNote-解锁Premium = type=http-response, pattern=http:\/\/www\.kkmop\.com\/vipMsg1, script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/FeeNote/JS/FeeNote.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% www.kkmop.com

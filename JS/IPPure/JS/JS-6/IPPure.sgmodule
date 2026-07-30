@@ -10,4 +10,4 @@
 IP-Pure = script-name=IPtest, title=IP 测试, content=刷新中…, style=info, update-interval=300
 
 [Script]
-IPtest = type=generic, timeout=10, argument="{"markip":{{{MarkIP}}},"policy":"{{{Proxy}}}"}", script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/IPPure/JS/JS-6/IPPure-Surge.js
+IPtest = type=generic, timeout=10, argument="{"markip":{{{MarkIP}}},"policy":"{{{Proxy}}}"}", script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/IPPure/JS/JS-6/IPPure-Surge.js

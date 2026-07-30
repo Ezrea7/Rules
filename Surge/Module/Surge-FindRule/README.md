@@ -6,7 +6,7 @@
 ### 模块安装链接
 
 
-> **流量统计导出自动生成分流:** https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/Surge-FindRule.sgmodule<br>
+> **流量统计导出自动生成分流:** https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/Surge-FindRule.sgmodule<br>
 
 
 ### 捷径安装链接
@@ -16,12 +16,12 @@
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/IMG/1.jpg" width="300" /> </div>
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/IMG/2.jpg" width="300" /> </div>
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/IMG/3.jpg" width="300" /> </div>
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/IMG/4.jpg" width="300" /> </div>
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/IMG/5.jpg" width="300" /> </div>
-<img src="https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Surge/Module/Surge-FindRule/JS/IMG/6.jpg" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/IMG/1.jpg" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/IMG/2.jpg" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/IMG/3.jpg" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/IMG/4.jpg" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/IMG/5.jpg" width="300" /> </div>
+<img src="https://raw.githubusercontent.com/Ezrea7/Script/main/Surge/Module/Surge-FindRule/JS/IMG/6.jpg" width="300" /> </div>
 </p>
 
 

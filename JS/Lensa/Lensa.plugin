@@ -3,12 +3,12 @@
 #!date=2026-01-16
 #!category=🐹 BOBO Premium
 #!author= Yarmukhamedov[https://github.com/Yarmukhamedov/mitm],作者TG[https://t.me/+BVA7-Vq6FA9hZTNi]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Lensa.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Lensa.png
 #!openUrl=https://apps.apple.com/app/id1436732536
 
 [Script]
 # > Lensa-解锁VIP
-http-response https://appapi.neuralprisma.com/subs/v1/apple/(transactions|sync) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Lensa/JS/Lensa.js, requires-body=true, timeout=60, tag=Lensa解锁VIP
+http-response https://appapi.neuralprisma.com/subs/v1/apple/(transactions|sync) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Lensa/JS/Lensa.js, requires-body=true, timeout=60, tag=Lensa解锁VIP
 
 [MITM]
 hostname = appapi.neuralprisma.com

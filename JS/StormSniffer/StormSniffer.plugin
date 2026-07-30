@@ -3,13 +3,13 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=浥轻尘yqc007[https://github.com/yqc007/QuantumultX]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/StormSniffer.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/StormSniffer.png
 #!openUrl=https://apps.apple.com/app/id1610958307
 
 [Script]
 # > 解锁Storm Sniffer
-http-request ^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/StormSniffer/JS/StormSnifferHeader.js, timeout=60, tag=StormSnifferHeader
-http-response ^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$ script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/StormSniffer/JS/StormSnifferCrack.js, requires-body=true, timeout=60, tag=StormSnifferCrack
+http-request ^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/StormSniffer/JS/StormSnifferHeader.js, timeout=60, tag=StormSnifferHeader
+http-response ^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/user-profile\/$ script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/StormSniffer/JS/StormSnifferCrack.js, requires-body=true, timeout=60, tag=StormSnifferCrack
 
 [MITM]
 hostname = *.x-storm.com

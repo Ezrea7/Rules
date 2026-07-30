@@ -3,7 +3,7 @@
 #!date=2026-04-05
 #!category=🐹 BOBO Enhance
 #!author=Maasea[https://github.com/Maasea], ZenmoFeiShi[https://github.com/ZenmoFeiShi/Qx]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/YouTube.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/YouTube.png
 
 [Rewrite]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?&ctier=L(&.+?),ctier,(.+) 302 https://$1$2$3
@@ -14,7 +14,7 @@
 
 [Script]
 # > YouTube去广告隐藏Shorts
-http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/YouTube/JS/JS-2/YouTube.js, requires-body=true, binary-body-mode=true, timeout=60, tag=YouTube去广告
+http-response ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/YouTube/JS/JS-2/YouTube.js, requires-body=true, binary-body-mode=true, timeout=60, tag=YouTube去广告
 
 [MITM]
 hostname = *.googlevideo.com, redirector*.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com

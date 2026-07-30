@@ -11,7 +11,7 @@
 
 
 ```
-resource_parser_url=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/QuantumultX/Resource-Parser/resource-parser.js
+resource_parser_url=https://raw.githubusercontent.com/Ezrea7/Script/main/QuantumultX/Resource-Parser/resource-parser.js
 ```
 
 

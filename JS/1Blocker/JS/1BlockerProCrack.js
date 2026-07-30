@@ -9,7 +9,7 @@
 
 [rewrite_local]
 # > 1Blocker 解锁永久订阅
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/) url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/1Blocker/JS/1BlockerProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/) url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/1Blocker/JS/1BlockerProCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com

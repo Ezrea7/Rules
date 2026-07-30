@@ -3,7 +3,7 @@ GitHub 1.142.1
 除了Ai功能，其他功能都可用
 
 [rewrite_local]
-https://api.github.com/graphql url script-response-body https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Github/JS/GithubPro.js
+https://api.github.com/graphql url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Github/JS/GithubPro.js
 
 [mitm]
 hostname = api.github.com

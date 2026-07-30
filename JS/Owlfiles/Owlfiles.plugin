@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author= Mikephie[https://github.com/Mikephie/Script]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/Owlfiles.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Owlfiles.png
 #!openUrl=https://apps.apple.com/app/id1638657012
 
 [Script]
 # > 猫头鹰文件-解锁VIP
-http-response ^https?:\/\/www\.skyjos\.com(?::58080)?\/ws\/(?:validate|loadaccountinfo)\b script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/Owlfiles/JS/Owlfiles.js, requires-body=true, timeout=60, tag=猫头鹰文件
+http-response ^https?:\/\/www\.skyjos\.com(?::58080)?\/ws\/(?:validate|loadaccountinfo)\b script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Owlfiles/JS/Owlfiles.js, requires-body=true, timeout=60, tag=猫头鹰文件
 
 [MITM]
 hostname = www.skyjos.com, *.skyjos.com:58080, *.skyjos.com

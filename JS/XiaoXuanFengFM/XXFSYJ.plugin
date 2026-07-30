@@ -3,12 +3,12 @@
 #!date=2026-01-21
 #!category=🐹 BOBO Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
-#!icon=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/Icons/AppIcons/Image/App/XXFSYJ.png
+#!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/XXFSYJ.png
 #!openUrl=https://apps.apple.com/app/id6458733365
 
 [Script]
 # > 小旋风收音机解锁VIP
-http-response ^https?:\/\/49.232.234.212:80\/user\/fixUserPayData script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/Rules/main/JS/XiaoXuanFengFM/JS/XXFSYJ.js, requires-body=true, timeout=60, tag=XXFSYJ
+http-response ^https?:\/\/49.232.234.212:80\/user\/fixUserPayData script-path=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/XiaoXuanFengFM/JS/XXFSYJ.js, requires-body=true, timeout=60, tag=XXFSYJ
 
 [MITM]
 hostname = 49.232.234.212
