@@ -42,7 +42,7 @@ jobs:
 
           replacements = [
               ("BOBOLAOSHIV587/Rules", "Ezrea7/Script"),
-              ("啵啵老师", "Ezrea7"),
+              ("BOBO", "Ezrea7"),
           ]
 
           def should_skip(path: Path) -> bool:
