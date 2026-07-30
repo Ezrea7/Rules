@@ -41,7 +41,7 @@ jobs:
           from pathlib import Path
 
           replacements = [
-              ("BOBOLAOSHIV587/Rules", "Ezrea7/Script"),
+              ("BOBOLAOSHIV587", "Ezrea7"),
               ("BOBO", "Ezrea7"),
           ]
 
