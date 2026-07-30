@@ -1,7 +1,7 @@
 #!name=Greasyfork油猴脚本转换器
 #!desc= 打开一个油猴脚本安装页面，点击Install，此时应该会弹出通知提醒脚本已经转换成功。将转换好脚本移动至APP对应目录，根据生成的脚本提示设置好重写即可。
 #!date=2026-01-21
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author= Peng-YM[https://github.com/Peng-YM]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Tampermonkey.png
 #!openUrl=https://apps.apple.com/app/id6738342400

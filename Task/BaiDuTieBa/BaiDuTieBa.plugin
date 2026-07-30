@@ -1,7 +1,7 @@
 #!name=贴吧签到
 #!desc=自动签到贴吧。\n获取Cookie说明：打开百度贴吧App后, 如通知成功获取cookie, 则可以使用此签到脚本。\n此脚本获取Cookie会多次触发，导致Loon崩溃设备发热。获取一次Cookie后关闭脚本即可。
 #!date=2026-01-25
-#!category=🐹 BOBO Task
+#!category=🐹 Ezrea7 Task
 #!author= ClydeTime[https://github.com/ClydeTime/Quantumult]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/miniColor/Image/Color/tieba.png
 #!openUrl=https://apps.apple.com/app/id477927812

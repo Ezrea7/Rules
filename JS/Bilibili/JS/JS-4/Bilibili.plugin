@@ -1,7 +1,7 @@
 #!name=哔哩哔哩去广告
 #!desc=本插件覆盖开屏、首页热门、首页推荐页、首页搜索页面、搜索结果、动态页、视频详情页和视频页推荐流，可按标题、UP 主、视频 Tag、动态内容、搜索结果内容和搜索候选词条过滤，并移除广告和直播推荐。\n\n注：\n本插件可能与其他 Bilibili 插件冲突。\n如需排查插件的功能是否正常，请开启对应功能的弹窗通知。通知触发时也会同步写入脚本运行日志。
 #!date=2026-07-29
-#!category=🐹 BOBO AD
+#!category=🐹 Ezrea7 AD
 #!author=Cyberangel[https://github.com/ElyDemiurge/Loon-Plugins]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/BilibiliRed.png
 

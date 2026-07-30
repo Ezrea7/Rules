@@ -1,7 +1,7 @@
 #!name=面板-汽油价格
 #!desc=展示当地汽油价格
 #!date=2026-01-21
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author= cc63[https://github.com/cc63/Surge]
 #!arguments=省份拼音:jiangsu
 #!arguments-desc=🔔提示：山西省填写shanxi，陕西省填写shanxi-3

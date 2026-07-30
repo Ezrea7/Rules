@@ -1,7 +1,7 @@
 #!name=起点读书自动签到
 #!desc=签到结果通知（含账号昵称、时间、状态）
 #!date=2026-05-30
-#!category=🐹 BOBO Task
+#!category=🐹 Ezrea7 Task
 #!author=桂林仔Yuheng0101[https://github.com/Yuheng0101/X]
 #!arguments=是否开启抓取重写:"起点读书", CRONEXP:"30 9 * * *",是否开启调试模式:false,TIMEOUT:60,是否开启激励任务:false,是否开启每日任务:false,是否开启每日抽奖:false,是否开启每周兑换:false,是否开启章节卡片:false,是否开启大咖荐书:false
 #!arguments-desc=- 是否开启抓取重写: ["起点读书","#"] \n\n- CRONEXP: 默认每天9点30分执行, 建议自行配置。\n\n- 是否开启调试模式: ["true","false"]\n\n - TIMEOUT: 脚本执行超时时间, 默认60秒。\n\n- 是否开启激励任务: ["true","false"]\n\n- 是否开启每日任务: ["true","false"]\n\n- 是否开启每日抽奖: ["true","false"]\n\n- 是否开启每周兑换: ["true","false"]\n\n- 是否开启章节卡片: ["true","false"]\n\n- 是否开启大咖荐书: ["true","false"]

@@ -1,7 +1,7 @@
 #!name=WorkingCopy
 #!desc=WorkingCopy解锁Pro。利用 GitHub Education解锁Working Copy，启用此脚本后再 Safari 打开 https://workingcopy.app/education/ 点击「tap here to access all pro features.」中的 here 跳转到 Working Copy，登录自己的 GitHub 账号即可解锁
 #!date=2026-01-21
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author=Mike-offers[https://github.com/Mike-offers/Rewrite]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/WorkingCopy.png
 #!openUrl=https://apps.apple.com/app/id896694807

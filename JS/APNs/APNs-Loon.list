@@ -1,7 +1,7 @@
 #!name=苹果APNs(外区App通知)推送
 #!desc=分流设置为代理，设置完之后关闭VPN并开飞行，等一分钟重开代理APP，收到推送了
 #!date=2026-05-01
-#!category=🐹 BOBO Enhance
+#!category=🐹 Ezrea7 Enhance
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Apple_Update.png
 
 DOMAIN-SUFFIX,push.apple.com

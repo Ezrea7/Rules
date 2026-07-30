@@ -1,7 +1,7 @@
 #!name=NetISP入口落地查询
 #!desc=查看目标节点ISP（网络服务提供商）的入口落地详细信息-可自定义隐藏IP段/超时
 #!date=2026-01-21
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author= Keywos[https://github.com/Keywos/rule],xream[https://github.com/xream/scripts]
 #!select = 入口查询超时时间ms,100,200,500,800,1000,1200,2000,5000,10000
 #!select = 落地查询超时时间ms,100,200,500,1000,1500,2000,3000,5000,10000

@@ -1,7 +1,7 @@
 #!name=Google搜索人机验证解决方案
 #!desc=Google搜索内容时并发使用多个策略/策略组，以避免可能出现的人机验证。注意：需要在模块参数填写策略/策略组名的正则表达式。
 #!date=2026-01-21
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author=野比大佬NobyDa[https://github.com/NobyDa/Script]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Google.png
 #!arguments=策略正则,脚本引擎:auto

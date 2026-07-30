@@ -1,7 +1,7 @@
 #!name=GLaDOS / Railgun 自动签到
 #!desc=GLaDOS / Railgun 自动签到 + 积分兑换（多账号版）.\n此脚本获取Cookie会多次触发，导致Loon崩溃设备发热。获取一次Cookie后关闭脚本即可。
 #!date=2026-05-30
-#!category=🐹 BOBO Task
+#!category=🐹 Ezrea7 Task
 #!author=Curtinp118[https://github.com/curtinp118]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GLaDOS.png
 #!openUrl=https://glados.vip/

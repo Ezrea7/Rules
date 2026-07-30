@@ -1,7 +1,7 @@
 #!name=Plex - Rewrite display username重写显示用户名
 #!desc=修改 Plex 用户 API 响应中的 title、friendlyName 和 username 字段
 #!date=2026-07-11
-#!category=🐹 BOBO Enhance
+#!category=🐹 Ezrea7 Enhance
 #!author=liunice[https://github.com/liunice/quantumult-x-rewrites]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/Plex.png
 

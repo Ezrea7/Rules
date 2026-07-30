@@ -1,7 +1,7 @@
 #!name=IP-Pure
 #!desc=显示 IP 风险评分、类型、代理策略和入口/出口 IP 地理信息，支持网络变化自动通知
 #!date=2025-12-18
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author=HotKids[https://github.com/HotKids/Rules]
 #!arguments=ipqs_key:null,event_delay:2
 #!arguments-desc=ipqs_key:(可选) IPQualityScore API Key，留空使用免费服务\nevent_delay:(可选) 网络变化后延迟检测时间（秒），默认 2 秒

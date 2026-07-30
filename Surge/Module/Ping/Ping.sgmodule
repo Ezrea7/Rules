@@ -1,7 +1,7 @@
 #!name= Ping CN CF 二合一面板
 #!desc= 根据网络延迟生成柱状图
 #!date=2026-01-21
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author= Keywos[https://github.com/Keywos/rule]
 #!arguments= script-update:-1 ,update-interval: 10, Size:7, cnUrl:"", usUrl:"",icons:barometer,icolor:#80A0BF
 #!arguments-desc=脚本更新频率: script-update \nGIF更新频率: update-interval \n\n国内测试URL: cnUrl \n国外测试URL: usUrl \n\n如果一行放不下可自定义每行显示个数默认为 7: Size

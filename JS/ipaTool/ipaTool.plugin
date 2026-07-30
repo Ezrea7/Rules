@@ -1,7 +1,7 @@
 #!name=App Store 低版本应用安装
 #!desc=App Store 低版本应用安装、已购下架应用安装。使用说明：1、添加模块地址至Surge，其他格式自行转换（暂不支持 QX）；2、添加 Scripting 脚本导入至Scripting App；3、Scripting 内运行 ipaTool 即可。
 #!date=2026-01-21
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author= 小白脸(xiao bai lian)[https://github.com/githubdulong/Script]
 
 [Script]

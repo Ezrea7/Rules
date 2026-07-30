@@ -1,7 +1,7 @@
 #!name=Apple WLOC 定位修改
 #!desc=修改 Apple 网络定位返回坐标 | 快捷指令(推荐): 设置地理位置 https://www.icloud.com/shortcuts/a82717d8fdad4e6280866fcf911173f7 清理恢复位置 https://www.icloud.com/shortcuts/f42632d406504f24a2cd163af4fe012f | 选点页面: https://wloc-pages.pages.dev/
 #!date=2026-07-11
-#!category=🐹 BOBO Enhance
+#!category=🐹 Ezrea7 Enhance
 #!author=baby[https://github.com/Yu9191]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/JS/Apple_WLOC/JS/JS-1/IMG/wloc.png
 #!arguments=经度:113.94114, 纬度:22.544577, 精度:25, 日志级别:info

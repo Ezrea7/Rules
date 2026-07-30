@@ -1,7 +1,7 @@
 #!name=资源解析器
 #!desc=用于节点名称处理与排序，支持前后缀、去除 Emoji、文本替换、自定义排序及自定义UA拉取订阅，如果自定义UA获取不到节点可以开启禁用缓存试试。文本替换格式为 旧文本:新文本，多个规则用英文逗号分隔，例如 香港:HK,日本:JP。节点排序按关键词先后顺序排序，使用英文逗号分隔，例如 香港,日本,新加坡,美国。在订阅管理界面对订阅进行单独配置。
 #!date=2026-06-29
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author=mc2u[https://github.com/mc2u/Loon]
 
 [Argument]

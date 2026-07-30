@@ -1,7 +1,7 @@
 #!name= Surge FindRule
 #!desc= surgetool.com/shortcuts/findrule  \n需要从 Surge 统计里导出到此捷径
 #!date=2026-01-21
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author= Key[https://github.com/Keywos/rule]
 #!openUrl=https://www.icloud.com/shortcuts/271eaa8b65f14a1cb401fde8e1e4653d
 #!arguments= KEY_DIRECT:DIRECT, KEY_PROXY:🇭🇰|🇸🇬|🇯🇵|🇺🇸, COUNT:5, ON_DIRECT_IP:0, ON_DIRECT_HOST:1,ON_PROXY_IP:1, ON_PROXY_HOST:1

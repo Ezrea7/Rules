@@ -7,8 +7,8 @@
 
 | 统计项   | 数量                                                                 |
 | -------- | -------------------------------------------------------------------- |
-| 🧚‍♀️ 访问量 | [![总访问量](https://komarev.com/ghpvc/?username=BOBOLAOSHIV587&color=green)](https://github.com/Ezrea7/Script) |
-| 🧚‍♀️ 关注者   | [![GitHub 关注者](https://img.shields.io/github/followers/BOBOLAOSHIV587?style=social)](https://github.com/BOBOLAOSHIV587) |
+| 🧚‍♀️ 访问量 | [![总访问量](https://komarev.com/ghpvc/?username=Ezrea7LAOSHIV587&color=green)](https://github.com/Ezrea7/Script) |
+| 🧚‍♀️ 关注者   | [![GitHub 关注者](https://img.shields.io/github/followers/Ezrea7LAOSHIV587?style=social)](https://github.com/Ezrea7LAOSHIV587) |
 
 
 

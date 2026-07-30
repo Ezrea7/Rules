@@ -1,7 +1,7 @@
 #!name=iTunes系列解锁
 #!desc=自动查询 App 内购产品并注入最贵套餐凭证,可在设置中关闭.\n此脚本可能会导致App Store无法登录ID\n关[MITM][脚本][代理工具]方法选一即可
 #!date=2026-05-04
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author=baby[https://github.com/Yu9191]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/iTunes.png
 #!arguments=Mock:"https://reven.jsforbaby.workers.dev/reven",Enabled:"true",Expires:"2099-09-09",Country:"HK",禁用MITM:hostname

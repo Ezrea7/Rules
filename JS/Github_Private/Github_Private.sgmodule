@@ -1,7 +1,7 @@
 #!name=用户访问Github私有仓库
 #!desc=允许用户访问Github私有仓库/Gist中的订阅分流，重写，脚本等配置文件。使用此项目更便捷：https://github.com/cmliu/CF-Workers-Raw
 #!date=2026-01-21
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author= Sliverkiss[https://github.com/Sliverkiss/GoodNight], cmliu[https://github.com/cmliu/CF-Workers-Raw]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GitHub.png
 #!arguments=USERNAME:GITHUB_USERNAME,TOKEN:GITHUB_TOKEN

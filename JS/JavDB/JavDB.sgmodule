@@ -1,7 +1,7 @@
 #!name=JavDB跳转MissAV
 #!desc=去除JavDB网页广告，视频详情页点击clickPlay即可跳转MissAV看瑟瑟，或者视频详情页点击直接Google搜索，另外全面去除MISSAV网页的广告，包括首次点击播放的广告跳转
 #!date=2025-12-19
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author=limbopro[https://github.com/limbopro/Adblock4limbo],墨鱼ddgksf2013[https://github.com/ddgksf2013]
 #!openUrl=https://javdb.com/
 

@@ -2,7 +2,7 @@
  本地解锁StormSniffer
 # 脚本制作 @@NobyDa_Chat
 # 加密来源 @PayNe
-# 修改 @BOBOLAOSHIV587
+# 修改 @Ezrea7LAOSHIV587
 ====================================
 [rewrite_local]
 ^https?:\/\/api\.x-storm\.com\/app\/.+$ url script-response-body https://raw.githubusercontent.com/Ezrea7/Script/main/JS/StormSniffer/QX-StormSniffer.js

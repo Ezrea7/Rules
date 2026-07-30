@@ -1,7 +1,7 @@
 #!name=文本/手动上传GitHub
 #!desc=* 脚本使用说明，较为详细，仔细阅读 *\n- 插件文件：输入上传的文本,支持换行\n- git用户名：顾名思义\n- git仓库名：顾名思义\n- git分支：顾名思义,一般不是master就是main\n- 上传or删除切换开关：通过文件路径\n- 文件路径：只写仓库内文件路径\n          文件夹/文件夹/文件.lpx\n          文件夹/文件.lpx\n          文件.lpx\n- gitoken：Google搜,建议无时间限制,需有上传权限
 #!date=2025-12-15
-#!category=🐹 BOBO Enhance
+#!category=🐹 Ezrea7 Enhance
 #!author=fishdown[https://github.com/fishdown/Ggsddu]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/GitHub.png
 

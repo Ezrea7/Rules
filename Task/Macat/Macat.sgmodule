@@ -1,7 +1,7 @@
 #!name=Macat签到任务
 #!desc=自动执行Macat每日签到任务。macat_loginBody" (boxjs自行填入,包含账号密码信息等)格式: `action=user_login&username=xxx%40gmail.com&password=xxx&rememberme=1`
 #!date=2025-12-23
-#!category=🐹 BOBO Task
+#!category=🐹 Ezrea7 Task
 #!author= MCdasheng[https://github.com/MCdasheng]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/miniColor/Image/Color/Skicat.png
 #!openUrl=https://www.macat.vip

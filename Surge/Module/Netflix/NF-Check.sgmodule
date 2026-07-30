@@ -1,7 +1,7 @@
 #!name=Netflix解锁检测
 #!desc=Netflix解锁检测
 #!date=2026-01-21
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author= Rabbit-Spec[https://github.com/Rabbit-Spec/Surge]
 #支持使用脚本使用 argument 参数自定义配置，如：argument=key1=URLEncode(value1)&key2=URLEncode(value2)，具体参数如下所示，
 #title: 面板标题

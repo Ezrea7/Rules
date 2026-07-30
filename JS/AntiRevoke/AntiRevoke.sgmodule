@@ -1,7 +1,7 @@
 #!name=Apple证书屏蔽验证
 #!desc=精准屏蔽 Apple p12证书验证，让已过期证书能够继续使用
 #!date=2026-05-30
-#!category=🐹 BOBO Enhance
+#!category=🐹 Ezrea7 Enhance
 #!author=Salem[https://github.com/salem-2007/apple-cert-block]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/Qure/Image/Color/Apple_Update.png
 

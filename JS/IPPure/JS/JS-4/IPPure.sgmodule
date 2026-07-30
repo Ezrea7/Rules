@@ -1,7 +1,7 @@
 #!name=IP-Pure
 #!desc=节点 IP 纯净度检测（IPPure）,请先在参数内选择策略组。
 #!date=2026-01-21
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author=StashNetworks[https://github.com/StashNetworks],baby[https://github.com/Yu9191/Rewrite]
 #!arguments=group:Proxy
 #!arguments-desc=【可选】策略组名称。若自动嗅探失败，将读取此组选中节点。

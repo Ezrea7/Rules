@@ -1,7 +1,7 @@
 #!name=Streaming & AI Service Monitor
 #!desc=检测流媒体和 AI 服务的可用性：Netflix (可选当前地区 Premium 价格)、Disney+、HBO Max、YouTube Premium、Spotify、ChatGPT、Claude、Gemini API (可选)、Reddit
 #!date=2025-12-18
-#!category=🐹 BOBO面板模块
+#!category=🐹 Ezrea7面板模块
 #!author=HotKids[https://github.com/HotKids/Rules]
 #!arguments=geminiapikey:null,nfprice:true
 #!arguments-desc=参数说明：\ngeminiapikey: Google Gemini API Key（可选，填写后启用 Gemini API 检测。💡 本脚本仅调用免费的 models.list 接口，不会产生任何费用）\nnfprice: 显示 Netflix 价格（默认 true 开启，设置为 false 可关闭以提升速度）

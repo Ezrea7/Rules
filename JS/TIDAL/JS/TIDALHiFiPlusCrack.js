@@ -4,7 +4,7 @@
 # 软件版本：2.48.0【美区下载】
 # 下载地址：http://t.cn/A662gqIO
 # 原脚本作者：Hausd0rff
-# 脚本作者：BOBOLAOSHIV587
+# 脚本作者：Ezrea7LAOSHIV587
 # 更新时间：2022-08-05
 *******************************
 [rewrite_local]

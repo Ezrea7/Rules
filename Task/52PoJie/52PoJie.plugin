@@ -1,7 +1,7 @@
 #!name=吾爱破解签到
 #!desc=吾爱破解签到,可在BoxJS中做更详细的设置。\n获取Cookie说明：手动登录 https://www.52pojie.cn/home.php 如通知成功获取cookie, 则可以使用此签到脚本。\n此脚本获取Cookie会多次触发，导致Loon崩溃设备发热。获取一次Cookie后关闭脚本即可。
 #!date=2026-01-25
-#!category=🐹 BOBO Task
+#!category=🐹 Ezrea7 Task
 #!author=桂林仔Yuheng0101[https://github.com/Yuheng0101/X]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/miniColor/Image/Color/52pj.png
 #!openUrl=https://www.52pojie.cn/

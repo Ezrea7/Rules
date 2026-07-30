@@ -1,7 +1,7 @@
 #!name=贴吧签到
 #!desc=每日定时签到，模块参数可调整签到时间。\n打开百度贴吧APP点击"我的"即可获取cookie.
 #!date=2026-01-25
-#!category=🐹 BOBO Task
+#!category=🐹 Ezrea7 Task
 #!author= NobyDa[https://github.com/NobyDa/Script]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/miniColor/Image/Color/tieba.png
 #!openUrl=https://apps.apple.com/app/id477927812

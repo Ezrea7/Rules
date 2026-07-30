@@ -1,14 +1,14 @@
 #!name=飓风相机专业版
 #!desc=飓风相机专业版
 #!date=2026-01-21
-#!category=🐹 BOBO Premium
+#!category=🐹 Ezrea7 Premium
 #!author= 暗夜anyehttp[https://github.com/anyehttp/quantumult-x]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Script/main/Icons/AppIcons/Image/App/StormCam.png
 #!openUrl = https://apps.apple.com/app/id6749835845
 
 [Script]
 # > 飓风相机专业版
-http-response ^https://base\.ysjf\.com/storm_auth/user/self script-path=https://raw.githubusercontent.com/BOBOLAOSHIV587/zTest/main/StormCam.js, requires-body=true, timeout=20, tag=飓风相机专业版
+http-response ^https://base\.ysjf\.com/storm_auth/user/self script-path=https://raw.githubusercontent.com/Ezrea7LAOSHIV587/zTest/main/StormCam.js, requires-body=true, timeout=20, tag=飓风相机专业版
 
 [MITM]
 hostname = base.ysjf.com

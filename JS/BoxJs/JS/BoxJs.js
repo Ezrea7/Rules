@@ -437,7 +437,7 @@ function getSystemApps() {
         }
       ],
       author: '@chavyleung',
-      repo: 'https://github.com/BOBOLAOSHIV587/zTest/blob/main/BoxJs/JS/Scripts/box.switcher.js',
+      repo: 'https://github.com/Ezrea7LAOSHIV587/zTest/blob/main/BoxJs/JS/Scripts/box.switcher.js',
       icons: [
         'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSetting.mini.png',
         'https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxSetting.png'
