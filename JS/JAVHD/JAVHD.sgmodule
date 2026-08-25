@@ -1,0 +1,18 @@
+#!name=JAVHD解锁VIP
+#!desc=JAVHD视频解锁.\n需要关闭Safari浏览器"内容阻挡器".\n点齿轮⚙️，选择播放器
+#!date=2026-08-25
+#!category=🐹 Ezrea7 Premium
+#!author=baby[https://github.com/Yu9191/Rewrite]
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/JAVHD.png
+#!openUrl=https://javhd.com/
+
+[Script]
+# > JAVHD视频解锁
+JAVHD播放 = type=http-response, pattern="^https?:\/\/(www\.|zh\.)?javhd\.com\/.*player_api", requires-body=1, max-size=-1, timeout=20, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JAVHD/JS/JAVHD.js
+JAVHD页面 = type=http-response, pattern="^https?:\/\/(www\.|zh\.)?javhd\.com\/(zh\/studio\/room\/[\w-]+\/video\/[\w-]+|zh\/sex-categories|zh\/japanese-porn-videos|zh\/sex-videos|zh\/studio\/room|zh\/?$)", requires-body=1, max-size=-1, timeout=20, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JAVHD/JS/JAVHD.js
+JAVHD分类 = type=http-response, pattern="^https?:\/\/(www\.|zh\.)?javhd\.com\/zh\/japanese-porn-videos\/category\/.+", requires-body=1, max-size=-1, timeout=20, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JAVHD/JS/JAVHD.js
+JAVHD API = type=http-response, pattern="^https?:\/\/(www\.|zh\.)?javhd\.com\/api\/.*", requires-body=1, max-size=-1, timeout=20, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JAVHD/JS/JAVHD.js
+JAVHD m3u8 = type=http-response, pattern="^https?:\/\/.*\.cdnjhd\.com\/.*\.m3u8(\?.*)?$", requires-body=1, max-size=-1, timeout=20, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/JAVHD/JS/JAVHD.js
+
+[MITM]
+hostname = %APPEND% javhd.com, www.javhd.com, zh.javhd.com, *.cdnjhd.com
