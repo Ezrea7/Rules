@@ -1,0 +1,17 @@
+#!name=黄果短剧去广告
+#!desc=去广告（播放跳转/轮播/横幅/贴片）
+#!date=2026-09-04
+#!category=🐹 Ezrea7 Premium
+#!author=baby[https://github.com/Yu9191/Rewrite]
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/HuangGuoDuanJu/JS/IMG/HuangGuoDuanJu.png
+#!openUrl=https://huangguoai.com/
+
+[Rule]
+URL-REGEX,^https?://[^/]*adsdk[12]\.cc,REJECT
+
+[Script]
+# > 黄果短剧去广告
+黄果短剧 = type=http-response, pattern=^https?://huangguoai\.com, requires-body=1, max-size=-1, timeout=30, script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/HuangGuoDuanJu/JS/HuangGuoDuanJu.js
+
+[MITM]
+hostname = %APPEND% huangguoai.com, *.huangguoai.com, *.adsdk1.cc, *.adsdk2.cc
