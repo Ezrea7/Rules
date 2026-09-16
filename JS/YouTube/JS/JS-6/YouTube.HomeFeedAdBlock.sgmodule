@@ -1,6 +1,6 @@
 #!name=YouTube 首页去广告
 #!desc=针对 iOS / iPadOS YouTube 首页推荐流 Sponsored / Feed 广告的独立补丁.\nv9 会解析 /youtubei/v1/browse 的 protobuf，定位 Home Feed 广告项，识别 aboutthisad / pagead / doubleclick 等广告特征，删除完整广告卡片及相邻分隔，避免残留灰框或黑框。
-#!date=2026-09-04
+#!date=2026-09-16
 #!category=🐹 Ezrea7 Enhance
 #!author=Hey-sayiwanna[https://github.com/Hey-sayiwanna/YouTube-ADBlock-on-Feed]
 #!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/YouTube.png
@@ -9,7 +9,7 @@
 AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
 
 [Script]
-YouTube.HomeFeedAdBlock = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.*)?$,requires-body=1,max-size=-1,binary-body-mode=1,engine=webview,debug=true,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-6/JS/YouTube.HomeFeedAdBlock.js
+YouTube.HomeFeedAdBlock.v9 = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse(\?.*)?$,requires-body=1,max-size=-1,binary-body-mode=1,engine=webview,debug=true,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-6/JS/YouTube.HomeFeedAdBlock.js
 
 [MITM]
 hostname = %APPEND% youtubei.googleapis.com
