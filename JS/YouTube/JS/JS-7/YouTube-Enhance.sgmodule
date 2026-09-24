@@ -1,0 +1,23 @@
+#!name=YouTube 去广告
+#!desc=移除YouTube广告，启用后台播放/画中画模式，支持最高4倍速播放，并强制最高画质
+#!date=2026-09-25
+#!category=🐹 Ezrea7 Enhance
+#!author=gholts[https://github.com/gholts/surge]
+#!icon=https://raw.githubusercontent.com/Ezrea7/Rules/main/Icons/AppIcons/Image/App/YouTube.png
+#!arguments=屏蔽上传按钮:true,屏蔽Shorts按钮:false,自动高清:true,屏蔽游戏:true,屏蔽竖屏直播:false,原生跳过广告:true
+#!arguments-desc=屏蔽上传按钮：隐藏上传内容 \n屏蔽Shorts按钮：隐藏Shorts视频 \n自动高清：强制采用最高可用画质 \n屏蔽游戏：隐藏YouTube游戏可玩内容 \n屏蔽竖屏直播：隐藏竖屏直播推荐（所有布局） \n原生跳过广告：启用原生跳过广告功能，不显示其宣传提示。
+
+[URL Rewrite]
+^https:\/\/www\.youtube\.com\/(pagead|pcs)\/ - reject
+^https:\/\/s\.youtube\.com\/api\/stats\/ads - reject
+
+[Script]
+youtube.enhance.ad-break = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\/ad_break(?:\?.*)?$,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-7/JS/YouTube-Enhance.request.js
+youtube.enhance.response = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(?:navigation\/resolve_url|browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch|log_event|config)(?:\?.*)?$,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-7/JS/YouTube-Enhance.response.js,argument="{"blockUpload":{{{屏蔽上传按钮}}},"blockShorts":{{{屏蔽Shorts按钮}}},"blockGames":{{{屏蔽游戏}}},"blockVerticalLive":{{{屏蔽竖屏直播}}},"jumpAhead":{{{原生跳过广告}}},"autoHd":{{{自动高清}}}}"
+youtube.enhance.ump = type=http-response,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback(?:\?.*)?$,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-7/JS/YouTube-Enhance.response.js,argument="{"blockGames":{{{屏蔽游戏}}},"blockVerticalLive":{{{屏蔽竖屏直播}}},"jumpAhead":{{{原生跳过广告}}},"autoHd":{{{自动高清}}}}"
+youtube.enhance.init = type=http-request,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback(?:\?.*)?$,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-7/JS/YouTube-Enhance.request.js
+youtube.enhance.auto-hd = type=http-request,pattern=^https?:\/\/[\w-]+\.googlevideo\.com\/videoplayback,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-7/JS/YouTube-Enhance.request.js,argument="{"autoHd":{{{自动高清}}}}"
+youtube.enhance.log-event = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/log_event,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Ezrea7/Rules/main/JS/YouTube/JS/JS-7/JS/YouTube-Enhance.request.js
+
+[MITM]
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, *.youtube.com
